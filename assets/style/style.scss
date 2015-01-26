@@ -1,3 +1,43 @@
 ---
 ---
 
+.navbar {
+    display: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.claim {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2em;
+}
+
+p, li {
+    line-height: 1.7em;
+}
+
+.container {
+    max-width: 40em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.logo {
+    text-align: center;
+    padding: 3em;
+}
+
+.join {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.4em;
+    padding: 1em;
+}
+
