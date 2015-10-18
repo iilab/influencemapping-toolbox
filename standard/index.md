@@ -25,3 +25,4 @@ Watch for updates on these [InfluenceMapping GitHub repositories](https://github
 * [whos_got_dirt-server](https://github.com/influencemapping/whos_got_dirt-server/)
 * [whos_got_dirt-demo](https://github.com/influencemapping/whos_got_dirt-demo/)
 
+Prior to developing the WGD API, the terms used by several APIs for influence data were [inventoried](https://drive.google.com/open?id=1on99aF9QVWOwqZDtla9RLX5Wza6MHxbb4apZwbtHK-w).
