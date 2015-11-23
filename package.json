@@ -1,0 +1,30 @@
+{
+  "name": "influencemapping-toolbox",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Jun Matsushita",
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iilab/influencemapping.org.git"
+  },
+  "homepage": "https://influencemapping.org/toolbox",
+  "dependencies": {
+    "metalsmith": "^2.0.1",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-collections": "jlamontagne/metalsmith-collections#dynamic-collections",
+    "metalsmith-concat": "^3.0.3",
+    "metalsmith-copy": "^0.2.1",
+    "metalsmith-debug": "0.0.2",
+    "metalsmith-env": "^2.0.0",
+    "metalsmith-filemetadata": "0.0.4",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^1.4.2",
+    "metalsmith-metadata": "iilab/metalsmith-metadata",
+    "metalsmith-metaobject": "^0.1.0",
+    "metalsmith-paths": "^2.1.1",
+    "metalsmith-register-helpers": "^0.1.2",
+    "metalsmith-writemetadata": "^0.4.5",
+    "nunjucks": "^2.1.0"
+  }
+}

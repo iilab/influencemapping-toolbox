@@ -1,0 +1,59 @@
+{
+  "source": "src",
+  "destination": "build",
+  "clean": false,
+  "plugins": {
+    "metalsmith-env": {},
+    "metalsmith-metadata": {
+      "projects": "data/projects.csv",
+      "tools": "data/tools.csv"
+    },
+    "metalsmith-ignore": [
+      ".git/**",
+      ".gitignore",
+      ".travis.yml",
+      "_config.yml",
+      "INTENTIONS.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "data/*"
+    ],
+    "metalsmith-paths": {
+      "property": "paths"
+    },
+    "metalsmith-collections": {
+      "cards": {
+        "pattern": "*/topics/:topic/:unit/*.md"
+      },
+      "units": {
+        "pattern": "*/topics/:topic/:unit/index.md"
+      },
+      "topics": {
+        "pattern": "*/topics/:topic/index.md"
+      }
+    },
+    "metalsmith-debug": true,
+    "metalsmith-filemetadata": [
+      {"pattern": "*/topics/*/*/*-intro*.md", "preserve": "true", "metadata": {"type": "intro", "title": "Introduction"}},
+      {"pattern": "*/topics/*/*/*-scenario*.md", "preserve": "true", "metadata": {"type": "scenario", "title": "Scenario"}},
+      {"pattern": "*/topics/*/*/*-learn.md*", "preserve": "true", "metadata": {"type": "learn", "title": "Learn"}},
+      {"pattern": "*/topics/*/*/*-test*.md", "preserve": "true", "metadata": {"type": "test", "title": "Test"}},
+      {"pattern": "*/topics/*/*/*-next*.md", "preserve": "true", "metadata": {"type": "next", "title": "Next"}},
+      {"pattern": "*/topics/*/*/*-*.md", "metadata": {"profile": "any", "layout": "card.md"}},
+      {"pattern": "*/topics/*/*/*-*-hrd.md", "metadata": {"profile": "hrd"}},
+      {"pattern": "*/topics/*/*/*-*-journo.md", "metadata": {"profile": "journo"}},
+      {"pattern": "practices/index.md", "metadata": {"layout": "practices.md"}},
+      {"pattern": "project/index.md", "metadata": {"layout": "projects.md"}}
+    ],
+    "metalsmith-layouts": {
+      "engine": "nunjucks",
+      "default": "default.md",
+      "directory": "layouts"       
+    },
+    "metalsmith-assets": {
+      "source": "assets",
+      "directory": "build"
+    }
+  }
+}

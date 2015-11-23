@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Exploring power and the powerful
 description: 
 home: true

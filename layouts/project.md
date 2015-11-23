@@ -1,7 +1,3 @@
----
-layout: markdown
----
-
 # {{ page.Name }}
 
 ![]({{ page['Image'] }})
