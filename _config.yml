@@ -1,2 +1,27 @@
 
-title: "Influence Mapping Group"
+title: "Influence Mapping Toolbox"
+
+page_gen:
+  - data: 'projects'
+    name: 'Name'
+    template: 'project.html'
+  - data: 'practices'
+    name: 'Friendly Term'
+    template: 'practice.md'
+    extension: 'md'
+    dir: 'practices_md'
+  - data: 'practices'
+    name: 'Sub-Practice'
+    template: 'subpractice.md'
+    extension: 'md'
+    dir: 'subpractices_md'
+  - data: 'practices'
+    name: 'Friendly Term'
+    template: 'practice.html'
+  - data: 'practices'
+    name: 'Sub-Practice'
+    template: 'subpractice.html'
+
+markdown: kramdown
+kramdown: 
+  parse_block_html: false
