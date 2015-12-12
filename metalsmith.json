@@ -5,8 +5,11 @@
   "plugins": {
     "metalsmith-env": {},
     "metalsmith-metadata": {
+      "practices": "data/practices.csv",
       "projects": "data/projects.csv",
       "tools": "data/tools.csv"
+    },
+    "metalsmith-sass": {
     },
     "metalsmith-ignore": [
       ".git/**",
@@ -22,6 +25,48 @@
     "metalsmith-paths": {
       "property": "paths"
     },
+    "metalsmith-generate": [
+      {
+        "type": "metadata",
+        "src": "tools",
+        "contents": "tags",
+        "name": "name",
+        "ext": ".md",
+        "path": "tools/",
+        "metadata": { "layout": "md/tool.md" },
+        "slugify": true
+      },
+      {
+        "type": "metadata",
+        "src": "practices",
+        "contents": "description",
+        "name": "name",
+        "ext": ".md",
+        "path": "practices/",
+        "metadata": { "layout": "md/subpractice.md" },
+        "slugify": true
+      },
+      {
+        "type": "metadata",
+        "src": "practices",
+        "contents": "description",
+        "name": "friendly_term",
+        "ext": ".md",
+        "path": "practices/",
+        "metadata": { "layout": "md/practice.md" },
+        "slugify": true
+      },
+      {
+        "type": "metadata",
+        "src": "projects",
+        "contents": "teaser",
+        "name": "name",
+        "ext": ".md",
+        "path": "projects/",
+        "metadata": { "layout": "md/project.md" },
+        "slugify": true
+      }
+    ],
     "metalsmith-collections": {
       "cards": {
         "pattern": "*/topics/:topic/:unit/*.md"
@@ -33,27 +78,37 @@
         "pattern": "*/topics/:topic/index.md"
       }
     },
-    "metalsmith-debug": true,
-    "metalsmith-filemetadata": [
-      {"pattern": "*/topics/*/*/*-intro*.md", "preserve": "true", "metadata": {"type": "intro", "title": "Introduction"}},
-      {"pattern": "*/topics/*/*/*-scenario*.md", "preserve": "true", "metadata": {"type": "scenario", "title": "Scenario"}},
-      {"pattern": "*/topics/*/*/*-learn.md*", "preserve": "true", "metadata": {"type": "learn", "title": "Learn"}},
-      {"pattern": "*/topics/*/*/*-test*.md", "preserve": "true", "metadata": {"type": "test", "title": "Test"}},
-      {"pattern": "*/topics/*/*/*-next*.md", "preserve": "true", "metadata": {"type": "next", "title": "Next"}},
-      {"pattern": "*/topics/*/*/*-*.md", "metadata": {"profile": "any", "layout": "card.md"}},
-      {"pattern": "*/topics/*/*/*-*-hrd.md", "metadata": {"profile": "hrd"}},
-      {"pattern": "*/topics/*/*/*-*-journo.md", "metadata": {"profile": "journo"}},
-      {"pattern": "practices/index.md", "metadata": {"layout": "practices.md"}},
-      {"pattern": "project/index.md", "metadata": {"layout": "projects.md"}}
-    ],
     "metalsmith-layouts": {
       "engine": "nunjucks",
-      "default": "default.md",
-      "directory": "layouts"       
+      "directory": "layouts/md",
+      "pattern": "projects/*.md"  
+    },
+    "metalsmith-filemetadata": [
+      {"pattern": "index.md", "metadata": {"layout": "default.html"}}
+    ],
+    "metalsmith-debug": true,
+    "metalsmith-in-place": {
+      "engine": "nunjucks"
+    },
+    "metalsmith-markdown": {
+      "pattern": "**/*.md"
+    },
+    "metalsmith-layouts": {
+      "engine": "nunjucks",
+      "directory": "layouts", 
+      "default": "default.html",
+      "pattern": "index.md"
     },
     "metalsmith-assets": {
-      "source": "assets",
-      "directory": "build"
+      "source": "src/assets",
+      "destination": "assets"
+    },
+    "metalsmith-watch": {
+      "paths": {
+        "src/**/*": true, 
+        "layouts/**/*": "**/*"
+      },
+      "livereload": true
     }
   }
 }

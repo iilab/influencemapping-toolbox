@@ -19,6 +19,6 @@ You can also
 
  * Take a tour of the [tools available](tools.html)
  * Learn about the best approaches to build your own tools?
- * Find out who’s doing work like yours. Go to [Projects](projects)
+ * Find out who’s doing work like yours. Go to [Projects](projects.html)
  * Read through our influence mapping [case studies](cases.html).
- * Learn about our influence mapping essential [Practices](practices)
+ * Learn about our influence mapping essential [Practices](practices.html)
