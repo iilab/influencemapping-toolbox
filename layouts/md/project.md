@@ -12,6 +12,30 @@ Keywords
 : {{ keywords }}
 {% endif %}
 
+{% if phase %}
+Project Current Phase
+: {{ phase }}
+{% endif %}
+	
+{% if project_start_date %}
+Project Start Date
+: {{ project_start_date }}
+{% endif %}
+
+{% if launch_date %}
+Launch Date
+: {{ launch_date }}
+{% endif %}
+
+{% if most_recent_update %}
+Most Recent Update
+: {{ most_recent_update }}
+{% endif %}
+
+{% if regularly_updated %}
+Update Frequency
+: {{ regularly_updated }}
+{% endif %}
 
 {% if thematic_focus %}
 Thematic Focus
@@ -196,6 +220,11 @@ Sustainability Planning
 
 ### Documentation
 
+{% if practice1 or practice2 or practice3 %}
+Practices
+: [{{ practice1 }}](practice1url) [{{ practice2 }}](practice2url) [{{ practice3 }}](practice3url)
+{% endif %}
+
 {% if data_modeling %}
 Data Modeling
 : {{ data_modeling }}
@@ -260,14 +289,3 @@ Ethical Publishing
 Data Publishing Mode
 : {{ data_publishing_mode }}
 {% endif %}
-
-{% if most_recent_update %}
-Most Recent Update
-: {{ most_recent_update }}
-{% endif %}
-
-{% if regularly_updated %}
-Regularly Updated
-: {{ regularly_updated }}
-{% endif %}
-
