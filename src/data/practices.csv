@@ -1,36 +1,65 @@
-Friendly Term,,Tagline,Category,Practice,Name,Description,,
-Planning,,,Project Management,Project Design,Field Survey,,,
-Planning,,,,,Read Case Studies,,,
-Planning,,How to setup your team?,Project Management,Project Team,Project Team,,,
-Planning,,How to define your problem and structure your project?,Project Management,Methodology,User centric methodologies,"Finding a link, confirming a hypothesis, exploring, revealing, using",,
-Planning,,,,,Agile methodologies,,,
-Planning,,What are the different types of Partnerships?,Project Management,Collaboration,Partnerships,,,
-Planning,,How much is it going to cost?,Project Management,Budgeting,Budget,,,
-Planning,,How to deal with technology contractors,Project Management,Contracting,Tech Contracting,Working with software contractors using agile methodologies,,
-Planning,,How to deal with project lead that want to contract with you,,,Being a Tech Contractor,Being hired by a project lead to do tech work on a influence mapping project,,
-Planning,,How to evaluate your projects' risks,Project Management,Risk Planning,Risk Planning,,,
-Planning,,How to build it to last,Project Management,Sustainability Planning,Sustainability Planning,,,
-Organising,,,,,Table / Relational  / Graph ,,,
-Organising,,,,,Unique IDs,,,
-Organising,,,,,Managing Dates,,,
-Organising,,,Data Management,,Working with data in spreadsheets,,,
-Organising,,,Data Management,,Working with data in databases,,,
-Organising,,,Data Management,,Working with linked open data,,,
-Organising,,Where is your data going to be stored,Data Management,,Hosting,,,,
-Organising,,How to store your data safely,Data Management,,Data Security,,,,
-Organising,,Controlling who sees your data,Data Management,,Access Control,,,,
-Organising,,How to collect data ethically,Data Management,,Ethical management of sources,,"Informed consent, deanonymisation and secure source communication",,
-Collecting,,,Data Collection,,Sourcing Data,,Who's got dirt,,
-Collecting,,,Data Collection,,Starting to collect data right away,,Sometimes its best to start collecting data right away. How to do this in a way that means that the data can be reused later?,,
-Collecting,,,Data Collection,,Crowdsourcing data collection,,,,
-Collecting,,,Data Collection,,Training data collectors,,,,
-Analysing,,Joining data from different sources,Data Integration,,Joining data from different sources,,,
-Analysing,,How to verify your data?,Data Analysis,,Verifying Data,,,,
-Analysing,,How to clean up your data?,Data Analysis,,Cleaning Data,,,WRANGLE IMPORTANT!!!!,Refine
-Analysing,,How to analyse your data?,Data Analysis,,Analyse Data,,,Knowing your data!!!!,Refine
-Publishing,,,Data Publishing,,Describing the Data,,,Schema understanding,
-Publishing,,,Data Publishing,,Sharing Data,,,Correlations,
-Publishing,,,Data Publishing,,Publishing Data,,,Cluster Analysis,Multidimensional scaling for the analysis of the data.  ???
-Publishing,,,Data Publishing,,Describing the Data,,,BEAUTIFUL DATA!,
-Publishing,,,Data Publishing,,Sharing Data,,,,
-Publishing,,,Data Publishing,,Publishing Data,Privacy / Data Protection Law... Compliance,,,
+Practice,PracticeIntro,Alias,Name,Tagline,Intro,Body
+Planning,"When you get started on a project it's usually an inspiration or a question that guides you, but to achieve your goals, a little bit of planning goes a long way.",Project Management,Getting Started,How to get started on an influence mapping project?,,
+Planning,,Project Management,Project Design,How to go about achieving your goals?,You've found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess ,"### The Toolbox Projects
+
+
+
+### Read Case Studies
+
+### Field Survey
+"
+Planning,,Project Management,Project Team,How to choose your collabotars?,,
+Planning,,Project Management,Methodology,How to define your problem and structure your project?,,"### User centric methodologies
+
+Finding a link, confirming a hypothesis, exploring, revealing, using
+
+### Agile methodologies"
+Planning,,Project Management,Collaboration,What are the different types of Partnerships?,,### Partnerships
+Planning,,Project Management,Budgeting,How much is it going to cost?,,
+Planning,,Project Management,Contracting,"How to deal with technology contractors
+How to deal with project lead that want to contract with you",,"### Tech Contracting
+
+Working with software contractors using agile methodologies
+
+### Being a Tech Contractor
+
+Being hired by a project lead to do tech work on a influence mapping project"
+Planning,,Project Management,Risk Planning,How to evaluate your projects' risks,,
+Planning,,Project Management,Sustainability Planning,How to build it to last,,
+Collecting,,Data Collection,Sourcing Data,,,Who's got dirt
+Collecting,,Data Collection,Ethical management of sources,How to collect data ethically,,"Informed consent, deanonymisation and secure source communication"
+Collecting,,Data Collection,Starting to collect data right away,,,Sometimes its best to start collecting data right away. How to do this in a way that means that the data can be reused later?
+Collecting,,Data Collection,Crowdsourcing data collection,,,
+Collecting,,Data Collection,Training data collectors,,,
+Organising,,Data Management,Data Discovery,Getting to know your data,,"### Working with data in spreadsheets
+### Working with data in databases
+### Working with linked open data
+"
+Organising,,Data Management,Data Modeling,How to choose a model to organise your data,,"### Your project from the Data angle
+
+### Table / Relational  / Graph 
+
+### Unique IDs
+
+### Managing Dates
+"
+Organising,,Data Management,Hosting,Where is your data going to be stored,,
+Organising,,Data Management,Data Security,How to store your data safely,,
+Organising,,Data Management,Access Control,Controlling who sees your data,,
+Analysing,,Data Integration,Joining data from different sources,Joining data from different sources,,
+Analysing,,Data Analysis,Verifying Data,How to verify your data?,,
+Analysing,,Data Analysis,Cleaning Data,How to clean up your data?,,"### WRANGLE IMPORTANT!!!!
+
+Refine"
+Analysing,,Data Analysis,Analyse Data,How to analyse your data?,,"### Knowing your data!!!!
+
+Refine
+
+### Correlations
+
+### Cluster Analysis
+
+Multidimensional scaling for the analysis of the data.  ???"
+Publishing,,Data Publishing,Describing the Data,,,### Schema understanding
+Publishing,,Data Publishing,Sharing Data,,,
+Publishing,,Data Publishing,Publishing Data,,Privacy / Data Protection Law... Compliance,BEAUTIFUL DATA!

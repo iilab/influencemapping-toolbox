@@ -29,62 +29,39 @@
       {
         "type": "metadata",
         "src": "tools",
-        "contents": "tags",
+        "contents": "layouts/md/tool.md",
         "name": "name",
         "ext": ".md",
         "path": "tools/",
-        "metadata": { "layout": "md/tool.md" },
         "slugify": true
       },
       {
         "type": "metadata",
         "src": "practices",
-        "contents": "description",
+        "contents": "layouts/md/practice.md",
+        "name": "practice",
+        "ext": ".md",
+        "path": "practices/",
+        "slugify": true
+      },
+      {
+        "type": "metadata",
+        "src": "practices",
+        "contents": "layouts/md/subpractice.md",
         "name": "name",
         "ext": ".md",
-        "path": "practices/",
-        "metadata": { "layout": "md/subpractice.md" },
-        "slugify": true
-      },
-      {
-        "type": "metadata",
-        "src": "practices",
-        "contents": "description",
-        "name": "friendly_term",
-        "ext": ".md",
-        "path": "practices/",
-        "metadata": { "layout": "md/practice.md" },
+        "path": "practices/subpractices/",
         "slugify": true
       },
       {
         "type": "metadata",
         "src": "projects",
-        "contents": "teaser",
+        "contents": "layouts/md/project.md",
         "name": "name",
         "ext": ".md",
         "path": "projects/",
-        "metadata": { "layout": "md/project.md" },
         "slugify": true
       }
-    ],
-    "metalsmith-collections": {
-      "cards": {
-        "pattern": "*/topics/:topic/:unit/*.md"
-      },
-      "units": {
-        "pattern": "*/topics/:topic/:unit/index.md"
-      },
-      "topics": {
-        "pattern": "*/topics/:topic/index.md"
-      }
-    },
-    "metalsmith-layouts": {
-      "engine": "nunjucks",
-      "directory": "layouts/md",
-      "pattern": "projects/*.md"  
-    },
-    "metalsmith-filemetadata": [
-      {"pattern": "index.md", "metadata": {"layout": "default.html"}}
     ],
     "metalsmith-debug": true,
     "metalsmith-in-place": {
@@ -96,8 +73,7 @@
     "metalsmith-layouts": {
       "engine": "nunjucks",
       "directory": "layouts", 
-      "default": "default.html",
-      "pattern": "index.md"
+      "default": "default.html"
     },
     "metalsmith-assets": {
       "source": "src/assets",

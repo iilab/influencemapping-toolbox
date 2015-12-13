@@ -1,13 +1,9 @@
-## {{ friendly_term }}
+## {{ practice }} {% if alias %}({{ alias }}){% endif %}
 
-# {{ sub_practice }} 
+# {{ name }} 
 
-{% if practice %}
-# {{ practice }}
-{% endif %}
+_{{ tagline }}_
 
-{{ tagline }}
+__{{ intro }}__
 
-{{ category }}
-
-{{ description }}
+{{ body }}
