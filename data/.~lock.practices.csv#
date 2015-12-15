@@ -10,9 +10,9 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href='/assets/css/font.css' rel='stylesheet' type='text/css'>
-    <link href="/assets/css/style.css" rel='stylesheet' type='text/css'>
+    <link href="/influencemapping-toolbox/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href='/influencemapping-toolbox/assets/css/font.css' rel='stylesheet' type='text/css'>
+    <link href="/influencemapping-toolbox/assets/css/style.css" rel='stylesheet' type='text/css'>
 
     <link rel="shortcut icon" href="/assets/images/opennews-favicon.ico">
   </head>
@@ -35,19 +35,19 @@
 
     <div class="collapse navbar-collapse" id="mainmenu">
       <ul class="nav navbar-nav navbar-left">
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects.html">Projects</a></li>
-        <li><a href="/practices.html">Practices</a></li>
-        <li><a href="/tools.html">Tools</a></li>
-        <li><a href="/case-studies.html">Case Studies</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="/influencemapping-toolbox/">Home</a></li>
+        <li><a href="/influencemapping-toolbox/toolbox.html">The Toolbox</a></li>
+        <li><a href="/influencemapping-toolbox/practices.html">Practices</a></li>
+        <li><a href="/influencemapping-toolbox/projects.html">Projects</a></li>
+        <li><a href="/influencemapping-toolbox/tools.html">Tools</a></li>
+        <li><a href="/influencemapping-toolbox/case-studies.html">Case Studies</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
         <div id="airlock" class="container">
-          ,jun,monique,13.12.2015 12:29,file:///home/jun/.config/libreoffice/4;
+          ,jun,monique,15.12.2015 18:45,file:///home/jun/.config/libreoffice/4;
         </div>
     </div>
 
@@ -64,8 +64,7 @@
       </div>
     </footer>
 
-    <script src="/assets/js/jquery-2.1.1.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/bootstrap.min.js"></script>
   </body>
 </html>
