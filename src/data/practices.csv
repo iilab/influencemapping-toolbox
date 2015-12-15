@@ -1,37 +1,43 @@
 Practice,PracticeIntro,Alias,Name,Tagline,Intro,Body
-Planning,"When you get started on a project it's usually an inspiration or a question that guides you, but to achieve your goals, a little bit of planning goes a long way.",Project Management,Getting Started,How to get started on an influence mapping project?,,
-Planning,,Project Management,Project Design,How to go about achieving your goals?,You've found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess ,"### The Toolbox Projects
-
-
+Planning,"When you get started on a project it's usually an inspiration or a question that guides you, but to achieve your goals, a little bit of planning goes a long way.",Project Management,Getting Started,Get started on an influence mapping project,You've found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess ,"### The Toolbox Projects
 
 ### Read Case Studies
 
-### Field Survey
-"
-Planning,,Project Management,Project Team,How to choose your collabotars?,,
-Planning,,Project Management,Methodology,How to define your problem and structure your project?,,"### User centric methodologies
+### Field Survey"
+Planning,,Project Management,Project Design,Define your problem and structure your project,,"### Methodology
+
+### User centric methodologies
 
 Finding a link, confirming a hypothesis, exploring, revealing, using
 
-### Agile methodologies"
-Planning,,Project Management,Collaboration,What are the different types of Partnerships?,,### Partnerships
-Planning,,Project Management,Budgeting,How much is it going to cost?,,
-Planning,,Project Management,Contracting,"How to deal with technology contractors
-How to deal with project lead that want to contract with you",,"### Tech Contracting
+### Agile methodologies
+"
+Planning,,Project Management,Ethics,Do the right thing,,"### How to collect data ethically
 
-Working with software contractors using agile methodologies
+"
+Planning,,Project Management,Collaboration,Find the right collaborators,,"### What skills do you need?
 
-### Being a Tech Contractor
+### What are the different types of Partnerships?
 
-Being hired by a project lead to do tech work on a influence mapping project"
-Planning,,Project Management,Risk Planning,How to evaluate your projects' risks,,
-Planning,,Project Management,Sustainability Planning,How to build it to last,,
-Collecting,,Data Collection,Sourcing Data,,,Who's got dirt
-Collecting,,Data Collection,Ethical management of sources,How to collect data ethically,,"Informed consent, deanonymisation and secure source communication"
-Collecting,,Data Collection,Starting to collect data right away,,,Sometimes its best to start collecting data right away. How to do this in a way that means that the data can be reused later?
-Collecting,,Data Collection,Crowdsourcing data collection,,,
-Collecting,,Data Collection,Training data collectors,,,
-Organising,,Data Management,Data Discovery,Getting to know your data,,"### Working with data in spreadsheets
+### How to deal with technology contractors
+
+### How to deal with project lead that want to contract with you"
+Planning,,Project Management,Planning,Devise a way to achieve your goals,,"### Budgeting
+
+### Analyse your projects' risks
+
+### Sustainability: Build your project to last"
+Collecting,,Data Collection,Getting Started,Asking the right questions to get the right data,,
+Collecting,,Data Collection,Finding Data Sources,Find good data sources,,Who's got dirt
+Collecting,,Data Collection,Collecting Data,Organise the collection of data,,"### Sometimes its best to start collecting data right away. How to do this in a way that means that the data can be reused later?
+
+### Crowdsourcing data collection
+
+### Training data collectors
+
+### Informed consent, deanonymisation and secure source communication"
+Collecting,,Data Collection,Data Quality,How to check your data quality?,,
+Organising,,Data Management,Getting Started,Getting to know your data,,"### Working with data in spreadsheets
 ### Working with data in databases
 ### Working with linked open data
 "
@@ -43,10 +49,9 @@ Organising,,Data Management,Data Modeling,How to choose a model to organise your
 
 ### Managing Dates
 "
+Organising,,Data Management,Data Integration,Joining data from different sources,,
 Organising,,Data Management,Hosting,Where is your data going to be stored,,
-Organising,,Data Management,Data Security,How to store your data safely,,
-Organising,,Data Management,Access Control,Controlling who sees your data,,
-Analysing,,Data Integration,Joining data from different sources,Joining data from different sources,,
+Organising,,Data Management,Data Security,Controlling who sees your data,,
 Analysing,,Data Analysis,Verifying Data,How to verify your data?,,
 Analysing,,Data Analysis,Cleaning Data,How to clean up your data?,,"### WRANGLE IMPORTANT!!!!
 
