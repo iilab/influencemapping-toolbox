@@ -5,7 +5,6 @@
 _{{ teaser }}_
 
 {% if url %}{{ url }}{% endif %}
-{% if code_url %}
 
 {% if language %}
 Keywords
@@ -155,8 +154,10 @@ Attempts
 
 ## Technology
 
+{% if code_url %}
 Code Repository
-: [{{ code_url }}]({{ code_url }}){% endif %}
+: [{{ code_url }}]({{ code_url }})
+{% endif %}
 
 {% if tool %}
 Tool
@@ -221,8 +222,8 @@ Sustainability Planning
 ### Documentation
 
 {% if practice1 or practice2 or practice3 %}
-Practices
-: [{{ practice1 }}](practice1url) [{{ practice2 }}](practice2url) [{{ practice3 }}](practice3url)
+Documented Practices
+: [{{ practice1 }}]({{practice1url}}) [{{ practice2 }}]({{practice2url}}) [{{ practice3 }}]({{practice3url}})
 {% endif %}
 
 {% if data_modeling %}

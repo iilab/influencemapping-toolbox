@@ -9,7 +9,7 @@ home: true
 List of practices
 
 {% for grouper, list in practices | groupby('practice') %}
-### __{{ grouper }}__
+### {{ grouper }}
 
 __{{ list[0].practiceintro }}__
 
