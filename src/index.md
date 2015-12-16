@@ -4,16 +4,18 @@ description:
 home: true
 ---
 
+### Project Leads please go over to the [Projects](/influencemapping-toolbox/projects.html) page to review the information.
+
 ![](assets/images/logo.png)
 
 How can researchers, journalists and activists map out the influence of personal ties, economic interest and other relationships in politics?
 
 The influence mappers toolbox brings together resources to help you
 
- * [Identify data for your project](practices.html#collecting)
- * [Organise your data](practices.html#organising)
- * [Make sense of your data](practices.html#analysing)
- * [Present your data and findings](practices.html#publishing)
+ * [Identify data for your project](practices/collecting.html)
+ * [Organise your data](practices/organising.html)
+ * [Make sense of your data](practices/analysing.html)
+ * [Present your data and findings](practices/publishing.html)
 
 You can also
 
