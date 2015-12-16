@@ -56,6 +56,8 @@ Geographic Focus
 
 ### Experience
 
+How does a user interact with and navigate the project?
+
 Narrative
 : {{ narrative }} 
 
@@ -81,6 +83,8 @@ Raw Data
 :{{ export }}
 
 ## Description
+
+Summary of the project and its approach
 
 __{{ description }}__
 
@@ -116,6 +120,7 @@ Partners
 
 ## Impact
 
+Indicators of reach and impact of the project
 
 Intended Impact
 : {{ intended_impact }}
@@ -176,6 +181,7 @@ Attempts against the project
 
 ## Technology
 
+What tools and code were used to create the project?
 
 Code Repository
 : [{{ code_url }}]({{ code_url }})
@@ -193,6 +199,7 @@ Other Tools
 
 ## Team
 
+Team size and expertise
 
 Team Size
 : {{ team_size }}
@@ -217,6 +224,7 @@ Design
 
 ## Project Methodology
 
+What strategies were in place for managing the project? 
 
 Project Methodology
 : {{ project_methodology }}
@@ -252,12 +260,13 @@ Sustainability Planning
 : {{ sustainability_planning }}
 
 
-### Documentation
-
 Documented Practices
 : [{{ practice1 }}]({{practice1url}}) [{{ practice2 }}]({{practice2url}}) [{{ practice3 }}]({{practice3url}})
 
 
+## Practices
+
+Detailed project practices
 
 Data Modeling
 : {{ data_modeling }}
