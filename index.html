@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Exploring power and the powerful - </title>
-    <meta name="author" content="Friedrich Lindenberg" />
+    <title>Exploring power and the powerful - Influence Mapping Toolbox</title>
+    <meta name="author" content="Jun Matsushita" />
     <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="influence mapping" />
 
     <link href="/influencemapping-toolbox/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href='/influencemapping-toolbox/assets/css/font.css' rel='stylesheet' type='text/css'>
+    <link href='/influencemapping-toolbox/assets/css/slick.css' rel='stylesheet' type='text/css'>
+    <link href='/influencemapping-toolbox/assets/css/slick-theme.css' rel='stylesheet' type='text/css'>
     <link href="/influencemapping-toolbox/assets/css/style.css" rel='stylesheet' type='text/css'>
-
-    <link rel="shortcut icon" href="/assets/images/opennews-favicon.ico">
+    <!--[if (!IE)|(gte IE 8)]><!-->
+      <link href="/influencemapping-toolbox/assets/css/visualsearch-datauri.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--<![endif]-->
+    <!--[if lte IE 7]><!-->
+      <link href="/influencemapping-toolbox/assets/css/visualsearch.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--<![endif]-->
+    <link rel="shortcut icon" href="/influencemapping-toolbox/assets/images/opennews-favicon.ico">
   </head>
   <body>
     <div id="page">
@@ -28,27 +35,29 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
-        
+      <a class="navbar-brand" href="/influencemapping-toolbox/">
+        <span><img src="/influencemapping-toolbox/assets/images/opennews-favicon.ico"></span>
+        Toolbox
       </a>
     </div>
 
     <div class="collapse navbar-collapse" id="mainmenu">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="/influencemapping-toolbox/">Home</a></li>
-        <li><a href="/influencemapping-toolbox/toolbox.html">The Toolbox</a></li>
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="/influencemapping-toolbox/practices.html">Practices</a></li>
         <li><a href="/influencemapping-toolbox/projects.html">Projects</a></li>
         <li><a href="/influencemapping-toolbox/tools.html">Tools</a></li>
         <li><a href="/influencemapping-toolbox/case-studies.html">Case Studies</a></li>
+        <li><a href="/influencemapping-toolbox/about.html">About</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
         <div id="airlock" class="container">
-          <h3 id="project-leads-please-go-over-to-the-projects-influencemapping-toolbox-projects-html-page-to-review-the-information-">Project Leads please go over to the <a href="/influencemapping-toolbox/projects.html">Projects</a> page to review the information.</h3>
-<p><img src="assets/images/logo.png" alt=""></p>
+          
+<center>
+<img src="assets/images/logo.png" alt="" />
+</center>
 <p>How can researchers, journalists and activists map out the influence of personal ties, economic interest and other relationships in politics?</p>
 <p>The influence mappers toolbox brings together resources to help you</p>
 <ul>
@@ -63,8 +72,24 @@
 <li>Learn about the best approaches to build your own tools?</li>
 <li>Find out who’s doing work like yours. Go to <a href="projects.html">Projects</a></li>
 <li>Read through our influence mapping <a href="cases.html">case studies</a>.</li>
-<li>Learn about our influence mapping essential <a href="practices.html">Practices</a></li>
+<li>Learn about our influence mapping essential <a href="practices.html">Practices</a><br />
+<br></li>
 </ul>
+<h3 id="search-the-toolbox">Search the Toolbox</h3>
+
+<div class="row">
+  <div class="col-md-12" role="main">
+    <div class="form-group">
+      <div id="search_box_container"></div>
+      <p id="total-results"></p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12" role="main">
+    <div class="search-results"></div>
+  </div>
+</div>
 
         </div>
     </div>
@@ -95,7 +120,215 @@
   })();
 </script>
 <noscript><p><img src="http://stats.iilab.org/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
-    <script src="/influencemapping-toolbox/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/dependencies.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="/influencemapping-toolbox/assets/js/bootstrap.min.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/lunr.min.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/nunjucks.min.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/visualsearch.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/anchor.min.js"></script>
+    <script src="/influencemapping-toolbox/assets/js/slick.min.js"></script>
+    
+<script type="text/javascript">
+$( document ).ready(function($) {
+
+    nunjucks.configure('assets/templates', { autoescape: true });
+    initFacets();
+
+    var visualSearch;
+
+    var tags,
+        index,
+        store = $.getJSON("searchMeta.json"),
+        data = $.getJSON("searchIndex.json"),
+        res = {};
+
+    data.then(function(data) {
+      store.then(function(store) {
+
+        tags = _.chain(store)
+          .reduce(function(memo, val) {
+              if (val.tags) memo.push(val.tags);
+              return memo;
+            }, [])
+          .unique()
+          .value();
+
+        visualSearch = VS.init({
+          container : $('#search_box_container'),
+          placeholder : 'Enter search terms and filters', 
+          callbacks : {
+            search       : function(query, searchCollection) {
+              console.log(query)
+              console.log(searchCollection)
+              var results;
+              var term = searchCollection.models.find(function(val) {
+                return val.attributes.category == "text"
+              })
+
+              var facets = {};
+              _.each(searchCollection.models, function(val,key) {
+                key = val.attributes.category;
+                if ( key != "text" ) facets[key] = val.attributes.value;
+              })
+
+              if (!term) {
+                var array = $.map(store, function(value, index) {
+                    return [$.extend({},value, {ref: index})];
+                });
+                faceted_array = array.filter(function(val){
+                  faceted = _.every(facets, function(facet, key) {
+                    return val[key] ? val[key].toUpperCase() == facet.toUpperCase() : false;
+                  })
+                  return faceted;
+                })
+                results_store = prepareResults(faceted_array,store)
+                res = renderResults(results_store)
+              } else {
+                results = index.search(term.attributes.value);
+                faceted_array = results.filter(function(val){
+                  faceted = _.every(facets, function(facet, key) {
+                    return val[key] ? val[key].toUpperCase() == facet.toUpperCase() : false;
+                  })
+                  return faceted;
+                })
+                results_store = prepareResults(faceted_array,store)
+                res = renderResults(results_store)
+              }
+
+              $('.search-results').empty().append( res.nb ?
+                res.html : $('<p><strong>No results found</strong></p>')
+              );
+
+              $('.total-results').text(res.nb);
+
+            },
+            facetMatches : function(callback) {
+              callback([
+                { 
+                  label: 'Type', 
+                  value: 'content_type',
+                  category: 'general'
+                }
+              ,
+                { 
+                  label: 'Audience',
+                  value: 'target_audience',
+                  category: 'general'
+                }
+              ,
+                { 
+                  label: 'Open Source',
+                  value: 'open_source',
+                  category: 'general'
+                }
+              ,
+                { label: 'Tags',
+                  value: 'tags',
+                  category: 'general'
+                }
+              ,
+                { 
+                  label: 'plan',
+                  value: 'plan',
+                  category: 'practice'
+                }
+              ,
+                { 
+                  label: 'collect', 
+                  value: 'collect',
+                  category: 'practice' 
+                }
+              ,
+                { 
+                  label: 'organise', 
+                  value: 'organise',
+                  category: 'practice' 
+                }
+              ,
+                { 
+                  label: 'publish',   
+                  value: 'publish',
+                  category: 'practice' 
+                }
+              ]);
+            },
+            valueMatches : function(facet, searchTerm, callback) {
+              switch (facet) {
+                case 'content_type':
+                  callback([
+                    { value: 'project', label: 'Project' },
+                    { value: 'tool',   label: 'Tool' },
+                    { value: 'practice',   label: 'Practice' }
+                  ]);
+                  break;
+                case 'target_audience':
+                  callback(['user', 'data user', 'developer']);
+                  break;
+                case 'open_source':
+                  callback(['yes', 'no']);
+                  break;
+                case 'tags':
+                  callback(tags);
+                  break;
+              }
+            }
+          }
+        });
+      
+        window.visualSearch = visualSearch;
+
+      })
+    })
+
+    data.then(function(data){
+        // create index
+        index = lunr.Index.load(data)
+        store.then(function(store) {
+          var array = $.map(store, function(value, index) {
+              return [$.extend({},value, {ref: index})];
+          });
+          results_store = prepareResults(array,store)
+          res = renderResults(results_store)
+        });
+
+        $('.search-results').empty().append( res.nb ?
+          res.html : $('<p><strong>No results found</strong></p>')
+        );
+
+        $('.total-results').text(res.nb);
+
+    });
+
+});
+
+function prepareResults(results, store) {
+    var results_store = results
+    .map(function(result){
+      return $.extend({}, store[result.ref], { path : result.ref.replace(".md", ".html"), score: result.score });
+    })
+    .sort(function (a, b) {
+      return b.score - a.score
+    })
+
+    return results_store;
+}
+
+function renderResults(results) {
+  return {
+    results: results,
+    html: nunjucks.render('results.html', { results: results }),
+    nb: results.length
+  }
+}
+
+function initFacets(){
+  $('#target_audience_criteria :checkbox').prop('checked', true);
+  $('#all_target_audience').on('click', function(){
+    $('#target_audience_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  });
+}
+</script>
+
   </body>
 </html>

@@ -1,61 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>No Ceilings
- - </title>
-    <meta name="author" content="Friedrich Lindenberg" />
-    <meta name="description" content="This site and The Full Participation Report are the result—home to 850,000 data points, spanning more than 20 years, from over 190 countries. Through data visualizations and stories, we aim to present the gains and gaps in understandable, sharable ways—including by making the data open and easily available." />
-    <meta name="keywords" content="" />
-
-    <link href="/influencemapping-toolbox/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href='/influencemapping-toolbox/assets/css/font.css' rel='stylesheet' type='text/css'>
-    <link href="/influencemapping-toolbox/assets/css/style.css" rel='stylesheet' type='text/css'>
-
-    <link rel="shortcut icon" href="/assets/images/opennews-favicon.ico">
-  </head>
-  <body>
-    <div id="page">
-      <nav class="navbar navbar-default navbar-static-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse"
-        data-target="#mainmenu">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">
-        
-      </a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="mainmenu">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="/influencemapping-toolbox/">Home</a></li>
-        <li><a href="/influencemapping-toolbox/toolbox.html">The Toolbox</a></li>
-        <li><a href="/influencemapping-toolbox/practices.html">Practices</a></li>
-        <li><a href="/influencemapping-toolbox/projects.html">Projects</a></li>
-        <li><a href="/influencemapping-toolbox/tools.html">Tools</a></li>
-        <li><a href="/influencemapping-toolbox/case-studies.html">Case Studies</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-        <div id="airlock" class="container">
-          # No Ceilings
+# No Ceilings
 
 
 Logo
 : ![](N/A)
 
-Teaser
-: _No Ceilings compiles and visualises data on indicators of the participation of girls and women in everyday life _
+Description
+: __
 
 URL
 :http://noceilings.org/
@@ -69,7 +19,7 @@ Keywords
 Project Current Phase
 : Final Product
 
-	
+    
 
 Project Start Date
 : 
@@ -311,13 +261,16 @@ Sustainability Planning
 : N/A
 
 
-Documented Practices
-: [Data Collection](https://github.com/fathominfo/noceilings-data) [Data Management](https://github.com/fathominfo/noceilings-data) []()
-
 
 ## Practices
 
 _How projects handle different aspects of data management_
+
+Documented Practices
+: [Collect](https://github.com/fathominfo/noceilings-data) 
+: [Organise](https://github.com/fathominfo/noceilings-data)
+: []()
+
 
 Data Modeling
 : Documents
@@ -381,37 +334,3 @@ Ethical Publishing
 
 Data Publishing Mode
 : Dump
-
-        </div>
-    </div>
-
-    <footer class="hidden-print">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            
-          </div>
-          <div class="col-md-4">
-            
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.iilab.org/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 6]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="http://stats.iilab.org/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
-    <script src="/influencemapping-toolbox/assets/js/jquery-2.1.1.min.js"></script>
-    <script src="/influencemapping-toolbox/assets/js/bootstrap.min.js"></script>
-  </body>
-</html>

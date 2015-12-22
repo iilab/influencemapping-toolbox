@@ -1,84 +1,39 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+}
 
-    <title> - </title>
-    <meta name="author" content="Friedrich Lindenberg" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+.claim {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2em;
+}
 
-    <link href="/influencemapping-toolbox/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href='/influencemapping-toolbox/assets/css/font.css' rel='stylesheet' type='text/css'>
-    <link href="/influencemapping-toolbox/assets/css/style.css" rel='stylesheet' type='text/css'>
+p, li {
+    line-height: 1.7em;
+}
 
-    <link rel="shortcut icon" href="/assets/images/opennews-favicon.ico">
-  </head>
-  <body>
-    <div id="page">
-      <nav class="navbar navbar-default navbar-static-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse"
-        data-target="#mainmenu">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">
-        
-      </a>
-    </div>
+.container {
+    max-width: 40em;
+}
 
-    <div class="collapse navbar-collapse" id="mainmenu">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="/influencemapping-toolbox/">Home</a></li>
-        <li><a href="/influencemapping-toolbox/toolbox.html">The Toolbox</a></li>
-        <li><a href="/influencemapping-toolbox/practices.html">Practices</a></li>
-        <li><a href="/influencemapping-toolbox/projects.html">Projects</a></li>
-        <li><a href="/influencemapping-toolbox/tools.html">Tools</a></li>
-        <li><a href="/influencemapping-toolbox/case-studies.html">Case Studies</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+ul {
+    list-style-type: square;
+}
 
-        <div id="airlock" class="container">
-          .navbar{display:none}body{font-family:'Open Sans', sans-serif;font-size:1.8em;font-weight:300}.claim{font-family:'Bree Serif', serif;font-size:1.2em}p,li{line-height:1.7em}.container{max-width:40em}ul{list-style-type:square}.logo{text-align:center;padding:3em}.join{text-align:center;font-weight:900;font-family:'Bree Serif', serif;font-size:1.4em;padding:1em}
+.logo {
+    text-align: center;
+    padding: 3em;
+}
 
-        </div>
-    </div>
+.join {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.4em;
+    padding: 1em;
+}
 
-    <footer class="hidden-print">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            
-          </div>
-          <div class="col-md-4">
-            
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.iilab.org/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 6]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="http://stats.iilab.org/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
-    <script src="/influencemapping-toolbox/assets/js/jquery-2.1.1.min.js"></script>
-    <script src="/influencemapping-toolbox/assets/js/bootstrap.min.js"></script>
-  </body>
-</html>
+.carousel img {
+    width: 200px;
+}

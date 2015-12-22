@@ -1,0 +1,12 @@
+<table class="table table-striped">
+<thead><td>Type</td><td>Name</td><td>Description</td></thead>
+<tbody>
+{% for res in results|sort(false,true,'name') %}
+<tr>
+  <td>{{ res.content_type }}</td>
+  <td><a href="{{ res.path }}">{{ res.name | truncate(20)}}</a></td>
+  <td>{{ res.description | truncate(30) }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
