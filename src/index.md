@@ -2,11 +2,10 @@
 title: Exploring power and the powerful
 description: 
 home: true
+layout: search.html
 ---
 
-### Project Leads please go over to the [Projects](/influencemapping-toolbox/projects.html) page to review the information.
-
-![](assets/images/logo.png)
+<center>![](assets/images/logo.png)</center>
 
 How can researchers, journalists and activists map out the influence of personal ties, economic interest and other relationships in politics?
 
@@ -24,3 +23,6 @@ You can also
  * Find out who’s doing work like yours. Go to [Projects](projects.html)
  * Read through our influence mapping [case studies](cases.html).
  * Learn about our influence mapping essential [Practices](practices.html)
+<br>
+
+### Search the Toolbox

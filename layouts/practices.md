@@ -3,6 +3,7 @@
   {% for subpractice in list %}
     * [{{ subpractice.name }}]({{ subpractice.id }}.html)
       <p> {{ subpractice.description }} </p>
-
+<br>
+<br>
   {% endfor %}
 {% endfor %}

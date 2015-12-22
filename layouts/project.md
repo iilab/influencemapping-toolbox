@@ -1,332 +1,334 @@
 # {{ name }}
 
 Logo
-: ![]({{ image }})
+:   {% if image != "N/A" %}![]({{ image }}){% endif %}
 
-Teaser
-: _{{ teaser }}_
+Description
+:   _{{ description }}_
 
 URL
-:{{ url }}
+:   {{ url }}
 
 
 Keywords
-: {{ keywords }}
+:   {{ keywords }}
 
 
 
 Project Current Phase
-: {{ phase }}
+:   {{ phase }}
 
-	
+    
 
 Project Start Date
-: {{ project_start_date }}
+:   {{ project_start_date }}
 
 
 
 Launch Date
-: {{ launch_date }}
+:   {{ launch_date }}
 
 
 
 Most Recent Update
-: {{ most_recent_update }}
+:   {{ most_recent_update }}
 
 
 
 Update Frequency
-: {{ regularly_updated }}
+:   {{ regularly_updated }}
 
 
 
 Thematic Focus
-: {{ thematic_focus }}
+:   {{ thematic_focus }}
 
 
 
 Issue addressed
-: {{ issue_addressed }}
+:   {{ issue_addressed }}
 
 
 
 Geographic Focus
-: {{ geographic_focus }}
+:   {{ geographic_focus }}
 
 
 ### Experience
 
-How does a user interact with and navigate the project?
+_How does a user interact with and navigate the project?_
 
 Narrative
-: {{ narrative }} 
+:   {{ narrative }} 
 
 Query
-:{{ query }} 
+:   {{ query }} 
 
 Geographic Map
-:{{ geographic_map }}  
+:   {{ geographic_map }}  
 
 Timelines
-: {{ timelines }} 
+:   {{ timelines }} 
 
 Lists
-: {{ lists }} 
+:   {{ lists }} 
 
 Network Visualisation
-:  {{ network_viz }}
+:   {{ network_viz }}
 
 Other Visualisation
 :   {{ other__viz }}
 
 Raw Data 
-:{{ export }}
+:   {{ export }}
 
 ## Description
 
-Summary of the project and its approach
+_Summary of the project and its approach_
 
-__{{ description }}__
+__{{ description2 }}__
 
 
 Rationale (Why?)
-: {{ rationale_why }}
+:   {{ rationale_why }}
 
 
 
 Approach (How?)
-: {{ approach_how }}
+:   {{ approach_how }}
 
 
 
 Language
-: {{ language }}
+:   {{ language }}
 
 
 
 Commissioner
-: {{ commissioner }}
+:   {{ commissioner }}
 
 
 
 Publisher
-: {{ publisher }} ({{ publisher_country }})
+:   {{ publisher }} ({{ publisher_country }})
 
 
 
 Partners
-: {{ partners }}
+:   {{ partners }}
 
 
 ## Impact
 
-Indicators of reach and impact of the project
+_Indicators of reach and impact of the project_
 
 Intended Impact
-: {{ intended_impact }}
+:   {{ intended_impact }}
 
 
 
 Target Audience
-: {{ target_audience }}
+:   {{ target_audience }}
 
 
 
 Online Audience Reached
-: {{ online_audience_reached }}
+:   {{ online_audience_reached }}
 
 
 
 Twitter
-: {{ does_the_project_have_a_twitter_account }} ({{ twitter_followers }} followers)
+:   {{ does_the_project_have_a_twitter_account }} ({{ twitter_followers }} followers)
 
 
 
 Publisher's Twitter Followers
-: {{ publishers_twitter_followers_if_needed }}
+:   {{ publishers_twitter_followers_if_needed }}
 
 
 
 Online Rank
-:  Google: {{ google_page_rank }}   Alexa: {{ alexa_pange_rank }}  OSE Domain Authority Rank: {{ ose_domain_authority_rank }} Marketing Grader Rank: {{ marketing_grader_rank }} ({{ comments }})
+:    Google:   {{ google_page_rank }}   Alexa:   {{ alexa_pange_rank }}  OSE Domain Authority Rank:   {{ ose_domain_authority_rank }} Marketing Grader Rank:   {{ marketing_grader_rank }} ({{ comments }})
 
 
 Online Rank (Publisher)
-:  Google: {{ newspasperspublishers_page_rank_if_applicable }}  Alexa: {{ newspapers__publishers_alexa_page_rank_if_applicable }}
+:    Google:   {{ newspasperspublishers_page_rank_if_applicable }}  Alexa:   {{ newspapers__publishers_alexa_page_rank_if_applicable }}
 
 
 
 News Source
-: {{ news_source }}
+:   {{ news_source }}
 
 
 
 Offline Audience Reached
-: {{ offline_audience_reached }}
+:   {{ offline_audience_reached }}
 
 
 
 Outcome
-: {{ outcome }}
+:   {{ outcome }}
 
 
 
 Last updated
-: {{ update_date }}
+:   {{ update_date }}
 
 
 Attempts against the project
-: {{ attempts_against_the_project_ }}  / {{ attempts_against_the_project_2 }}
+:   {{ attempts_against_the_project_ }}  / {{ attempts_against_the_project_2 }}
 
 
 ## Technology
 
-What tools and code were used to create the project?
+_What tools and code were used to create the project?_
 
 Code Repository
-: [{{ code_url }}]({{ code_url }})
+:   [{{ code_url }}]({{ code_url }})
 
 
 
 Tool
-: {{ tool }}
+:   {{ tool }}
 
 
 
 Other Tools
-: {{ other_tools }}
+:   {{ other_tools }}
 
 
 ## Team
 
-Team size and expertise
+_Team size and expertise_
 
 Team Size
-: {{ team_size }}
+:   {{ team_size }}
 
 
 
 Team Experience
-:  
+:    
 
 Research
-: {{ research }} 
+:   {{ research }} 
 
 Data Science
-: {{ data_science }} 
+:   {{ data_science }} 
 
 Engineering
-:  {{ engineering }}
+:    {{ engineering }}
 
 Design
-: {{ design }}
+:   {{ design }}
 
 
 ## Project Methodology
 
-What strategies were in place for managing the project? 
+_What strategies were in place for managing the project? _
 
 Project Methodology
-: {{ project_methodology }}
+:   {{ project_methodology }}
 
 
 
 Open Source
-: {{ open_source }}
+:   {{ open_source }}
 
 
 
 Open Data
-: {{ open_data }}
+:   {{ open_data }}
 
 
 
 Budget
-: {{ budget }}
-
+:   {{ budget }}
 
 
 Contracting
-: {{ contracting }}
+:   {{ contracting }}
 
 
 
 Risk Planning
-: {{ risk_planning }}
+:   {{ risk_planning }}
 
 
 
 Sustainability Planning
-: {{ sustainability_planning }}
+:   {{ sustainability_planning }}
 
-
-Documented Practices
-: [{{ practice1 }}]({{practice1url}}) [{{ practice2 }}]({{practice2url}}) [{{ practice3 }}]({{practice3url}})
 
 
 ## Practices
 
-Detailed project practices
+_How projects handle different aspects of data management_
+
+Documented Practices
+:   [{{ practice1 }}]({{practice1url}}) 
+:   [{{ practice2 }}]({{practice2url}})
+:   [{{ practice3 }}]({{practice3url}})
+
 
 Data Modeling
-: {{ data_modeling }}
+:   {{ data_modeling }}
 
 
 
 Ethical Collection
-: {{ ethical_collection }}
+:   {{ ethical_collection }}
 
 
 
 Ethical Storage
-: {{ ethical_storage }}
+:   {{ ethical_storage }}
 
 
 
 Data Collection
-: {{ data_collection }}
+:   {{ data_collection }}
 
 
 
 Data Collection
-: {{ data_collection2 }}
+:   {{ data_collection2 }}
 
 
 
 Data Verification
-: {{ data_verification }}
+:   {{ data_verification }}
 
 
 
 Data Cleaning
-: {{ data_cleaning }}
+:   {{ data_cleaning }}
 
 
 
 Data Analysis
-: {{ data_analysis }}
+:   {{ data_analysis }}
 
 
 
 Data Description
-: {{ data_description }}
+:   {{ data_description }}
 
 
 
 Data Licensing
-: {{ data_licencing }}
+:   {{ data_licencing }}
 
 
 
 Ethical Publishing
-: {{ ethical_publishing }}
+:   {{ ethical_publishing }}
 
 
 
 Ethical Publishing
-: {{ ethical_publishing2 }}
+:   {{ ethical_publishing2 }}
 
 
 
 Data Publishing Mode
-: {{ data_publishing_mode }}
+:   {{ data_publishing_mode }}

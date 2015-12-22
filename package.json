@@ -12,6 +12,7 @@
   "dependencies": {
     "metalsmith": "^2.0.1",
     "metalsmith-assets": "^0.1.0",
+    "metalsmith-collection-tags": "deltamualpha/metalsmith-collection-tags",
     "metalsmith-collections": "jlamontagne/metalsmith-collections#dynamic-collections",
     "metalsmith-concat": "^3.0.3",
     "metalsmith-copy": "^0.2.1",
@@ -22,12 +23,14 @@
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-in-place": "^1.3.2",
     "metalsmith-layouts": "^1.4.2",
-    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-lunr": "^0.2.1",
     "metalsmith-metadata": "iilab/metalsmith-metadata",
     "metalsmith-metaobject": "^0.1.0",
+    "metalsmith-pandoc": "iilab/metalsmith-pandoc",
     "metalsmith-paths": "^2.1.1",
     "metalsmith-register-helpers": "^0.1.2",
     "metalsmith-sass": "^1.3.0",
+    "metalsmith-search-meta": "sarahhenderson/metalsmith-search-meta",
     "metalsmith-watch": "^1.0.1",
     "metalsmith-writemetadata": "^0.4.5",
     "nunjucks": "^2.1.0"

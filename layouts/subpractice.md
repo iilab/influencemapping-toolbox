@@ -2,7 +2,7 @@
 
 # {{ name }} 
 
-_{{ tagline }}_
+_{{ description }}_
 
 __{{ intro }}__
 

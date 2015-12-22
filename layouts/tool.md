@@ -1,41 +1,63 @@
-# {{ page.Name }}
+# {{ name }}
 
-![]({{ page['Image'] }})
-{{ page['Teaser'] }}
+Logo
+: ![]({{ image }})
 
-Language
-: {{ page['Language'] }}
+Teaser
+: _{{ teaser }}_
 
-Category
-: {{ page['Category/Type'] }}
+Home Page
+: {{ home_page }}
 
-Language
-: {{ page['Language'] }}
+Type
+: {{ type }}
 
-Commissioner
-: {{ page['Commissioner'] }}
+Tags
+: {{ tags }}
 
-Publisher
-: {{ page['Publisher'] }} ({{ page['Publisher Country'] }})
+Keywords
+: {{ keywords }}
 
-Partners
-: {{ page['Partners'] }}
+: {{ source_url }}
 
-Rationale (Why?)
-: {{ page['Rationale (Why?)'] }}
 
-Approach (How?)
-: {{ page['Approach (How?)'] }}
+: {{ practice }}
+: {{ sub_practice }}
 
-Experience
-: {{ page['Narrative'] }} {{ page['Query'] }} {{ page['Geographic Map'] }} {{ page['Timelines'] }} {{ page['Lists'] }} {{ page['Network Viz'] }} {{ page['Other  Viz'] }} {{ page['Export'] }}
+: {{ practice_2 }}
+: {{ sub_practice_2 }}
 
-Thematic Focus
-: {{ page['Thematic Focus'] }}
-
-Issue addressed
-: {{ page['Issue addressed'] }}
-
-Keywords,Geographic Focus,Intended Impact,Target Audience,Online audience reached,Does the project have a twitter account?,Twitter Followers,Publisher's Twitter Followers (if needed),Google Page Rank,Newspasper's/Publisher's Page Rank (if applicable),Alexa Pange Rank,Newspaper's / Publisher's Alexa Page Rank (if applicable),OSE Domain Authority Rank,Marketing Grader Rank,Comments,News source,Offline Audience Reached,Outcome,Update date,Attempts against the project ,Attempts against the project #2,URL,Code URL,Description,Tool,Tool,Tool,Other tools,Team Size,Research,Data Science,Engineering,Design,Project Methodology,Open Source,Open data,Budget,Contracting,Risk Planning,Sustainability Planning,Data Modeling,Ethical Collection,Ethical storage,Data collection,Data Collection #2,Data verification,Data cleaning,Data Analysis,Data Description,Data Licencing,Ethical publishing,Ethical publishing #2,Data Publishing Mode,1,URL,2,URL,3,URL,,,,,Most recent update,Regularly Updated,,,,,Notes,Alternate News Sources,,
-
-{{ page['Collection'] }}
+Has Schema
+: {{ has_schema }}
+: {{ network_viz }}
+: {{ technology }}
+: {{ language }}
+: {{ document_viz }}
+: {{ dependency_2 }}
+: {{ dependency_3 }}
+: {{ documentation }}
+: {{ unexplainable_dread }}
+: {{ description }}
+: {{ dependency_1 }}
+: {{ network_analysis }}
+: {{ subtype }}
+: {{ open_content }}
+: {{ custom_themes }}
+: {{ target_audience }}
+: {{ team }}
+: {{ programming_language }}
+: {{ maps }}
+: {{ network_editing }}
+: {{ timelines }}
+: {{ data_discovery__searching }}
+: {{ project_specific }}
+: {{ status }}
+: {{ displays_lists }}
+: {{ cost }}
+: {{ embeddable }}
+: {{ allows_bulk_upload }}
+: {{ data_import }}
+: {{ schema_url }}
+: {{ data_export }}
+: {{ open_source }}
+: {{ number_of_users }}

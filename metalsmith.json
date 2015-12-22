@@ -33,7 +33,11 @@
         "name": "name",
         "ext": ".md",
         "path": "tools/",
-        "slugify": true
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "tool" 
+        }
       },
       {
         "type": "metadata",
@@ -42,7 +46,11 @@
         "name": "practice",
         "ext": ".md",
         "path": "practices/",
-        "slugify": true
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "practice" 
+        }
       },
       {
         "type": "metadata",
@@ -51,7 +59,11 @@
         "name": "name",
         "ext": ".md",
         "path": "practices/subpractices/",
-        "slugify": true
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "practice" 
+        }
       },
       {
         "type": "metadata",
@@ -60,31 +72,74 @@
         "name": "name",
         "ext": ".md",
         "path": "projects/",
-        "slugify": true
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "project" 
+        }
       }
     ],
-    "metalsmith-debug": true,
     "metalsmith-in-place": {
       "engine": "nunjucks"
     },
-    "metalsmith-markdown": {
-      "pattern": "**/*.md"
+    "metalsmith-collections": {
+      "projects": "projects/*.md",
+      "practices": "practices/*.md",
+      "tools": "tools/*.md"
+    },
+    "metalsmith-collection-tags": {
+      "projects": {
+        "handle": "phase",
+        "path": "projects/phase/:tag.html",
+        "template": "layouts/projects_tag.md"
+      },
+      "projects": {
+        "handle": "regularly_updated",
+        "path": "projects/regularly_updated/:tag.html",
+        "template": "layouts/projects_tag.md"
+      }
+    },
+    "metalsmith-debug": true,
+    "metalsmith-lunr": {
+      "fields": {
+        "name": 10,
+        "content_type": 10, 
+        "practice": 10,
+        "tags": 10,
+        "phase": 10,
+        "regularly_updated": 10,
+        "description": 10,
+        "practice": 10,
+        "practice_2": 10,
+        "keywords": 10
+      }
+    },
+    "metalsmith-search-meta": {
+        "path": "searchMeta.json",
+        "properties": [
+          "name", 
+          "tags", 
+          "content_type", 
+          "keywords",
+          "target_audience",
+          "open_source",
+          "description",
+          "practice",
+          "practice_2"
+        ]
+    },
+    "metalsmith-pandoc": {
+      "from": "markdown_github+definition_lists+markdown_in_html_blocks"
     },
     "metalsmith-layouts": {
       "engine": "nunjucks",
       "directory": "layouts", 
-      "default": "default.html"
+      "default": "default.html",
+      "pattern": "**/*.html"
     },
     "metalsmith-assets": {
-      "source": "src/assets",
+      "source": "assets",
       "destination": "assets"
-    },
-    "metalsmith-watch": {
-      "paths": {
-        "src/**/*": true, 
-        "layouts/**/*": "**/*"
-      },
-      "livereload": true
     }
   }
 }
