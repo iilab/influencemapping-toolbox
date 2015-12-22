@@ -53,15 +53,205 @@
   </div>
 </nav>
 
-        <div id="airlock" class="container">
+        <div class="container">
+          <div class="row">
           
           <h2 id="publish-data-publishing">Publish (Data Publishing)</h2>
 <h1 id="get-started">Get Started</h1>
 <p><em>What are the ways in which your result and your data can have the impact you want?</em></p>
 <hr />
 <h3 id="privacy-data-protection-law...-compliance">Privacy / Data Protection Law... Compliance</h3>
+</div>
+</div>
+<!-- dirty trick. close parent container and row-->
+<div class="container">
+<div class="row">
+<br><br />
+
+<h3>
+Relevant projects <small>Consult project documentation about this practice</small>
+</h3>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="carousel">
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+La Fabrique de La loi
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<p><small>La Fabrique de La loi tracks the evolution of the lawmaking and votation process in the French parliament</p>
+</small>
+</p>
+<a href="projects/la-fabrique-de-la-loi.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+Influence Explorer
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>Influence Explorer lets you browse those who have contributed to US campaign finances</small>
+</p>
+<a href="projects/influence-explorer.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+Follow The Money
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>Follow The Money is a free and verified archive of contributions to political campaigns in the US</small>
+</p>
+<a href="projects/follow-the-money.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+OpenCorporates
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>OpenCorporates is the largest open database of companies in the world </small>
+</p>
+<a href="projects/opencorporates.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+Mapa de Medios
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>Mapa de Medios enables you to browse through lists and information about the media industry in Colombia and Chile</small>
+</p>
+<a href="projects/mapa-de-medios.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+Political Party Time
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>Political Party Time tracks the political fundraising circuit one party at a time</small>
+</p>
+<a href="projects/political-party-time.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+openAFRICA
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>openAFRICA is an independent source for open data on the African continent</small>
+</p>
+<a href="projects/openafrica.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+Open Corporates Financial Visualizations
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>Open Corporates Financial Visualisation shines a light the complex structures of 7 of the biggest corporations in the world</small>
+</p>
+<a href="projects/open-corporates-financial-visualizations.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+Non Profit Explorer
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>Nonprofit explorer is a database showing the tax returns and financial details of tax exempt organisations</small>
+</p>
+<a href="projects/non-profit-explorer.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+<div>
+<div class="panel panel-primary">
+<div class="panel-heading">
+<h4 class="panel-title">
+Siyazana
+</h4>
+</div>
+<div class="panel-body">
+<p>
+<small>Siyazana is a tool that allows users to investigate connections between the public and private spheres in South African politics</small>
+</p>
+<a href="projects/siyazana.html#documented-practices">Read More</a>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<br><br />
+
+<div class="carousel">
+</div>
+</div>
+</div>
+<div class="container">
+<!-- dirty trick. reopen parent container -->
+<div class="row">
+</div>
+<!--- group row -->
+</div>
+<!--- group container -->
+<div class="container">
+<div class="row">
+<!-- dirty trick. reopen parent container and row -->
 
           
+          </div>
         </div>
     </div>
 
@@ -102,23 +292,48 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.content').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          fade: true,
-          asNavFor: '.carousel'
-        });
+
         $('.carousel').slick({
-          infinite: true,
-          slidesToShow: 3,
+          infinite: false,
+          variableWidth: true,
           slidesToScroll: 3,
           dots: true,
-          arrows: true,
-          asNavFor: '.content',
+          arrows: false,
           centerMode: true,
+          centerPadding: '60px',
           focusOnSelect: true
         });
+
+        $('.carousel .slick-slide').removeClass('slick-current');
+
+        $('[data-toggle="tooltip"]').tooltip(); 
+
+        $('.project-filter').on('click', function(e){
+          var thisFilter = $(e.target).attr('data-original-title')
+          var thisCarousel = $(e.target).parents('.container').next().find('.carousel');
+
+          var activeFilters = $(e.target).parents('.btn-group').find(':checked').parent();
+
+          thisCarousel.slick('slickFilter',function(idx, el){
+            thisSlide = $(el).find('.panel-primary').attr('data-toolbox-user');
+
+            var ret = _(activeFilters).some(function(elButton){
+              return $(elButton).attr('data-original-title') == thisSlide;
+            });
+
+            return ret;
+          });
+
+//          if (activeFilters.length == 3)
+
+/*          if ($(e.target).hasClass('active')) {
+            //$(e.target).addClass('active');
+          } else {
+            thisCarousel.slick('slickUnfilter');
+            //$(e.target).removeClass('active');
+          }*/
+        });
+
         anchors.options = {
           placement: 'left'
         }

@@ -53,7 +53,8 @@
   </div>
 </nav>
 
-        <div id="airlock" class="container">
+        <div class="container">
+          <div class="row">
           
 <center>
 <img src="assets/images/logo.png" alt="" />
@@ -91,6 +92,7 @@
   </div>
 </div>
 
+          </div>
         </div>
     </div>
 
@@ -155,6 +157,7 @@ $( document ).ready(function($) {
           .value();
 
         visualSearch = VS.init({
+          query: '',
           container : $('#search_box_container'),
           placeholder : 'Enter search terms and filters', 
           callbacks : {
@@ -275,8 +278,10 @@ $( document ).ready(function($) {
             }
           }
         });
-      
         window.visualSearch = visualSearch;
+
+        visualSearch.searchBox.setQuery('')
+        visualSearch.options.callbacks.search(visualSearch.searchQuery, visualSearch.searchQuery);
 
       })
     })

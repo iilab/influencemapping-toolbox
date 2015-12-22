@@ -7,7 +7,7 @@
 
     <title>Open Oil Corporate Networks - Influence Mapping Toolbox</title>
     <meta name="author" content="Jun Matsushita" />
-    <meta name="description" content="" />
+    <meta name="description" content="Open Oil Corporate Networks is an open data system to give an insight into the corporate structures that make up the oil, gas and mining industries " />
     <meta name="keywords" content="influence mapping" />
 
     <link href="/influencemapping-toolbox/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +53,8 @@
   </div>
 </nav>
 
-        <div id="airlock" class="container">
+        <div class="container">
+          <div class="row">
           
           <h1 id="open-oil-corporate-networks">Open Oil Corporate Networks</h1>
 <dl>
@@ -61,7 +62,7 @@
 <dd><img src="https://openoil.net/wp/wp-content/uploads/2013/01/openoil-header.png" alt="" />
 </dd>
 <dt>Description</dt>
-<dd>__
+<dd><em>Open Oil Corporate Networks is an open data system to give an insight into the corporate structures that make up the oil, gas and mining industries </em>
 </dd>
 <dt>URL</dt>
 <dd><a href="https://data.openoil.net/" class="uri">https://data.openoil.net/</a>
@@ -297,6 +298,7 @@
 </dl>
 
           
+          </div>
         </div>
     </div>
 
@@ -337,23 +339,48 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.content').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          fade: true,
-          asNavFor: '.carousel'
-        });
+
         $('.carousel').slick({
-          infinite: true,
-          slidesToShow: 3,
+          infinite: false,
+          variableWidth: true,
           slidesToScroll: 3,
           dots: true,
-          arrows: true,
-          asNavFor: '.content',
+          arrows: false,
           centerMode: true,
+          centerPadding: '60px',
           focusOnSelect: true
         });
+
+        $('.carousel .slick-slide').removeClass('slick-current');
+
+        $('[data-toggle="tooltip"]').tooltip(); 
+
+        $('.project-filter').on('click', function(e){
+          var thisFilter = $(e.target).attr('data-original-title')
+          var thisCarousel = $(e.target).parents('.container').next().find('.carousel');
+
+          var activeFilters = $(e.target).parents('.btn-group').find(':checked').parent();
+
+          thisCarousel.slick('slickFilter',function(idx, el){
+            thisSlide = $(el).find('.panel-primary').attr('data-toolbox-user');
+
+            var ret = _(activeFilters).some(function(elButton){
+              return $(elButton).attr('data-original-title') == thisSlide;
+            });
+
+            return ret;
+          });
+
+//          if (activeFilters.length == 3)
+
+/*          if ($(e.target).hasClass('active')) {
+            //$(e.target).addClass('active');
+          } else {
+            thisCarousel.slick('slickUnfilter');
+            //$(e.target).removeClass('active');
+          }*/
+        });
+
         anchors.options = {
           placement: 'left'
         }

@@ -53,7 +53,8 @@
   </div>
 </nav>
 
-        <div id="airlock" class="container">
+        <div class="container">
+          <div class="row">
           
 <h1 id="search">Search</h1>
 <p>You can navigate the entirety of the toolbox by using this visual search.</p>
@@ -72,6 +73,7 @@
   </div>
 </div>
 
+          </div>
         </div>
     </div>
 
@@ -136,6 +138,7 @@ $( document ).ready(function($) {
           .value();
 
         visualSearch = VS.init({
+          query: '',
           container : $('#search_box_container'),
           placeholder : 'Enter search terms and filters', 
           callbacks : {
@@ -256,8 +259,10 @@ $( document ).ready(function($) {
             }
           }
         });
-      
         window.visualSearch = visualSearch;
+
+        visualSearch.searchBox.setQuery('')
+        visualSearch.options.callbacks.search(visualSearch.searchQuery, visualSearch.searchQuery);
 
       })
     })

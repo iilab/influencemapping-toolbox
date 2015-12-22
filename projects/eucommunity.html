@@ -7,7 +7,7 @@
 
     <title>EUCommunity - Influence Mapping Toolbox</title>
     <meta name="author" content="Jun Matsushita" />
-    <meta name="description" content="" />
+    <meta name="description" content="EU Community provides an insight into who is influential in EU Policymaking" />
     <meta name="keywords" content="influence mapping" />
 
     <link href="/influencemapping-toolbox/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +53,8 @@
   </div>
 </nav>
 
-        <div id="airlock" class="container">
+        <div class="container">
+          <div class="row">
           
           <h1 id="eucommunity">EUCommunity</h1>
 <dl>
@@ -61,7 +62,7 @@
 <dd><img src="http://euractory.eucommunity.eu/sites/default/files/logo-beta.png" alt="" />
 </dd>
 <dt>Description</dt>
-<dd>__
+<dd><em>EU Community provides an insight into who is influential in EU Policymaking</em>
 </dd>
 <dt>URL</dt>
 <dd><a href="http://euractory.eucommunity.eu/" class="uri">http://euractory.eucommunity.eu/</a>
@@ -298,6 +299,7 @@
 </dl>
 
           
+          </div>
         </div>
     </div>
 
@@ -338,23 +340,48 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.content').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          fade: true,
-          asNavFor: '.carousel'
-        });
+
         $('.carousel').slick({
-          infinite: true,
-          slidesToShow: 3,
+          infinite: false,
+          variableWidth: true,
           slidesToScroll: 3,
           dots: true,
-          arrows: true,
-          asNavFor: '.content',
+          arrows: false,
           centerMode: true,
+          centerPadding: '60px',
           focusOnSelect: true
         });
+
+        $('.carousel .slick-slide').removeClass('slick-current');
+
+        $('[data-toggle="tooltip"]').tooltip(); 
+
+        $('.project-filter').on('click', function(e){
+          var thisFilter = $(e.target).attr('data-original-title')
+          var thisCarousel = $(e.target).parents('.container').next().find('.carousel');
+
+          var activeFilters = $(e.target).parents('.btn-group').find(':checked').parent();
+
+          thisCarousel.slick('slickFilter',function(idx, el){
+            thisSlide = $(el).find('.panel-primary').attr('data-toolbox-user');
+
+            var ret = _(activeFilters).some(function(elButton){
+              return $(elButton).attr('data-original-title') == thisSlide;
+            });
+
+            return ret;
+          });
+
+//          if (activeFilters.length == 3)
+
+/*          if ($(e.target).hasClass('active')) {
+            //$(e.target).addClass('active');
+          } else {
+            thisCarousel.slick('slickUnfilter');
+            //$(e.target).removeClass('active');
+          }*/
+        });
+
         anchors.options = {
           placement: 'left'
         }

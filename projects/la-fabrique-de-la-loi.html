@@ -7,7 +7,9 @@
 
     <title>La Fabrique de La loi - Influence Mapping Toolbox</title>
     <meta name="author" content="Jun Matsushita" />
-    <meta name="description" content="" />
+    <meta name="description" content="La Fabrique de La loi tracks the evolution of the lawmaking and votation process in the French parliament
+
+" />
     <meta name="keywords" content="influence mapping" />
 
     <link href="/influencemapping-toolbox/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +55,8 @@
   </div>
 </nav>
 
-        <div id="airlock" class="container">
+        <div class="container">
+          <div class="row">
           
           <h1 id="la-fabrique-de-la-loi">La Fabrique de La loi</h1>
 <dl>
@@ -61,8 +64,11 @@
 <dd><img src="http://www.lafabriquedelaloi.fr/img/the-law-factory-logo.svg" alt="" />
 </dd>
 <dt>Description</dt>
-<dd>__
+<dd>_La Fabrique de La loi tracks the evolution of the lawmaking and votation process in the French parliament
 </dd>
+</dl>
+<p>_</p>
+<dl>
 <dt>URL</dt>
 <dd><a href="http://www.lafabriquedelaloi.fr/" class="uri">http://www.lafabriquedelaloi.fr/</a>
 </dd>
@@ -297,6 +303,7 @@
 </dl>
 
           
+          </div>
         </div>
     </div>
 
@@ -337,23 +344,48 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.content').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          fade: true,
-          asNavFor: '.carousel'
-        });
+
         $('.carousel').slick({
-          infinite: true,
-          slidesToShow: 3,
+          infinite: false,
+          variableWidth: true,
           slidesToScroll: 3,
           dots: true,
-          arrows: true,
-          asNavFor: '.content',
+          arrows: false,
           centerMode: true,
+          centerPadding: '60px',
           focusOnSelect: true
         });
+
+        $('.carousel .slick-slide').removeClass('slick-current');
+
+        $('[data-toggle="tooltip"]').tooltip(); 
+
+        $('.project-filter').on('click', function(e){
+          var thisFilter = $(e.target).attr('data-original-title')
+          var thisCarousel = $(e.target).parents('.container').next().find('.carousel');
+
+          var activeFilters = $(e.target).parents('.btn-group').find(':checked').parent();
+
+          thisCarousel.slick('slickFilter',function(idx, el){
+            thisSlide = $(el).find('.panel-primary').attr('data-toolbox-user');
+
+            var ret = _(activeFilters).some(function(elButton){
+              return $(elButton).attr('data-original-title') == thisSlide;
+            });
+
+            return ret;
+          });
+
+//          if (activeFilters.length == 3)
+
+/*          if ($(e.target).hasClass('active')) {
+            //$(e.target).addClass('active');
+          } else {
+            thisCarousel.slick('slickUnfilter');
+            //$(e.target).removeClass('active');
+          }*/
+        });
+
         anchors.options = {
           placement: 'left'
         }

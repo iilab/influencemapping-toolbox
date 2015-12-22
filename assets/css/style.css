@@ -37,3 +37,27 @@ ul {
 .carousel img {
     width: 200px;
 }
+
+.carousel div.panel {
+    margin: 10px;
+    width: 350px;
+}
+
+.carousel .panel-body, .carousel .panel-footer {
+  max-height: 0;
+  padding: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear, max-height 0.5s linear;
+}
+
+.carousel .slick-current .panel-body, .carousel .slick-current .panel-footer {
+  padding: 15px;
+  max-height:500px;
+  visibility: visible;
+  opacity: 1;
+}
+
+:focus {
+    outline: none;
+}
