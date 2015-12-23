@@ -27,6 +27,10 @@ p, li {
 }
 */
 
+dt {
+  margin-top: 10px;
+}
+
 #main a {
     text-decoration: underline;
 }
@@ -42,6 +46,10 @@ p, li {
 
 *:hover > .anchorjs-link {
   margin-left: -1.125em !important;
+}
+
+#case_studies img, #page #main img {
+  width:100%;
 }
 
 ul {
