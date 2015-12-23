@@ -1,18 +1,45 @@
-#Open Duka
+---
+layout: default.html
+---
+# Open Duka
 
-Organisational Structure: Project incubated at the Open Institute
-Status: Currently updated 
-Interviewee: Benjamin Charagu, Social-Innovation Lead of Open Institute
-Start date of the project: 2012
-Team: Size variable (from Small to Medium)
-Type of funding: Grants   Budget amount: Not disclosed
-Location: Nairobi (Kenya)
-URL: http://openduka.org 
-Type of output: A free database about Kenyan entities to browse between networks of relationships linking people, organisations, tenders, contracts, cases and land parcels together. 
+<div class="panel panel-default">
+<div class="panel-body">
 
-Visit the [Open Duka project page](../projects/openduka.html)
+Organisational Structure
+:   Project incubated at the Open Institute
+
+Status
+:   Currently updated
+
+Interviewee
+:   Benjamin Charagu, Social-Innovation Lead of Open Institute
+
+Start date of the project
+:   2012
+
+Team
+:   Size variable (from Small to Medium)
+
+Type of funding
+:   Grants Budget amount: Not disclosed
+
+Location
+:   Nairobi (Kenya)
+
+URL
+:   http://openduka.org
+
+Type of output
+:   A free database about Kenyan entities to browse between networks of relationships linking people, organisations, tenders, contracts, cases and land parcels together.
+
+</div>
+<div class="panel-footer">Visit the [Open Duka project page](../projects/openduka.html)</div>
+</div>
 
 Open Duka was started to gather information in one repository to create a searchable database of institutions and actors in power and commerce in Kenya, in order to foster more accountability and to facilitate oversight by citizens, journalists and civic activists. 
+
+![](open_duka.png)
 
 Incubated by the Open Institute, the project is open source and the database is freely available and can be queried via the Open Duka API. Data has been scraped from online sources that provide shareholder information, procurement information, legal cases and company information, from data providers and partners The Kenyan Gazette and Kenya Law. Open Duka’s site is coded in PHP and the database is managed with MyTML library. Visualisation is now based on D3 javascript library.
 

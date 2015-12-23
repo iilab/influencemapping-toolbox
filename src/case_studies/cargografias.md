@@ -1,18 +1,45 @@
-#Cargografías
+---
+layout: default.html
+---
 
-Organisational Structure: Self-initiative/independent project
-Interviewee: Andrés Snifcofsky, founder and project lead
-Start date of the project: 2013
-Team: Small
-Type of funding: Grants
-Budget amount: Not disclosed
-Location: Buenos Aires (Argentina)
-URL: http://cargografias.org
-Type of output: The political trajectories of presidential candidates and government members in Argentina visualised on timelines.
+# Cargografías
 
-Visit the [Cargografías project page](../projects/cargografas.html)
- 
+<div class="panel panel-default">
+<div class="panel-body">
+Organisational Structure
+:   Self-initiative/independent project
+
+Interviewee
+:   Andrés Snifcofsky, founder and project lead
+
+Start date of the project
+:   2013
+
+Team
+:   Small
+
+Type of funding
+:   Grants
+
+Budget amount
+:   Not disclosed
+
+Location
+:   Buenos Aires (Argentina)
+
+URL
+:   http://cargografias.org
+
+Type of output
+:   The political trajectories of presidential candidates and government members in Argentina visualised on timelines.
+
+</div>
+<div class="panel-footer">Visit the [Cargografías project page](../projects/cargografas.html)</div>
+</div>
+
 Cargografías allows you to explore the timelines of the electoral mandates of the Argentinian representatives, in order to foster transparency in Argentinian politics, to help citizens to get a full picture of the political history of the presidential candidates and members of the government in Argentina, and thus make decisions based on these facts.
+
+![](cargografias.png)
 
 Cargografías started in 2013 as a pro bono initiative by founder Andrés Snifcofsky. A graphic designer by training, Snifcofsky chose this issue of transparency in politics as an opportunity to expand his skills in interactive design. Snifcofsky started by manually scraping the information in order to create a prototype quickly: “So I built, like, a 500 rows of information, of names and dates and roles, so I used that little data set as a starting point, as a proof of concept to build the visualization,” he says.
 

@@ -1,18 +1,46 @@
-#Influence Map
+---
+layout: default.html
+---
 
-Organisational Structure: Non profit Community of Interest Company (CIC) 
-Status: Currently updated
-Start date of the project: 2015
-Team: 10 people 
-Type of funding: Funded until now through mixed funding (self-funds and UK-based Foundations)
-Budget amount: Not disclosed
-Location: London (United Kingdom)
-URL: http://influencemap.org
-Type of output: A scoring system ranks and categorises corporations according to how they influence climate policy.
+# Influence Map
 
-Visit the [Influence Map project page](../projects/influencemap.html)
+<div class="panel panel-default">
+<div class="panel-body">
+
+Organisational Structure
+:   Non profit Community of Interest Company (CIC)
+
+Status
+:   Currently updated
+
+Start date of the project
+:   2015
+
+Team
+:   10 people 
+
+Type of funding
+:   Funded until now through mixed funding (self-funds and UK-based Foundations)
+
+Budget amount
+:   Not disclosed
+
+Location
+:   London (United Kingdom)
+
+URL
+:   http://influencemap.org
+
+Type of output
+:   A scoring system ranks and categorises corporations according to how they influence climate policy.
+
+</div>
+<div class="panel-footer">Visit the [Influence Map project page](../projects/influencemap.html)</div>
+</div>
 
 Influence Map measures and lists corporate influence on climate policy worldwide. The project was created to provide a ranking system that is, in their own words, “as objective as possible”, as a tool to address gap in how corporations influence climate legislation. 
+
+![](influence_map.png)
 
 The project outputs to date have been a list of rankings of corporations released in 2015. This report created a good deal of traction in the media, with almost 30 citations of the report in the press. The project also reports engagement from stakeholders such as investor groups and policymakers:
 

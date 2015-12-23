@@ -1,21 +1,48 @@
-#La Fabrique de la Loi
+---
+layout: default.html
+---
+# La Fabrique de la Loi
 
-Organisational Structure: Project incubated at Sciences Po in collaboration
-with the NGO Regards Citoyens
-Interviewee: Benjamin Ooghe-Tabanou,
-Status: Maintained but not regularly updated 
-Start date of the project: 2011
-Team: Large
-Type of funding: Grant
-Budget amount: €150,000 grant from the Ile de France Region fund over 3 years
-Location: Paris (France)
-URL: http://www.lafabriquedelaloi.fr
-Type of output: 290 law texts analysed and visualized (from proposal bill to its published version) showing how parliamentary process in France works.
+<div class="panel panel-default">
+<div class="panel-body">
 
-Visit the [La Fabrique de la Loi project page](projects/la-fabrique-de-la-loi.html)
+Organisational Structure
+:   Project incubated at Sciences Po in collaboration with the NGO Regards Citoyens
 
+Interviewee
+:   Benjamin Ooghe-Tabanou
+
+Status
+:   Maintained but not regularly updated 
+
+Start date of the project
+:   2011
+
+Team
+:   Large
+
+Type of funding
+:   Grant
+
+Budget amount
+:   €150,000 grant from the Ile de France Region fund over 3 years
+
+Location
+:   Paris (France)
+
+URL
+:   http://www.lafabriquedelaloi.fr
+
+Type of output
+:   290 law texts analysed and visualized (from proposal bill to its published version) showing how parliamentary process in France works.
+
+</div>
+<div class="panel-footer">Visit the [La Fabrique de la Loi project page](projects/la-fabrique-de-la-loi.html)</div>
+</div>
 
 La Fabrique de la Loi publishes and tracks the evolution of bills through French Parliament from their inception to the final publication, showing which the related voting history for the different MPs and changes to the texts chronologically. Aside from the web interface, the data is also made accessible through an API. 
+
+![](la_fabrique_de_la_loi.png)
 
 The goal of La Fabrique de la Loi is “to easily understand and visualize the French parliamentary process”. The site and API are the product of a three year long research project between two research labs from Sciences Po in Paris: The medialab and the Center for European Studies (CEE) and Regards Citoyens, an NGO urging for transparency in the public sphere. 
 

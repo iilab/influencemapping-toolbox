@@ -1,18 +1,45 @@
-#Political Party Time
+---
+layout: default.html
+---
+# Political Party Time
 
-Organisational Structure: Project incubated at the Sunlight Foundation
-Interviewees: Jen Topper, Communications Director at Sunlight Foundation and Joshua Stewart, Deputy Communications Director at Sunlight Foundation
-Start date of the project: 2007
-Team: Size variable (from Small to Medium)
-Type of funding: Donations
-Budget amount: Not disclosed
-Location: Washington D.C. (USA)
-URL: http://politicalpartytime.org
-Type of output: A tracking system to shed light on cocktail parties and informal meetings organized to raise money for political campaigns or influence candidates through lobbying
+<div class="panel panel-default">
+<div class="panel-body">
 
-Visit the [Political Party Time project page](../projects/political-party-time.html)
+Organisational Structure
+:   Project incubated at the Sunlight Foundation
+
+Interviewees
+:   Jen Topper, Communications Director at Sunlight Foundation and Joshua Stewart, Deputy Communications Director at Sunlight Foundation
+
+Start date of the project
+:   2007
+
+Team
+:   Size variable (from Small to Medium)
+
+Type of funding
+:   Donations
+
+Budget amount
+:   Not disclosed
+
+Location
+:   Washington D.C. (USA)
+
+URL
+:   http://politicalpartytime.org
+
+Type of output
+:   A tracking system to shed light on cocktail parties and informal meetings organized to raise money for political campaigns or influence candidates through lobbying
+
+</div>
+<div class="panel-footer">Visit the [Political Party Time project page](../projects/political-party-time.html)</div>
+</div>
 
 Political Party Time helps to track political fundraising events and the movement of political actors from event invitations. This information can be used to map the relationships between candidates and private interests from different sides. Launched in 2007 by the Sunlight Foundation, the project is still maintained by the organisation but no longer funded.
+
+![](political_party_time.png)
 
 Invitations to fundraising events are contributed by users who can submit an invitation by emailing or by sending it anonymously through the website interface. A small reporting team actively contributes to Political Party Time by tracking these invitations. As Topper and Stewart put it, Political Party Time aims for “content generation”. Its objective is to lead storytelling based on the fundraising event information collated on the website.
  

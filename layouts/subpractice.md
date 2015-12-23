@@ -9,17 +9,25 @@ __{{ intro }}__
 {{ body }}
 
 </div></div><!-- dirty trick. close parent container and row--> 
+{% set title = false %}
+{% for project in projects %}
+{% if project.subpractice1 == name or project.subpractice2 == name or project.subpractice3 == name %}
+{% set title = true %}
+{% endif %}
+{% endfor %}
+{% if title %}
 <div class="container">
 <div class="row">
 <br>
 <h3>Relevant projects <small>Consult project documentation about this practice</small></h3>
 </div>
 </div>
+{% endif %}
 <div class="container-fluid">
 <div class="row">
 <div class="carousel">
 {% for project in projects %}
-{% if project.practice1 == practice or project.practice2 == practice or project.practice3 == practice %}
+{% if project.subpractice1 == name or project.subpractice2 == name or project.subpractice3 == name %}
 <div>
 <div class="panel panel-primary">
 <div class="panel-heading">
@@ -27,7 +35,7 @@ __{{ intro }}__
 </div>
 <div class="panel-body">
 <p><small>{{ project.description | truncate(150) }}</small></p>
-<a href="projects/{{ project.id }}.html#documented-practices">Read More</a>
+<a href="../../projects/{{ project.id }}.html#documented-practices">Read More</a>
 </div>
 </div>
 </div>
@@ -68,7 +76,7 @@ __{{ intro }}__
 </div>
 <div class="panel-body">
 <p><small>{{ tool.description | truncate(150)  }}</small></p>
-<a href="tools/{{ tool.id }}.html">Read More</a>
+<a href="../../tools/{{ tool.id }}.html">Read More</a>
 </div>
 </div>
 </div>
