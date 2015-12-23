@@ -10,6 +10,8 @@ Location: Germany
 URL: http://lobbyradar.de (currently offline), archived at http://lobbyradar.org 
 Type of output: A visualization and a plugin which shows the different ties between lobbyists and politicians in Germany.
  
+Visit the [Lobbyradar project page](../projects/lobby-radar.html)
+
 Lobbyradar uncovers the lobbying groups and private interests in German politics, by enabling users to explore network visualisations that show links between institutions and people of influence within the german political sphere. There is also a browser plugin, which, once installed, supplies information about politicians and lobbyists via a tooltip when their name appears on a website.
 
 The project started as a cooperation between ZDF (Zweites Deutsches Fernsehen) and the Medieninnovationszentrum Babelsberg (MIZ) with the aim to tackle lobbying and its intersection within the political sphere in Germany. The project took shape during a scholarship of the three journalists Michael Hartlep, Dominik Wurnig and Jan Schneider at MIZ and included a series of brainstorming workshops organized between journalists, coders and designers. 
