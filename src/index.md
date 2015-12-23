@@ -5,22 +5,21 @@ home: true
 layout: index.html
 ---
 
-How can researchers, journalists and activists map out the influence of personal ties, economic interest and other relationships in politics?
 
-The influence mappers toolbox brings together resources to help you
+The influence mapping toolbox guides you to
 
- * [Identify data for your project](practices/collecting.html)
+ * [Find the data you need](practices/collecting.html)
  * [Organise your data](practices/organising.html)
  * [Make sense of your data](practices/analysing.html)
- * [Present your data and findings](practices/publishing.html)
+ * [Share your data and findings](practices/publishing.html)
 
-You can also
+Not sure where to start?
 
+ * Read about the [state of the art in influence mapping](influencemapping_soa_dec15.pdf)
  * Take a tour of the [tools available](tools.html)
- * Learn about the best approaches to build your own tools?
- * Find out who’s doing work like yours. Go to [Projects](projects.html)
+ * Find out who’s doing work like yours in [projects](projects.html)
  * Read through our influence mapping [case studies](cases.html).
- * Learn about our influence mapping essential [Practices](practices.html)
+ * Learn about our influence mapping essential [practices](practices.html)
 <br>
 
 ### Search the Toolbox
