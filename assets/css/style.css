@@ -1,3 +1,4 @@
+/*
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8em;
@@ -12,9 +13,34 @@ body {
 p, li {
     line-height: 1.7em;
 }
+*/
 
 .container {
     max-width: 40em;
+}
+
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+    color: #0085a1;
+}
+
+.navbar-custom .nav li a {
+    color: #404040;
+}
+
+.navbar-custom .navbar-brand {
+    color: #404040;
+}
+
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+    color: #404040;
+}
+
+.intro-header  hr.small {
+    border-color: : #404040;
+}
+
+#main a {
+    text-decoration: underline;
 }
 
 ul {
@@ -25,7 +51,7 @@ ul {
     text-align: center;
     padding: 3em;
 }
-
+/*
 .join {
     text-align: center;
     font-weight: 900;
@@ -33,7 +59,7 @@ ul {
     font-size: 1.4em;
     padding: 1em;
 }
-
+*/
 .carousel img {
     width: 200px;
 }
