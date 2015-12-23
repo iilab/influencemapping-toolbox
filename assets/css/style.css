@@ -1,9 +1,7 @@
-/*
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8em;
-    font-weight: 300;
+    padding-top: 60px;
 }
+/*
 
 .claim {
     font-family: 'Bree Serif', serif;
@@ -19,28 +17,25 @@ p, li {
     max-width: 40em;
 }
 
-.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
-    color: #0085a1;
-}
-
-.navbar-custom .nav li a {
-    color: #404040;
-}
-
-.navbar-custom .navbar-brand {
-    color: #404040;
-}
-
+/*
 .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
     color: #404040;
 }
 
 .intro-header  hr.small {
-    border-color: : #404040;
+    border-color: #404040;
 }
+*/
 
 #main a {
     text-decoration: underline;
+}
+
+a.anchorjs-link {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
 }
 
 ul {
@@ -86,4 +81,67 @@ ul {
 
 :focus {
     outline: none;
+}
+
+.navbar-fixed-top {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+}
+
+.navbar-fixed-top .navbar-brand {
+  font-weight: 800;
+}
+.navbar-fixed-top .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-fixed-top {
+    border-bottom: 1px solid #eee;
+  }
+  .navbar-fixed-top .navbar-brand {
+    color: white;
+    padding: 20px;
+  }
+  .navbar-fixed-top .navbar-brand:hover,
+  .navbar-fixed-top .navbar-brand:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .navbar-fixed-top .nav li a {
+    color: white;
+    padding: 20px;
+  }
+
+  .navbar-fixed-top .nav .dropdown li a {
+    color: #777;
+    padding: 20px;
+  }
+
+  .navbar-fixed-top .nav .dropdown li a:hover{
+    color: black;
+    padding: 20px;
+  }
+
+  .navbar-fixed-top .nav li a:hover,
+  .navbar-fixed-top .nav li a:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+
+
+}
+
+.navbar-fixed-top .nav li a:hover, .navbar-fixed-top .nav li a:focus {
+    color: #0085a1;
+}
+
+.navbar-fixed-top .nav li a {
+    color: #404040;
+}
+
+.navbar-fixed-top .navbar-brand {
+    color: #404040;
 }
