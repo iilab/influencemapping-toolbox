@@ -159,8 +159,6 @@ $( document ).ready(function($) {
           placeholder : 'Enter search terms and filters', 
           callbacks : {
             search       : function(query, searchCollection) {
-              console.log(query)
-              console.log(searchCollection)
               var results;
               var term = searchCollection.models.find(function(val) {
                 return val.attributes.category == "text"
@@ -277,8 +275,12 @@ $( document ).ready(function($) {
         });
         window.visualSearch = visualSearch;
 
+
         visualSearch.searchBox.setQuery('')
-        visualSearch.options.callbacks.search(visualSearch.searchQuery, visualSearch.searchQuery);
+        setTimeout(function() {
+          visualSearch.searchBox.searchEvent("enter")
+        }, 1000);    
+        visualSearch.options.callbacks.search('', visualSearch.searchQuery);
 
       })
     })
