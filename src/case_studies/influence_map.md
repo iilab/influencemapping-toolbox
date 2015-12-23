@@ -10,6 +10,8 @@ Location: London (United Kingdom)
 URL: http://influencemap.org
 Type of output: A scoring system ranks and categorises corporations according to how they influence climate policy.
 
+Visit the [Influence Map project page](../projects/influencemap.html)
+
 Influence Map measures and lists corporate influence on climate policy worldwide. The project was created to provide a ranking system that is, in their own words, “as objective as possible”, as a tool to address gap in how corporations influence climate legislation. 
 
 The project outputs to date have been a list of rankings of corporations released in 2015. This report created a good deal of traction in the media, with almost 30 citations of the report in the press. The project also reports engagement from stakeholders such as investor groups and policymakers:
