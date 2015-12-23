@@ -12,6 +12,8 @@ Location: Paris (France)
 URL: http://www.lafabriquedelaloi.fr
 Type of output: 290 law texts analysed and visualized (from proposal bill to its published version) showing how parliamentary process in France works.
 
+Visit the [La Fabrique de la Loi project page](projects/la-fabrique-de-la-loi.html)
+
 
 La Fabrique de la Loi publishes and tracks the evolution of bills through French Parliament from their inception to the final publication, showing which the related voting history for the different MPs and changes to the texts chronologically. Aside from the web interface, the data is also made accessible through an API. 
 
