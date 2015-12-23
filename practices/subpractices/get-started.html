@@ -354,7 +354,17 @@ Siyazana
           placement: 'left'
         }
         anchors.add('h2,h3,dt');
+
+        $("[href^='#']").not("[href~='#']").click(function(evt){
+            evt.preventDefault();
+            var obj = $(this),
+            getHref = obj.attr("href").split("#")[1],
+            offsetSize = 75;
+            $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+        });
+
       });
+
     </script>
     
   </body>
