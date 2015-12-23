@@ -9,6 +9,8 @@ Budget amount: Not disclosed
 Location: Buenos Aires (Argentina)
 URL: http://cargografias.org
 Type of output: The political trajectories of presidential candidates and government members in Argentina visualised on timelines.
+
+Visit the [Cargografías project page](../projects/cargografas.html)
  
 Cargografías allows you to explore the timelines of the electoral mandates of the Argentinian representatives, in order to foster transparency in Argentinian politics, to help citizens to get a full picture of the political history of the presidential candidates and members of the government in Argentina, and thus make decisions based on these facts.
 
