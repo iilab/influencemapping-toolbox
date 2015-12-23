@@ -130,9 +130,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>A social network analysis of lobby organizations and commissioners, cabinet members and directors-general that have met at least twice between December and July. Lobbyists who appear in a star structure were invited to several meetings as a group. Commission officials and organizations at the center of the network were in touch with a wider network of policy-makers and influencers.</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>For Lobbyist in Brussels, FASResearch employed social network analysis techniques to understand the lobbying system in place in Brussels and how it interacts with the commissionners, cabinet members and general directors. You can browse through the data by checking a name or a topic and see who is pulling the strings.
 </dd>
@@ -152,9 +149,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Awareness Raising
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -430,6 +424,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

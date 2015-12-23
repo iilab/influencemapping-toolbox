@@ -130,9 +130,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>The database contains ownership information about companies created in 10 offshore jurisdictions including the British Virgin Islands, the Cook Islands and Singapore. It covers nearly 30 years until 2010.</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>ICIJ released the offshore leaks in partnership with more than 20 media all around the world and gathered a myriad of stories, web apps, video reports and analyses stemming from the leaks release. Furthermore, the ICIJ and La Nación teams reverse engineered the offshore leaks data to create a linked, searchable database of off-shore companies, enabling anyone to browse through it and to uncover new stories.
 </dd>
@@ -152,9 +149,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Research
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -441,6 +435,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

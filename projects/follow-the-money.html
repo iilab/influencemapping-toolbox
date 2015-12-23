@@ -130,9 +130,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>Follow The Money is a verifiable archive of contributions to political campaigns in all 50 states of the US.</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>The National Institute on Money in State Politics uses data from official disclosure agencies, and staff then use research techniques to verify, standardise and code the data for inclusion in the archive.
 </dd>
@@ -152,9 +149,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Research
-</dd>
 <dt>Target Audience</dt>
 <dd>Broad Professional/Sectoral
 </dd>
@@ -441,6 +435,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

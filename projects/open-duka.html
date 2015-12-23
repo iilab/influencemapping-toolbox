@@ -132,9 +132,6 @@
 previous campaigns, administrations and organizations close to the<br />
 possible nominees</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>In partnership with Kenya Law and the Kenyan Gazette, Open Duka scraped and visualized networks of relationships between people, corporations and institutional entities in Kenya.
 </dd>
@@ -154,9 +151,6 @@ possible nominees</strong></p>
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Awareness Raising
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -438,6 +432,14 @@ possible nominees</strong></p>
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

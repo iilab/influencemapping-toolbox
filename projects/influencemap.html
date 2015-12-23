@@ -130,9 +130,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>We are a neutral and independent UK-based non-profit whose remit is to map, analyze and score the extent to which corporations are influencing climate policy and legislation worldwide. </strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>Influence Map uses data from company records and third party sources to assess the company's engagement with climate issues according to a documented ranking system
 </dd>
@@ -152,9 +149,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Movement Building
-</dd>
 <dt>Target Audience</dt>
 <dd>Broad Professional/Sectoral
 </dd>
@@ -441,6 +435,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

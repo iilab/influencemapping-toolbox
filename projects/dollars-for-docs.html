@@ -133,9 +133,6 @@ Archive available at <a href="http://projects.propublica.org/d4d-archive/" class
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>Pharmaceutical and medical device companies are now required by law to release details of their payments to a variety of doctors and U.S. teaching hospitals for promotional talks, research and consulting, among other categories. ProPublica are turning this information into an easy-to-use database, in website and app form, so that patients can quickly discover the payments made to their doctor.</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>ProPublica use details of payments disclosed under the under the Physician Payment Sunshine Act, released by the Centers for Medicare and Medicaid Services, and have created from them a series of databases to allow patients to see whether their doctor receives funds from drug and medical device companies. Historic data is archived and remains available.
 </dd>
@@ -155,9 +152,6 @@ Archive available at <a href="http://projects.propublica.org/d4d-archive/" class
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Awareness Raising
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -441,6 +435,14 @@ Archive available at <a href="http://projects.propublica.org/d4d-archive/" class
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

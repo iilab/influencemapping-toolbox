@@ -130,9 +130,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>K-Monitor is an anti-corruption grass root NGO founded in 2007. K-Monitor strives against corruption and promotes the transparency of public spending in Hungary. K-Monitor operates open data websites, conducts research and advocates for legal reform. With the contribution of our researches, analyses and recommendations, we aim to challenge and overcome the social indifference to corruption, to raise awareness and disseminate knowledge. We truly believe that information technology can contribute to a more open, more transparent and more democratic way of governing. Therefore K-Monitor develops databases and online tools by which public expenses become trackable, and decision makers can be hold accountable.</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>K-Monitor develops IT tools and databases to facilitate civil oversight on public money and to detect corruption in Hungary.
 </dd>
@@ -152,9 +149,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Awareness Raising
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -435,6 +429,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

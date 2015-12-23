@@ -131,9 +131,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>This site and The Full Participation Report are the result—home to 850,000 data points, spanning more than 20 years, from over 190 countries. Through data visualizations and stories, we aim to present the gains and gaps in understandable, sharable ways—including by making the data open and easily available.</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>No Ceilings is a repository of data for indicators of gender equality in the world, compiled from multiple data sources and processed (usually automatically) to create a database and subsequent visualisations
 </dd>
@@ -153,9 +150,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Awareness Raising
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -439,6 +433,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

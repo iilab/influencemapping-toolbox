@@ -131,9 +131,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>Parltrack is a European initiative to improve the transparency of legislative processes. It combines information on dossiers, representatives, vote results and committee agendas into a unique database and allows the tracking of dossiers using email and RSS. Most of the data presented is also available for further processing in JSON format. Using Parltrack it's easy to see at a glance which dossiers are being handled by committees and MEPs.</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>Using the data from europarl.europa.eu, Parltrack provides information on dossiers, representatives, vote results and committee agendas. Users can consult them and track specific dossiers by suscribing to RSS feeds or email updates.
 </dd>
@@ -153,9 +150,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Research
-</dd>
 <dt>Target Audience</dt>
 <dd>Broad Professional/Sectoral
 </dd>
@@ -439,6 +433,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

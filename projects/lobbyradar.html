@@ -133,9 +133,6 @@ Lobbyradar.de is temporarily offline but the lobbyradar data is hosted on mirror
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>Lobbyradar uncovers relationships between lobbies and german policymakers. </strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>Lobbyradar mapped the network of connections between industrial lobbies and German politicians. It also supplies a plugin that alerts the user whenever a page contains any name or information about an actor or entity in their database so that users (and voters) can be more knowledgeabe about a politician or a company.
 </dd>
@@ -155,9 +152,6 @@ Lobbyradar.de is temporarily offline but the lobbyradar data is hosted on mirror
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Awareness Raising
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -441,6 +435,14 @@ Lobbyradar.de is temporarily offline but the lobbyradar data is hosted on mirror
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

@@ -131,9 +131,6 @@
 <p>__EurActory is a new and free service, developed by EU Community. EurActory scans the growing amount of information about people involved in EU policy making. It analyses and ranks the information, identifying the relevant experts.</p>
 <p>__</p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>EU Community's EurActory platform identifies and ranks experts and actors in EU Policy, and shows their influence by assessing 8 different criteria, both on and offline. Its PolicyLine tool visualises policy processes and provides information on significant events and documents (and the people involved).
 </dd>
@@ -153,9 +150,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Policy Advice
-</dd>
 <dt>Target Audience</dt>
 <dd>Broad Professional/Sectoral
 </dd>
@@ -436,6 +430,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,

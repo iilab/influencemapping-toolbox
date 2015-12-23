@@ -213,6 +213,14 @@
     <script type="text/javascript">
       $(document).ready(function(){
 
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
+
         $('.carousel').slick({
           infinite: false,
           variableWidth: true,

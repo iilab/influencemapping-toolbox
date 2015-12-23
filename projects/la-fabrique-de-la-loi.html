@@ -132,9 +132,6 @@
 <p><em>Summary of the project and its approach</em></p>
 <p><strong>Documents and maps policy making though representatives debates and voting processes</strong></p>
 <dl>
-<dt>Rationale (Why?)</dt>
-<dd>
-</dd>
 <dt>Approach (How?)</dt>
 <dd>La Fabrique de La Loi visualizes with timelines and a track changes interface the votes of the MPs and the back and forths between the French Parliament and different political commissions, this project focuses on tracking the influence of different political interests in the lawmaking process.
 </dd>
@@ -154,9 +151,6 @@
 <h2 id="impact">Impact</h2>
 <p><em>Indicators of reach and impact of the project</em></p>
 <dl>
-<dt>Intended Impact</dt>
-<dd>Research
-</dd>
 <dt>Target Audience</dt>
 <dd>General Public
 </dd>
@@ -440,6 +434,14 @@
     
     <script type="text/javascript">
       $(document).ready(function(){
+
+        if(window.location.hash) {
+          setTimeout(function() {
+              getHref = window.location.hash.split("#")[1]
+              offsetSize = 75;
+              $(window).scrollTop($("[id*='"+getHref+"']").offset().top - offsetSize);
+          }, 1000);          
+        }
 
         $('.carousel').slick({
           infinite: false,
