@@ -10,6 +10,8 @@ Location: Nairobi (Kenya)
 URL: http://openduka.org 
 Type of output: A free database about Kenyan entities to browse between networks of relationships linking people, organisations, tenders, contracts, cases and land parcels together. 
 
+Visit the [Open Duka project page](../projects/openduka.html)
+
 Open Duka was started to gather information in one repository to create a searchable database of institutions and actors in power and commerce in Kenya, in order to foster more accountability and to facilitate oversight by citizens, journalists and civic activists. 
 
 Incubated by the Open Institute, the project is open source and the database is freely available and can be queried via the Open Duka API. Data has been scraped from online sources that provide shareholder information, procurement information, legal cases and company information, from data providers and partners The Kenyan Gazette and Kenya Law. Open Duka’s site is coded in PHP and the database is managed with MyTML library. Visualisation is now based on D3 javascript library.
