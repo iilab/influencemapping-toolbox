@@ -1,59 +1,59 @@
-Practice,Name,PracticeIntro,Alias,Description,Intro,Body,
-Plan,Get Started,"When you get started on a project it's usually an intuition or a question that guides you, but to achieve your goals, a little bit of planning goes a long way.",Project Management,Get started on an influence mapping project,You've found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess ,"### The Toolbox Projects
+Practice,Name,PracticeIntro,Alias,Description,Intro,Body
+Plan,Get Started,"When you get started on a project it's usually an intuition or a question that guides you, but to achieve your goals, a little bit of planning goes a long way.",Planning,Get started on an influence mapping project,You've found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess ,"### The Toolbox Projects
 
 ### Read Case Studies
 
-### Field Survey",
-Plan,Project Design,,Project Management,Define your problem and structure your project,,"### Methodology
+### Field Survey"
+Plan,Project Design,,Planning,Define your problem and structure your project,,"### Methodology
 Iterative!
 ### User centric methodologies
 
 Finding a link, confirming a hypothesis, exploring, revealing, using
 
 ### Agile methodologies
-",
-Plan,Ethics,,Project Management,Do the right thing,,"### How to collect data ethically
+"
+Plan,Ethics,,Planning,Do the right thing,,"### How to collect data ethically
 
-",
-Plan,Collaboration,,Project Management,Get the right skillset in your team,,"### What skills do you need?
+"
+Plan,Collaboration,,Planning,Get the right skillset in your team,,"### What skills do you need?
 
 ### What are the different types of Partnerships?
 
 ### How to deal with technology contractors
 
-### How to deal with project lead that want to contract with you",
-Plan,Planning,,Project Management,Devise a way to achieve your goals,,"### Budgeting
+### How to deal with project lead that want to contract with you"
+Plan,Planning,,Planning,Devise a way to achieve your goals,,"### Budgeting
 
 ### Analyse your projects' risks
 
-### Sustainability: Build your project to last",
-Collect,Get Started,There's a lot of data out there asking the right questions and knowing when you need to organise your own data collection takes experience.,Data Collection,Asking the right questions to get the right data,,,
-Collect,Find Data Sources,,Data Collection,Find good data sources,,Who's got dirt,
-Collect,Collect Data,,Data Collection,Organise the collection of data,,"### Sometimes its best to start collecting data right away. How to do this in a way that means that the data can be reused later?
+### Sustainability: Build your project to last"
+Collect,Get Started,There's a lot of data out there asking the right questions and knowing when you need to organise your own data collection takes experience.,Collecting Data,Asking the right questions to get the right data,,
+Collect,Find Data Sources,,Collecting Data,Find good data sources,,Who's got dirt
+Collect,Collect Data,,Collecting Data,Organise the collection of data,,"### Sometimes its best to start collecting data right away. How to do this in a way that means that the data can be reused later?
 
 ### Crowdsourcing data collection
 
 ### Training data collectors
 
-### Informed consent, deanonymisation and secure source communication",
-Collect,Clean Data,,Data Analysis,How to clean up your data?,,"### WRANGLE IMPORTANT!!!!
+### Informed consent, deanonymisation and secure source communication"
+Collect,Clean Data,,Collecting Data,How to clean up your data?,,"### WRANGLE IMPORTANT!!!!
 
-Refine",
-Collect,Verify Data,,Data Collection,How to check your data quality?,,,
-Organise,Get Started,"Investigating, analysing and finding more about your problem goes hand in hand with how you organise and structure your data. It determines how your project is experienced by your audience but it will also have a lot of impact on the type of technology you'll need.",Data Management,Getting to know your data. Are the answers to your questions or the links you want to put in the spotlight in your data?,,"### Working with data in spreadsheets
+Refine"
+Collect,Verify Data,,Collecting Data,How to check your data quality?,,
+Organise,Get Started,"Investigating, analysing and finding more about your problem goes hand in hand with how you organise and structure your data. It determines how your project is experienced by your audience but it will also have a lot of impact on the type of technology you'll need.",Organising Data,Getting to know your data. Are the answers to your questions or the links you want to put in the spotlight in your data?,,"### Working with data in spreadsheets
 ### Working with data in databases
 ### Working with linked open data
-",
-Organise,Model Data,,Data Management,How to choose a model to organise your data,,"### Your project from the Data angle
+"
+Organise,Model Data,,Organising Data,How to choose a model to organise your data,,"### Your project from the Data angle
 
 ### Table / Relational  / Graph 
 
 ### Unique IDs
 
 ### Managing Dates
-",
-Organise,Integrate Data,,Data Management,Transforming and joining data from different sources,,,
-Organise,Analyse Data,,Data Analysis,How to analyse your data?,,"### Knowing your data!!!!
+"
+Organise,Integrate Data,,Organising Data,Transforming and joining data from different sources,,
+Organise,Analyse Data,,Organising Data,How to analyse your data?,,"### Knowing your data!!!!
 
 Refine
 
@@ -61,10 +61,11 @@ Refine
 
 ### Cluster Analysis
 
-Multidimensional scaling for the analysis of the data.  ???",
-Organise,Host & Secure Data,,Data Management,Where is your data going to be stored and who will be able to access it,,,
-Publish,Get Started,"Putting your story out there is when it can be able to create impact. But with data stories, allowing others to build on your result can be the difference between satisfying accolades by your peers and actual real world impact.",Data Publishing,What are the ways in which your result and your data can have the impact you want?,,### Privacy / Data Protection Law... Compliance,
-Publish,Present Data,,Data Publishing,Make your data tell its story and engage your audience,,"### Data Visualisations
+Multidimensional scaling for the analysis of the data.  ??? Scale
+Diversity / Heterogeneity"
+Organise,Host & Secure Data,,Organising Data,Where is your data going to be stored and who will be able to access it,,
+Publish,Get Started,"Putting your story out there is when it can be able to create impact. But with data stories, allowing others to build on your result can be the difference between satisfying accolades by your peers and actual real world impact.",Publishing Data,What are the ways in which your result and your data can have the impact you want?,,### Privacy / Data Protection Law... Compliance
+Publish,Present Data,,Publishing Data,Make your data tell its story and engage your audience,,"### Data Visualisations
 
 
 ### Data Interactions
@@ -72,7 +73,7 @@ Navigation and interactions with data
 
 ### Data Narratives
 Telling a story with your data
-",
-Publish,Describe Data,,Data Publishing,Explain where your data is coming from and how its structure,,### Schema understanding,
-Publish,Facilitate Data Reuse,,Data Publishing,Make it easier for others to reuse and build on your data,,,
-Publish,Measure Impact,,Data Publishing,Know when you're having the impact you were hoping for,,BEAUTIFUL DATA!,
+"
+Publish,Describe Data,,Publishing Data,Explain where your data is coming from and how its structure,,### Schema understanding
+Publish,Facilitate Data Reuse,,Publishing Data,Make it easier for others to reuse and build on your data,,
+Publish,Measure Impact,,Publishing Data,Know when you're having the impact you were hoping for,,BEAUTIFUL DATA!

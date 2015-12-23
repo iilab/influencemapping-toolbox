@@ -2,10 +2,8 @@
 title: Exploring power and the powerful
 description: 
 home: true
-layout: search.html
+layout: index.html
 ---
-
-<center>![](assets/images/logo.png)</center>
 
 How can researchers, journalists and activists map out the influence of personal ties, economic interest and other relationships in politics?
 

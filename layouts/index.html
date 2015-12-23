@@ -1,5 +1,21 @@
 {% extends "layouts/default.html" %}
 
+{% block hero %}
+<header class="intro-header" style="background-image: url('/influencemapping-toolbox/assets/images/logo.png')">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<div class="site-heading">
+<h1>Influence Mapping Toolbox</h1>
+<hr class="small">
+<span class="subheading">Learn from Influence Mapping Practicionners</span>
+</div>
+</div>
+</div>
+</div>
+</header>
+{% endblock %}
+
 {% block main %}
 {{ contents | safe }}
 <div class="row">
