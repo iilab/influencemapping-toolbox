@@ -1,1 +1,0 @@
-Mapping Entities using the Scrapping data from many news sites in Chile
