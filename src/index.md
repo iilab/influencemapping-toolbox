@@ -8,10 +8,11 @@ layout: index.html
 
 The influence mapping toolbox guides you to
 
- * [Find the data you need](practices/collecting.html)
- * [Organise your data](practices/organising.html)
- * [Make sense of your data](practices/analysing.html)
- * [Share your data and findings](practices/publishing.html)
+<nav><ul class="pager">
+<li>[Find data you need](practices.html#collect)</li>
+<li>[Make sense of your data](practices.html#organise)</li>
+<li>[Share data and findings](practices.html#publish)</li>
+</ul></nav>
 
 Not sure where to start?
 

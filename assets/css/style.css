@@ -120,10 +120,6 @@ ul {
     color: white;
     padding: 20px;
   }
-  .navbar-fixed-top .navbar-brand:hover,
-  .navbar-fixed-top .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
-  }
   .navbar-fixed-top .nav li a {
     color: white;
     padding: 20px;
@@ -148,14 +144,10 @@ ul {
 
 }
 
-.navbar-fixed-top .nav li a:hover, .navbar-fixed-top .nav li a:focus {
+.navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .nav li a:hover, .navbar-fixed-top .nav li a:focus {
     color: #0085a1;
 }
 
-.navbar-fixed-top .nav li a {
-    color: #404040;
-}
-
-.navbar-fixed-top .navbar-brand {
+.navbar-fixed-top .navbar-brand , .navbar-fixed-top .nav li a {
     color: #404040;
 }

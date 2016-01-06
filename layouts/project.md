@@ -90,11 +90,6 @@ _Summary of the project and its approach_
 __{{ description2 }}__
 
 
-Rationale (Why?)
-:   {{ rationale_why }}
-
-
-
 Approach (How?)
 :   {{ approach_how }}
 
@@ -122,10 +117,6 @@ Partners
 ## Impact
 
 _Indicators of reach and impact of the project_
-
-Intended Impact
-:   {{ intended_impact }}
-
 
 
 Target Audience
