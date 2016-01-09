@@ -37,7 +37,7 @@
       </button>
       <a class="navbar-brand" href="/influencemapping-toolbox/">
         <span><img src="/influencemapping-toolbox/assets/images/opennews-favicon.ico"></span>
-        Toolbox
+        Toolbox <span style="color:red;">(Beta)</span>
       </a>
     </div>
 
@@ -119,14 +119,13 @@
 <div class="row">
   <div class="col-md-12" role="main">
     <table class="table table-striped">
-      <thead><td>Type</td><td>Name</td><td>Description</td></thead>
+      <thead><td>Name</td><td>Description</td></thead>
       <tbody class="search-results" id="results"></tbody>
     </table>
   </div>
 </div>
 <script id="result-template" type="text/html">
 <tr>  
-  <td><%= content_type %></td>
   <td><a href="<%= path %>"><%= name %></a></td>
   <td><%= description %></td>
 </tr>
@@ -239,11 +238,14 @@ $( document ).ready(function($) {
           })
 
         var ks = _.keys(store);
-        var results = _.map(ks, function(k) {
-          // add store key of object as path key of array object
-          var ret = _.extend( { path: k } , store[k] );
-          return ret;
-        })
+        var results = _.chain(ks)
+                       .filter(function(k){ return store[k].content_type=="project"})
+                       .map(function(k) {
+                         // add store key of object as path key of array object
+                         var ret = _.extend( { path: k } , store[k] );
+                         return ret;
+                       })
+                       .value()
 
         var FJS = FilterJS(results, '#results', {
           template: '#result-template',
