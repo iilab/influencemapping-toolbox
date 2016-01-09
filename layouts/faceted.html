@@ -1,0 +1,160 @@
+{% extends "layouts/default.html" %}
+
+{% block main %}
+{{ contents | safe }}
+<div class="row">
+  <div class="col-md-12" role="main">
+    <div class="form-group">
+      <div>
+        <label class="sr-only" for="searchbox">Search</label>
+        <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;">
+        <span class="glyphicon glyphicon-search search-icon"></span>
+      </div>
+      <p id="total-results"></p>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="form-group">
+      <fieldset id="target_audience_criteria">
+        <legend>Target Audience</legend>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="All" id="all_target_audience">
+            <span>All</span>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="User">
+            <span>User</span>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Data User">
+            <span>Data User</span>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Developer">
+            <span>Developer</span> 
+          </label>
+        </div>
+      </fieldset>
+    </div>  
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12" role="main">
+    <table class="table table-striped">
+      <thead><td>Type</td><td>Name</td><td>Description</td></thead>
+      <tbody class="search-results" id="results"></tbody>
+    </table>
+  </div>
+</div>
+<script id="result-template" type="text/html">
+<tr>  
+  <td><%= content_type %></td>
+  <td><a href="<%= path %>"><%= name %></a></td>
+  <td><%= description %></td>
+</tr>
+</script>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+$( document ).ready(function($) {
+
+    nunjucks.configure('assets/templates', { autoescape: true });
+    initFacets();
+
+    var tags,
+        index,
+        store = $.getJSON("searchMeta.json"),
+        data = $.getJSON("searchIndex.json"),
+        res = {};
+
+    data.then(function(data) {
+      store.then(function(store) {
+
+        tags = _.chain(store)
+          .reduce(function(memo, val) {
+              if (val.tags) memo.push(val.tags);
+              return memo;
+            }, [])
+          .unique()
+          .value();
+
+        var ks = _.keys(store);
+        var results = _.map(ks, function(k) {
+          var ret = _.extend( { path: k } , store[k] );
+          return ret;
+        })
+
+        var FJS = FilterJS(results, '#results', {
+          template: '#result-template',
+          search: {ele: '#searchbox'},
+          //search: {ele: '#searchbox', fields: ['runtime']}, // With specific fields
+          callbacks: {
+            afterFilter: function(result){
+              $('#total_results').text(result.length);
+            }
+          }
+          //appendToContainer: appendToContainer
+        });
+
+        FJS.addCriteria({field: 'target_audience', ele: '#target_audience_criteria input:checkbox'});
+
+      })
+    })
+/*
+    data.then(function(data){
+        // create index
+        index = lunr.Index.load(data)
+        store.then(function(store) {
+          var array = $.map(store, function(value, index) {
+              return [$.extend({},value, {ref: index})];
+          });
+          results_store = prepareResults(array,store)
+          res = renderResults(results_store)
+        });
+
+        $('.search-results').empty().append( res.nb ?
+          res.html : $('<p><strong>No results found</strong></p>')
+        );
+
+        $('.total-results').text(res.nb);
+
+    });
+*/
+});
+
+function prepareResults(results, store) {
+    var results_store = results
+    .map(function(result){
+      return $.extend({}, store[result.ref], { path : result.ref.replace(".md", ".html"), score: result.score });
+    })
+    .sort(function (a, b) {
+      return b.score - a.score
+    })
+
+    return results_store;
+}
+
+function renderResults(results) {
+  return {
+    results: results,
+    html: nunjucks.render('results.html', { results: results }),
+    nb: results.length
+  }
+}
+
+function initFacets(){
+  $('#target_audience_criteria :checkbox').prop('checked', true);
+  $('#all_target_audience').on('click', function(){
+    $('#target_audience_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  });
+}
+</script>
+{% endblock %}
