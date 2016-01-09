@@ -22,6 +22,13 @@
   </div>
   <div class="col-md-3">
     <div class="form-group">
+      <fieldset id="practice_criteria">
+        <legend>Practice</legend>
+      </fieldset>
+    </div>  
+  </div>
+  <div class="col-md-3">
+    <div class="form-group">
       <fieldset id="phase_criteria">
         <legend>Phase</legend>
       </fieldset>
@@ -31,13 +38,6 @@
     <div class="form-group">
       <fieldset id="project_audience_criteria">
         <legend>Project Audience</legend>
-      </fieldset>
-    </div>  
-  </div>
-  <div class="col-md-3">
-    <div class="form-group">
-      <fieldset id="practice_criteria">
-        <legend>Practice</legend>
       </fieldset>
     </div>  
   </div>
@@ -59,14 +59,13 @@
 <div class="row">
   <div class="col-md-12" role="main">
     <table class="table table-striped">
-      <thead><td>Type</td><td>Name</td><td>Description</td></thead>
+      <thead><td>Name</td><td>Description</td></thead>
       <tbody class="search-results" id="results"></tbody>
     </table>
   </div>
 </div>
 <script id="result-template" type="text/html">
 <tr>  
-  <td><%= content_type %></td>
   <td><a href="<%= path %>"><%= name %></a></td>
   <td><%= description %></td>
 </tr>
@@ -128,11 +127,14 @@ $( document ).ready(function($) {
           })
 
         var ks = _.keys(store);
-        var results = _.map(ks, function(k) {
-          // add store key of object as path key of array object
-          var ret = _.extend( { path: k } , store[k] );
-          return ret;
-        })
+        var results = _.chain(ks)
+                       .filter(function(k){ return store[k].content_type=="project"})
+                       .map(function(k) {
+                         // add store key of object as path key of array object
+                         var ret = _.extend( { path: k } , store[k] );
+                         return ret;
+                       })
+                       .value()
 
         var FJS = FilterJS(results, '#results', {
           template: '#result-template',
