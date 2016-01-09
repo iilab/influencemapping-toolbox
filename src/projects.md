@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: faceted.html
+layout: projects.html
 ---
 
 # Projects

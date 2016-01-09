@@ -116,16 +116,25 @@
     },
     "metalsmith-search-meta": {
         "path": "searchMeta.json",
+        "pad": true,
         "properties": [
           "name", 
           "tags", 
           "content_type", 
           "keywords",
-          "target_audience",
+          "project_audience",
+          "usage_audience",
+          "installation_audience",
           "open_source",
+          "open_source_license",
           "description",
           "practice",
-          "practice_2"
+          "practice_2",
+          "phase",
+          "geographic_focus",
+          "intended_impact",
+          "team_size",
+          "thematic_focus"
         ]
     },
     "metalsmith-pandoc": {
