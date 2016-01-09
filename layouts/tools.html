@@ -117,7 +117,7 @@ $( document ).ready(function($) {
                        .filter(function(k){ return store[k].content_type=="tool"})
                        .map(function(k) {
                          // add store key of object as path key of array object
-                         var ret = _.extend( { path: k } , store[k] );
+                         var ret = _.extend( { path: k.replace(".md", ".html") } , store[k] );
                          return ret;
                        })
                        .value()
