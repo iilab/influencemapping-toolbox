@@ -151,3 +151,17 @@ ul {
 .navbar-fixed-top .navbar-brand , .navbar-fixed-top .nav li a {
     color: #404040;
 }
+
+.search-icon {
+    position: relative;
+    margin-top: -25px;
+    display: inline-block;
+    width: 28px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+    background-color: transparent;
+    font-size: 20px;
+    color: #222;
+    float: right;
+}
