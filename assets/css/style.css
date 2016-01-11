@@ -165,3 +165,9 @@ ul {
     color: #222;
     float: right;
 }
+
+.small legend {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom:0px;
+}
