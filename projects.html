@@ -62,7 +62,7 @@
 <h1 id="projects">Projects</h1>
 <p>List of Projects</p>
 
-<div class="row">
+<div class="row small">
   <div class="col-md-12" role="main">
     <div class="form-group">
       <div>
@@ -119,7 +119,8 @@
 <div class="row">
   <div class="col-md-12" role="main">
     <table class="table table-striped">
-      <thead><td>Name</td><td>Description</td></thead>
+      <caption id="total_results" class="small"></caption>
+      <thead><td><strong>Name</strong></td><td><strong>Description</strong></td></thead>
       <tbody class="search-results" id="results"></tbody>
     </table>
   </div>
@@ -252,8 +253,50 @@ $( document ).ready(function($) {
           search: {ele: '#searchbox'},
           //search: {ele: '#searchbox', fields: ['runtime']}, // With specific fields
           callbacks: {
+            afterAddRecords: function(records){
+              $('#total_results').text('Found : ' + records.length);
+
+              _.chain(meta)
+               .keys()
+               .omit("library","data_modeling","bulk_upload","displays_lists","network_viz","network_editing","network_analysis","embeddable","document_viz","timelines","maps")
+               .each(function(k){
+                  var checkboxes  = $('#' + k + '_criteria :input');
+                  var qResult = JsonQuery(records);
+
+                  checkboxes.each(function(){
+                    var c = $(this)
+                    var q = {};
+                    q[k] = c.val();
+                    var count = qResult.where(q).count;
+                    c.next().text(c.val() + ' (' + count + ')')
+                  });
+                })
+
+            },
             afterFilter: function(result){
-              $('#total_results').text(result.length);
+              if(!result.length){
+                 $('#total_results').text("No results found");
+              }
+              else
+              {
+                  $('#total_results').text('Found : ' + result.length);
+              }
+
+              _.chain(meta)
+               .keys()
+               .omit("library","data_modeling","bulk_upload","displays_lists","network_viz","network_editing","network_analysis","embeddable","document_viz","timelines","maps")
+               .each(function(k){
+                  var checkboxes  = $('#' + k + '_criteria :input');
+                  var qResult = JsonQuery(result);
+
+                  checkboxes.each(function(){
+                    var c = $(this)
+                    var q = {};
+                    q[k] = c.val();
+                    var count = qResult.where(q).count;
+                    c.next().text(c.val() + ' (' + count + ')')
+                  });
+                })
             }
           }
           //appendToContainer: appendToContainer
