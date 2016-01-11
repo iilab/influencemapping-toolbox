@@ -44,7 +44,8 @@ Finally, a series of case studies were made to further interrogate the influence
 ## Technology
 
 Requirements
- - ```node.js```
+ - node.js ```brew install node``` on OSX. 
+ - metalsmith ```npm install -g metalsmith```
 
 Installation
  - ```git clone https://github.com/iilab/influencemapping-toolbox.git```
@@ -52,7 +53,7 @@ Installation
  - ```npm install```
 
 Build
- - ```metalsmith``` will build the site
+ - ```metalsmith``` will build the site in the ```build``` directory.
 
 Features
  - Generation of the website using the [Metalsmith](http://www.metalsmith.io/) static website generator.
