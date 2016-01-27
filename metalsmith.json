@@ -5,9 +5,9 @@
   "plugins": {
     "metalsmith-env": {},
     "metalsmith-metadata": {
-      "practices": "data/practices.csv",
-      "projects": "data/projects.csv",
-      "tools": "data/tools.csv"
+      "practices": "data/practices.yaml",
+      "projects": "data/projects.yaml",
+      "tools": "data/tools.yaml"
     },
     "metalsmith-sass": {
     },
