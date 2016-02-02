@@ -21,17 +21,19 @@ __Come join us__.
 #The influence mapping toolbox
 This toolbox aims to help people learn about existing influence mapping projects, and to share learning about common practices, tools and project experiences. Together we can help influence mapping grow and have even more impact.
 
+Use the links below to start exploring influence mapping practices, or take a look at our influence mapping [case studies](case_studies.html) to get an in-depth view of selected projects.
+
 <nav><ul class="pager">
 <li>[Find data you need](practices.html#collect)</li>
 <li>[Make sense of your data](practices.html#organise)</li>
 <li>[Share data and findings](practices.html#publish)</li>
 </ul></nav>
 
-Not sure where to start?
+##Not sure where to start?
 
- * Find out more with our [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf))
  * Take a tour of the [tools available](tools.html)
  * Find out who’s doing work like yours in [projects](projects.html)
  * Read through our influence mapping [case studies](case_studies.html).
  * Learn about our influence mapping essential [practices](practices.html)
+ * Find out more with our [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf))
 <br>
