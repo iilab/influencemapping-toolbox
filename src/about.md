@@ -13,18 +13,18 @@ The Toolbox has been developped by [iilab - information innovation lab](https://
 
 Influence mapping is an emerging, diverse field. Situated somewhere between data journalism, network visualisation, political science and activism, influence mapping is still building an identity as a practice in its own right. You could be an influence mapper and not even know it yet.
 
-Primarily, influence mapping is about making impact. Whether that’s through identifying key people, exposing or creating transparency in power relationships, or network mapping and visualisation, influence mapping is ultimately a way to hold accountable those in power - a process that allows citizens to have oversight on governments, organisations and corporations.
-
-Influence mapping is at a stage now where there are many people doing similar work but, because the community is still fragmented, learning is not being shared as effectively or as widely as it could be. To make the most of the excellent work and expertise already in the space, we set out to create a resource where the varied expertise and in-depth knowledge of influence mappers can be shared and built upon: a toolbox that will help newcomers and experts to map influence and make the most of their work.
+Primarily, influence mapping is about making an impact. Whether that’s through identifying key people, exposing or creating transparency in power relationships, or network mapping and visualisation, influence mapping is ultimately a way to hold accountable those in power - a process that allows citizens to have oversight on governments, organisations and corporations.
 
 We delineate influence mapping as 
 > projects using varied methodologies and creating tools that help to find evidence, stories and visualisations that aim to hold those in power accountable for their decisions
 
 We’ve used this loose definition to guide the design of the influence mapping toolbox. This toolbox aims to help people learn about existing influence mapping projects, and to share learning about common practices, tools and project experiences, so that influence mapping as a practice can grow and have even more impact.
 
-Find out more about this work in our [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf))
+Find out more about this work in our [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf)).
 
 ## Why we made the toolbox
+
+Influence mapping is at a stage now where there are many people doing similar work but, because the community is still fragmented, learning is not being shared as effectively or as widely as it could be. To make the most of the excellent work and expertise already in the space, we set out to create a resource where the varied expertise and in-depth knowledge of influence mappers can be shared and built upon: a toolbox that will help newcomers and experts to map influence and make the most of their work.
 
 The idea for the Influence Mapping Toolbox came from discussions of the [Influence Mapping community](http://influencemapping.org), a group of practitioners involved in understanding networks of power, established in early 2015. The project was born out of a desire to share the knowledge accumulated in the many and diverse projects and investigations that fall within this loosely defined space - to define the space further and to help others who might want to do similar work. The Influence Mapping community asked [iilab](https://iilab.org) to take on this fascinating project. The work has been carried out by Lilas Duvernois, Kat Austen and Jun Matsushita.
 
