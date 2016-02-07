@@ -1,6 +1,8 @@
 ---
-layout: default.html
+layout: default
+title: Parltrack
 ---
+
 # Parltrack
 
 <div class="panel panel-default">

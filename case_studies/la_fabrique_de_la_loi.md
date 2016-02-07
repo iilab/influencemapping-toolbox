@@ -1,6 +1,8 @@
 ---
-layout: default.html
+layout: default
+title: La Fabrique de la Loi
 ---
+
 # La Fabrique de la Loi
 
 <div class="panel panel-default">

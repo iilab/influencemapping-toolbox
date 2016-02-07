@@ -1,6 +1,8 @@
 ---
-layout: default.html
+layout: default
+title: Political Party Time
 ---
+
 # Political Party Time
 
 <div class="panel panel-default">

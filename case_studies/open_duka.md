@@ -1,6 +1,8 @@
 ---
-layout: default.html
+layout: default
+title: Open Duka
 ---
+
 # Open Duka
 
 <div class="panel panel-default">

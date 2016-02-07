@@ -1,5 +1,6 @@
 ---
-layout: default.html
+layout: default
+title: Cargografías
 ---
 
 # Cargografías

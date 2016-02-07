@@ -1,6 +1,8 @@
 ---
-layout: default.html
+layout: default
+title: Lobbyradar
 ---
+
 # Lobbyradar
 
 <div class="panel panel-default">
