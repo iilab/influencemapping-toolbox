@@ -1,43 +1,23 @@
 ---
 layout: default
 title: Lobbyradar
+project_name: lobby-radar
+criteria:
+    Organisational Structure: Project incubated at ZDF (Zweites Deutsches Fernsehen)
+    Interviewee: "Dominik Wurnig and Jan Schneider, project managers and journalists"
+    Start date of the project: 2015
+    Team: Size variable (from Small to Medium)
+    Type of funding: Funded by ZDF
+    Budget amount: €150,000
+    Location: Germany
+    URL: "http://lobbyradar.de (currently offline), archived at http://lobbyradar.org"
+    Type of output: >
+        A visualization and a plugin which shows the different ties between lobbyists and politicians in Germany.
 ---
 
 # Lobbyradar
 
-<div class="panel panel-default">
-<div class="panel-body">
-
-Organisational Structure
-:   Project incubated at ZDF (Zweites Deutsches Fernsehen)
-
-Interviewee
-:   Dominik Wurnig and Jan Schneider, project managers and journalists
-
-Start date of the project
-:   2015
-
-Team
-:   Size variable (from Small to Medium)
-
-Type of funding
-:   Funded by ZDF
-
-Budget amount
-:   €150,000
-
-Location
-:   Germany
-
-URL
-:   http://lobbyradar.de (currently offline), archived at http://lobbyradar.org 
-
-Type of output
-:   A visualization and a plugin which shows the different ties between lobbyists and politicians in Germany.
-
-</div>
-<div class="panel-footer">Visit the [Lobbyradar project page](../projects/lobby-radar.html)</div>
-</div>
+{% include case_sheet.html %}
 
 Lobbyradar uncovers the lobbying groups and private interests in German politics, by enabling users to explore network visualisations that show links between institutions and people of influence within the german political sphere. There is also a browser plugin, which, once installed, supplies information about politicians and lobbyists via a tooltip when their name appears on a website.
 

@@ -1,46 +1,25 @@
 ---
 layout: default
 title: La Fabrique de la Loi
+project_name: la-fabrique-de-la-loi
+criteria:
+    Organisational Structure: >
+        Project led in collaboration between 2 research labs at SciencesPo and the NGO Regards Citoyens
+    Interviewee: Benjamin Ooghe-Tabanou
+    Status: Maintained but not regularly updated
+    Start date of the project: 2011
+    Team: large
+    Type of funding: Grant
+    Budget amount: €150,000 grant from the Ile de France Region fund over 3 years
+    Location: Paris (France)
+    URL: http://www.lafabriquedelaloi.fr
+    Type of output: >
+        290 law texts analysed and visualized (from proposal bill to its published version) showing how parliamentary process in France works.
 ---
 
 # La Fabrique de la Loi
 
-<div class="panel panel-default">
-<div class="panel-body">
-
-Organisational Structure
-:   Project led in collaboration between 2 research labs at SciencesPo and the NGO Regards Citoyens
-
-Interviewee
-:   Benjamin Ooghe-Tabanou
-
-Status
-:   Maintained but not regularly updated 
-
-Start date of the project
-:   2011
-
-Team
-:   Large
-
-Type of funding
-:   Grant
-
-Budget amount
-:   €150,000 grant from the Ile de France Region fund over 3 years
-
-Location
-:   Paris (France)
-
-URL
-:   http://www.lafabriquedelaloi.fr
-
-Type of output
-:   290 law texts analysed and visualized (from proposal bill to its published version) showing how parliamentary process in France works.
-
-</div>
-<div class="panel-footer">Visit the [La Fabrique de la Loi project page](projects/la-fabrique-de-la-loi.html)</div>
-</div>
+{% include case_sheet.html %}
 
 La Fabrique de la Loi publishes and tracks the evolution of bills through French Parliament from their inception to the final publication, showing through visualizations the chronological changes to the text and the related debates history between the different MPs. Aside from the web interface, the data is also made accessible through an API. 
 

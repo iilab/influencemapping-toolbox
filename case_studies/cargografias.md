@@ -1,42 +1,23 @@
 ---
 layout: default
 title: Cargografías
+project_name: cargografas
+criteria:
+    Organisational Structure: Self-initiative/independent project
+    Interviewee: "Andrés Snifcofsky, founder and project lead"
+    Start date of the project: 2013
+    Team: Small
+    Type of funding: Grants
+    Budget amount: Not disclosed
+    Location: Buenos Aires (Argentina)
+    URL: http://cargografias.org
+    Type of output: >
+        The political trajectories of presidential candidates and government members in Argentina visualised on timelines.
 ---
 
 # Cargografías
 
-<div class="panel panel-default">
-<div class="panel-body">
-Organisational Structure
-:   Self-initiative/independent project
-
-Interviewee
-:   Andrés Snifcofsky, founder and project lead
-
-Start date of the project
-:   2013
-
-Team
-:   Small
-
-Type of funding
-:   Grants
-
-Budget amount
-:   Not disclosed
-
-Location
-:   Buenos Aires (Argentina)
-
-URL
-:   http://cargografias.org
-
-Type of output
-:   The political trajectories of presidential candidates and government members in Argentina visualised on timelines.
-
-</div>
-<div class="panel-footer">Visit the [Cargografías project page](../projects/cargografas.html)</div>
-</div>
+{% include case_sheet.html %}
 
 Cargografías allows you to explore the timelines of the electoral mandates of the Argentinian representatives, in order to foster transparency in Argentinian politics, to help citizens to get a full picture of the political history of the presidential candidates and members of the government in Argentina, and thus make decisions based on these facts.
 

@@ -1,43 +1,24 @@
 ---
 layout: default
 title: Political Party Time
+project_name: political-party-time
+criteria:
+    Organisational Structure: Project incubated at the Sunlight Foundation
+    Interviewees: >
+        Jen Topper, Communications Director at Sunlight Foundation and Joshua Stewart, Deputy Communications Director at Sunlight Foundation
+    Start date of the project: 2007
+    Team: Size variable (from Small to Medium)
+    Type of funding: Donations
+    Budget amount: Not disclosed
+    Location: Washington D.C. (USA)
+    URL: http://politicalpartytime.org
+    Type of output: >
+        A tracking system to shed light on cocktail parties and informal meetings organized to raise money for political campaigns or influence candidates through lobbying
 ---
 
 # Political Party Time
 
-<div class="panel panel-default">
-<div class="panel-body">
-
-Organisational Structure
-:   Project incubated at the Sunlight Foundation
-
-Interviewees
-:   Jen Topper, Communications Director at Sunlight Foundation and Joshua Stewart, Deputy Communications Director at Sunlight Foundation
-
-Start date of the project
-:   2007
-
-Team
-:   Size variable (from Small to Medium)
-
-Type of funding
-:   Donations
-
-Budget amount
-:   Not disclosed
-
-Location
-:   Washington D.C. (USA)
-
-URL
-:   http://politicalpartytime.org
-
-Type of output
-:   A tracking system to shed light on cocktail parties and informal meetings organized to raise money for political campaigns or influence candidates through lobbying
-
-</div>
-<div class="panel-footer">Visit the [Political Party Time project page](../projects/political-party-time.html)</div>
-</div>
+{% include case_sheet.html %}
 
 Political Party Time helps to track political fundraising events and the movement of political actors from event invitations. This information can be used to map the relationships between candidates and private interests from different sides. Launched in 2007 by the Sunlight Foundation, the project is still maintained by the organisation but no longer funded.
 

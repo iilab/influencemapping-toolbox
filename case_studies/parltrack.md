@@ -1,43 +1,23 @@
 ---
 layout: default
 title: Parltrack
+project_name: parltrack
+criteria:
+    Organisational Structure: "Self-initiative/independent project"
+    Interviewee: "Stef, founder and project manager"
+    Start date of the project: 2011
+    Team: One person
+    Type of funding: Donations
+    Budget amount: Not disclosed
+    Location: Not disclosed
+    URL: http://parltrack.euwiki.org
+    Output: >
+        A database to track dossiers, representatives, vote results and committees agendas in the European Parliament.
 ---
 
 # Parltrack
 
-<div class="panel panel-default">
-<div class="panel-body">
-
-Organisational Structure
-:   Self-initiative/independent project
-
-Interviewee
-:   Stef, founder and project manager
-
-Start date of the project
-:   2011
-
-Team
-:   One person
-
-Type of funding
-:   Donations
-
-Budget amount
-:   Not disclosed
-
-Location
-:   Not disclosed
-
-URL
-:   http://parltrack.euwiki.org
-
-Output
-:   A database to track dossiers, representatives, vote results and committees agendas in the European Parliament.
-
-</div>
-<div class="panel-footer">Visit the [Parltrack project page](../projects/parltrack.html)</div>
-</div>
+{% include case_sheet.html %}
 
 Parltrack is a free database of European Union dossiers, committee meetings and the people who contributed to them. The project started in 2011, during the campaign against ACTA (the Anti-Counterfeiting Trade Agreement). 
 

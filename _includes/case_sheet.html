@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+    <table class="table table-striped">
+        {% for item in page.criteria %}
+        <tr>
+            <th>{{item[0]}}</th>
+            <td>{{item[1]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <div class="panel-footer">
+        Visit the <a href="../projects/{{page.project_name}}.html">{{page.title}} project page</a>
+    </div>
+</div>
