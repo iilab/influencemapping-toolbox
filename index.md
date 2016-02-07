@@ -2,7 +2,7 @@
 title: Exploring power and the powerful
 description: 
 home: true
-layout: index.html
+layout: index
 ---
 
 Influence mapping is an emerging, diverse field. Situated somewhere between data journalism, network visualisation, political science and activism, influence mapping is still building an identity as a practice in its own right. You could be an influence mapper and not even know it yet.

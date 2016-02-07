@@ -1,5 +1,6 @@
 ---
 ---
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ page.title }} - Influence Mapping Toolbox</title>
+    <title>{{ page.title }} - Influence Mapping Group</title>
     <meta name="author" content="Jun Matsushita" />
     <meta name="description" content="{{page.description}}" />
     <meta name="keywords" content="influence mapping" />
@@ -27,24 +28,23 @@
     <link rel="shortcut icon" href="/assets/images/opennews-favicon.ico">
   </head>
   <body>
-    {% include "nav.html" %}
-    {% block hero %}
-    {% endblock %}
+    {% include nav.html %}
     <div id="page">
-        <div class="container" id="main">
-          <div class="row">
-          {% block main %}
-          {{ contents | safe }}
-          {% endblock %}
-          </div>
+      <div class="container" id="main">
+        <div class="row">
+          {{ content }}
         </div>
+      </div>
     </div>
     <hr>
     <footer class="hidden-print">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+              <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
+            </a><br />
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
           </div>
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <ul class="list-inline text-center">
@@ -65,7 +65,7 @@
       </div>
     </footer>
 
-    {% include "piwik.html" %}
+    {% include piwik.html %}
     <script src="/assets/js/dependencies.js"></script>
     <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
@@ -76,7 +76,6 @@
     <script src="/assets/js/filter.js"></script>
     <script src="/assets/js/anchor.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>
-    {% block js %}
     <script type="text/javascript">
       $(document).ready(function(){
 
@@ -145,6 +144,5 @@
       });
 
     </script>
-    {% endblock %}
   </body>
 </html>

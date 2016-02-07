@@ -1,7 +1,8 @@
 ---
+layout: default
 ---
 
-{% block hero %}
+<!-- 
 <header class="intro-header" style="background-image: url('/influencemapping-toolbox/assets/images/logo.png')">
 <div class="container-fluid">
 <div class="row">
@@ -15,10 +16,9 @@
 </div>
 </div>
 </header>
-{% endblock %}
+ -->
 
-{% block main %}
-{{ contents | safe }}
+{{ content }}
 <div class="row">
   <div class="col-md-12" role="main">
     <div class="form-group">
@@ -32,9 +32,8 @@
     <div class="search-results"></div>
   </div>
 </div>
-{% endblock %}
 
-{% block js %}
+<!-- 
 <script type="text/javascript">
 $( document ).ready(function($) {
 
@@ -238,4 +237,4 @@ function initFacets(){
   });
 }
 </script>
-{% endblock %}
+ -->

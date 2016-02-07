@@ -5,3 +5,11 @@ paginate: 7
 
 sass:
   style: compressed
+
+exclude:
+    - practices.md
+    - projects.md
+    - search.md
+    - tools.md
+    - about.md
+    - colors.md
