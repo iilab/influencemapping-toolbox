@@ -9,7 +9,5 @@ sass:
 exclude:
     - practices.md
     - projects.md
-    - search.md
     - tools.md
-    - about.md
-    - colors.md
+    - COLORS.md

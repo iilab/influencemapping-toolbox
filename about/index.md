@@ -1,3 +1,8 @@
+---
+layout: default
+title: About the Influence Mapping Toolbox
+---
+
 # About the Influence Mapping Toolbox
 
 The influence mapping toolbox brings together resources to help you
