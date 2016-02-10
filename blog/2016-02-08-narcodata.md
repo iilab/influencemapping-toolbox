@@ -12,9 +12,9 @@ The overall project was born from a single, but powerful FOIA request, that gave
 
 One of the most interesting parts, said Yosune in the <strong>Science Fair</strong> gathering, “was to think about the FOIA requests as stories”. Their first approach in visualizing the information was to create a big, complex visualization that would include most of the information. After drafting how this would turn out, they decided to create not one, but several visualizations, around more specific topics.
 
-[caption id="attachment_510" align="alignnone" width="3264"]<img class="wp-image-510 size-full" src="/assets/images/narcodata1.png" alt="NarcoData Primer boceto vis 1" width="3264" height="1744" /> NarcoData's first draft (via NarcoData's team)[/caption]
+[caption id="attachment_510" align="alignnone" width="3264"]<img class="wp-image-510 size-full" src="/assets/images/narcodata1.jpg" alt="NarcoData Primer boceto vis 1" width="3264" height="1744" /> NarcoData's first draft (via NarcoData's team)[/caption]
 
-[caption id="attachment_512" align="alignnone" width="960"]<img class="wp-image-512 size-full" src="/assets/images/narcodata2.png" alt="NarcoData Primer boceto vis 2" width="960" height="1280" /> NarcoData's first draft (via NarcoData's team)[/caption]
+[caption id="attachment_512" align="alignnone" width="960"]<img class="wp-image-512 size-full" src="/assets/images/narcodata2.jpg" alt="NarcoData Primer boceto vis 2" width="960" height="1280" /> NarcoData's first draft (via NarcoData's team)[/caption]
 
 [caption id="attachment_513" align="alignnone" width="1218"]<img class="wp-image-513 size-full" src="/assets/images/narcodata3.png" alt="NarcoData, &quot;Cuatro décadas de crimen organizado en México&quot; visualization" width="1218" height="414" /> NarcoData, "Cuatro décadas de crimen organizado en México" visualization[/caption]
 

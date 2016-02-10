@@ -2,11 +2,11 @@
 title: User needs on influence mapping around Latin America
 ---
 
-[caption id="attachment_435" align="aligncenter" width="960"]<img class="wp-image-435 size-large" src="/assets/images/userneeds.png" alt="Foto Articulo Andres - Nov.15 Ed" width="960" height="636" /> via <a href="http://2015.abrelatam.org/" target="_blank">Abre Latam</a>[/caption]
+[caption id="attachment_435" align="aligncenter" width="960"]<img class="wp-image-435 size-large" src="/assets/images/userneeds.jpg" alt="Foto Articulo Andres - Nov.15 Ed" width="960" height="636" /> via <a href="http://2015.abrelatam.org/" target="_blank">Abre Latam</a>[/caption]
 
 <em>This Guest Post is from Andrés Snitcofsky (<a href="http://www.twitter.com/@rusosnith" target="_blank">@rusosnith</a>), graphic designer behind <a href="http://www.cargografias.org/" target="_blank">Cargografías</a>, a visualization that shows the politicians careers in a easy-to-read timeline.</em>
 
-<!--more--> 
+<!--more-->
 
 I had the opportunity to be part of <a href="http://mediaparty.info/" target="_blank">Hacks/Hackers Media Party</a> this past August (Buenos Aires, Argentina), as well as <a href="http://2015.abrelatam.org/" target="_blank">Abre Latam+Condatos</a> in September (Santiago, Chile) and <a href="http://www.opengovpartnership.org/2015Summit" target="_blank">Open Government Partnership Summit</a> in October in Mexico City. People attending these events are highly connected. The subjects they are addressing are similar, however, sometimes their end-users are different. These events are perfect for discussing who we address with our influence mapping tools and what should be accomplished.
 

@@ -36,7 +36,7 @@ Share your thoughts, needs, achievements and failures in our <a href="http://inf
 
 Programming tools for transparent data journalism, Visualization for Story Finding and Telling +. <a href="http://cj2015.brown.columbia.edu/papers.html" target="_blank">Papers from the Computation+Journalism Symposium 2015.</a>
 
-<a href="https://github.com/influencemapping/wiki/wiki" target="_blank"><img class="wp-image-388 aligncenter" src="assets/images/oct2wiki.png" alt="Tech for Investigative Journalism Wiki" width="687" height="229" /></a>
+<a href="https://github.com/influencemapping/wiki/wiki" target="_blank"><img class="wp-image-388 aligncenter" src="assets/images/oct2wiki.jpg" alt="Tech for Investigative Journalism Wiki" width="687" height="229" /></a>
 <p style="text-align: center;">Last September, an awesome group of journalists who specialize in cross-national collaborations, and technologists working on tools to support them, met in our first conference on <strong>Technology for Investigative Journalism</strong>. <a href="https://github.com/influencemapping/wiki/wiki" target="_blank">This Wiki</a> gathers some of the challenges, collaboration models, experiences, tools and user needs shared at the event.</p>
 
 
