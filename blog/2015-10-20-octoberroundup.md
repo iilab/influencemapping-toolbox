@@ -17,7 +17,7 @@ Share your thoughts, needs, achievements and failures in our <a href="http://inf
 
 <a href="http://motherboard.vice.com/read/how-putin-tried-to-control-the-internet" target="_blank">How Putin tried to control the Internet (Motherboard)</a> / “In this exclusive excerpt from the recently published The Red Web, Andrei Soldatov and Irina Borogan describe how the Kremlin has been trying to rewrite the rules for the internet to make it “secure” as it is understood by Russia’s secret services.”
 
-<a href="https://www.eff.org/deeplinks/2015/10/ada-lovelace-day-celebrating-achievements-women-technology"><img class="aligncenter wp-image-386 size-full" src="assets/images/oct1ada.png" alt="Ada Lovelace" width="650" height="265" /></a>
+<a href="https://www.eff.org/deeplinks/2015/10/ada-lovelace-day-celebrating-achievements-women-technology"><img class="aligncenter wp-image-386 size-full" src="/assets/images/oct1ada.png" alt="Ada Lovelace" width="650" height="265" /></a>
 
 <a href="http://www.nytimes.com/interactive/2015/10/11/us/politics/2016-presidential-election-super-pac-donors.html" target="_blank">Buying power: The families funding the 2016 Presidential Election (NY Times)</a> / “They are overwhelmingly white, rich, older and male, in a nation that is being remade by the young, by women, and by black and brown voters". An interactive radiography of the 158 families that have provided almost half of all the seed money to support the presidential candidates.
 
@@ -36,33 +36,33 @@ Share your thoughts, needs, achievements and failures in our <a href="http://inf
 
 Programming tools for transparent data journalism, Visualization for Story Finding and Telling +. <a href="http://cj2015.brown.columbia.edu/papers.html" target="_blank">Papers from the Computation+Journalism Symposium 2015.</a>
 
-<a href="https://github.com/influencemapping/wiki/wiki" target="_blank"><img class="wp-image-388 aligncenter" src="assets/images/oct2wiki.jpg" alt="Tech for Investigative Journalism Wiki" width="687" height="229" /></a>
+<a href="https://github.com/influencemapping/wiki/wiki" target="_blank"><img class="wp-image-388 aligncenter" src="/assets/images/oct2wiki.jpg" alt="Tech for Investigative Journalism Wiki" width="687" height="229" /></a>
 <p style="text-align: center;">Last September, an awesome group of journalists who specialize in cross-national collaborations, and technologists working on tools to support them, met in our first conference on <strong>Technology for Investigative Journalism</strong>. <a href="https://github.com/influencemapping/wiki/wiki" target="_blank">This Wiki</a> gathers some of the challenges, collaboration models, experiences, tools and user needs shared at the event.</p>
 
 
 <hr />
 
 <h3><span style="color: #008080;"><strong>#COMMUNITY</strong></span></h3>
-<img class="alignleft wp-image-391 size-medium" src="assets/images/oct3kayak.png" alt="Kayak" width="300" height="231" />
+<img class="alignleft wp-image-391 size-medium" src="/assets/images/oct3kayak.png" alt="Kayak" width="300" height="231" />
 
 <strong>Kayak.com for Social Network Data</strong>
 We've submitted a project to the <a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=29e9b7074e&amp;e=a919e6dc8d" target="_blank">Knight News Challenge</a> that seeks to make projects around social network mapping tools better connected, more trustworthy, more communicative to users, and easier to use for everybody.
 
 Read more about it <a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=488a34b8db&amp;e=a919e6dc8d" target="_blank">here</a> and give some ♥!
 <h4><span style="color: #008080;"><strong><span style="color: #000000;">Influence Mapping</span> Community</strong></span></h4>
-[caption id="attachment_361" align="alignnone" width="996"]<img class="wp-image-361 size-full" src="assets/images/oct4link.png" alt="Transparency Report Network: The Wikimedia Foundation and the lobbies specialized in the information society." width="996" height="576" /> Transparency Report Network: The Wikimedia Foundation and the lobbies specialized in the information society.[/caption]
+[caption id="attachment_361" align="alignnone" width="996"]<img class="wp-image-361 size-full" src="/assets/images/oct4link.png" alt="Transparency Report Network: The Wikimedia Foundation and the lobbies specialized in the information society." width="996" height="576" /> Transparency Report Network: The Wikimedia Foundation and the lobbies specialized in the information society.[/caption]
 
 <a href="http://influencemapping.org/linkurious/">Linkurious: A web-based data visualization tool for investigative journalism.</a> It's been used by ICIJ to investigate the “Swiss Leaks” and AFP to work around drug-related crimes. Recently the Linkurious team has been exploring lobby relationships through the Transparency Register.
 
 <hr />
 
 <h3><span style="color: #008080;"><strong>#TOOLS</strong></span></h3>
-<a href="https://github.com/onyxfish/agate" target="_blank"><img class="wp-image-392 alignleft" src="assets/images/oct5agate.png" alt="agate - histograms" width="329" height="138" /></a>
+<a href="https://github.com/onyxfish/agate" target="_blank"><img class="wp-image-392 alignleft" src="/assets/images/oct5agate.png" alt="agate - histograms" width="329" height="138" /></a>
 
 <span style="color: #ff6600;"><strong>agate 0.12.0</strong></span>
 <a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=93f1625376&amp;e=a919e6dc8d" target="_blank">Chris Groskopf</a> from NPR Visuals Team released agate, a Python data analysis library "optimized for making humans faster at working with normal-sized datasets". It intends to be a clean and user-friendly API. Now, with <a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=fed5b1f1bf&amp;e=a919e6dc8d" target="_blank">instant text histograms.</a>
 
-<a href="http://odo.pydata.org/en/latest/" target="_blank"><img class="size-medium wp-image-393 alignleft" src="assets/images/oct6odo.png" alt="odo" width="293" height="300" /></a>
+<a href="http://odo.pydata.org/en/latest/" target="_blank"><img class="size-medium wp-image-393 alignleft" src="/assets/images/oct6odo.png" alt="odo" width="293" height="300" /></a>
 
 <span style="color: #ff6600;"><strong>Odo</strong></span>
 Basically, this tool migrates data from the source to the target through a network of conversions. Odo is part of the Open Source <a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=2a4217b2db&amp;e=a919e6dc8d" target="_blank">Blaze</a> projects supported by <a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=21118be637&amp;e=a919e6dc8d" target="_blank">Continuum Analytics</a>
@@ -73,7 +73,7 @@ Basically, this tool migrates data from the source to the target through a netw
 
 <strong><span style="color: #008080;">#MAP</span></strong>
 
-<img class="aligncenter wp-image-394" src="assets/images/oct7map.png" alt="Los 40 consejeros &quot;pluriempleados&quot; del Ibex" width="621" height="377" />
+<img class="aligncenter wp-image-394" src="/assets/images/oct7map.png" alt="Los 40 consejeros &quot;pluriempleados&quot; del Ibex" width="621" height="377" />
 <p style="text-align: center;"><strong><a href="http://www.eldiario.es/economia/consejeros-pluriempleados-Ibex_0_429057807.html" target="_blank">Map of Power: Consultants Working for the 35 Biggest Companies in Spain</a></strong></p>
 
 

@@ -11,7 +11,7 @@ OpenCorporates data was used to uncover this elite, investigated on an analysis 
 
 <strong><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=55ce1b82f3&amp;e=54eee66d31" target="_blank">Revealed: The full scale of offshore investment in the UK (Property Week)</a> </strong>
 £263n has been invested in property in England and Wales by companies registered offshore since 2000. This info follows David Cameron’s pledge in the summer to crack down on the use of offshore-registered shell companies to launder “dirty money” in the UK property market.
-<p style="text-align: center;"><img class="aligncenter wp-image-461" src="assets/images/nov1openweb.png" alt="Internet feminist principles - Mozfest 2015" width="520" height="201" /><strong><span style="color: #666699;">35 people at Mozfest 2015 crowd-sourced a series of Open Web feminist principles.</span> Check <a href="http://influencemapping.us11.list-manage2.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=ee0a9dd925&amp;e=54eee66d31" target="_blank">them</a> out! (via <a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=d6666c3f19&amp;e=54eee66d31" target="_blank">@MozillaAdvocate</a>)</strong></p>
+<p style="text-align: center;"><img class="aligncenter wp-image-461" src="/assets/images/nov1openweb.png" alt="Internet feminist principles - Mozfest 2015" width="520" height="201" /><strong><span style="color: #666699;">35 people at Mozfest 2015 crowd-sourced a series of Open Web feminist principles.</span> Check <a href="http://influencemapping.us11.list-manage2.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=ee0a9dd925&amp;e=54eee66d31" target="_blank">them</a> out! (via <a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=d6666c3f19&amp;e=54eee66d31" target="_blank">@MozillaAdvocate</a>)</strong></p>
 <strong><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=d09e9371ac&amp;e=54eee66d31" target="_blank">NarcoData is a new collaboration that aims to track and visualize the drug cartels of Mexico (NiemanLab)</a></strong>
 NarcoData, a collaboration between Mexican digital news site Animal Politico and data journalism platform Poderopedia, launched with a mission to shine light on organized crime and drug trafficking in Mexico.
 
@@ -23,7 +23,7 @@ A massive hack of 70 million prisoner phone calls indicates violations of attorn
 
 <strong><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=090401ecbf&amp;e=54eee66d31" target="_blank">The Internet Dark Ages (The Atlantic)</a> </strong>
 "The promise of the web is that Alexandria’s library might be resurrected for the modern world. But today’s great library is being destroyed even as it is being built. Until you lose something big on the Internet, something truly valuable, this paradox can be difficult to understand."
-<p style="text-align: center;"><img class="aligncenter wp-image-462" src="assets/images/nov2machine.png" alt="Machine learning" width="553" height="280" /><strong><a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=e7ecc23ad2&amp;e=54eee66d31" target="_blank">A Visual Introduction to Machine Learning</a></strong>
+<p style="text-align: center;"><img class="aligncenter wp-image-462" src="/assets/images/nov2machine.png" alt="Machine learning" width="553" height="280" /><strong><a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=e7ecc23ad2&amp;e=54eee66d31" target="_blank">A Visual Introduction to Machine Learning</a></strong>
 Keep scrolling on this amazing first part of the machine learning model introduction by<strong> r2d3.us.</strong> Through its storytelling, it illustrates what it means “to learn without being explicitly programmed”. Wait for their next post, they will be exploring overfitting, and how it relates to a fundamental trade-off in machine learning.</p>
 
 
@@ -46,7 +46,7 @@ South Africa's first cohort of ‪OpenGov Fellows have liberated more than 550 G
 
 <strong><span style="color: #008080;">#COMMUNITY</span></strong>
 
-<strong><img class="aligncenter wp-image-435" src="assets/images/nov3userneeds.jpg" alt="Foto Articulo Andres - Nov.15 Ed" width="618" height="410" /></strong><strong><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=77bef8e64b&amp;e=54eee66d31" target="_blank">Guest Post: User Needs on Influence Mapping around Latin America</a> </strong>
+<strong><img class="aligncenter wp-image-435" src="/assets/images/nov3userneeds.jpg" alt="Foto Articulo Andres - Nov.15 Ed" width="618" height="410" /></strong><strong><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=77bef8e64b&amp;e=54eee66d31" target="_blank">Guest Post: User Needs on Influence Mapping around Latin America</a> </strong>
 
 <strong>Andrés Snitcofsky (Cargografías)</strong> explores front and back-end alternatives for developing influence mapping projects, keeping in mind the different communities around them.
 <h4>Influence Mapping <span style="color: #008080;">Infographics</span></h4>
@@ -58,7 +58,7 @@ On this infographic, we summarize some of the most relevant<strong> user needs a
 
 <hr />
 <p style="text-align: left;"><span style="color: #008080;"><strong>#TOOLS</strong></span></p>
-<p style="text-align: left;"><img class="aligncenter wp-image-464 size-large" src="assets/images/nov5torflow.png" alt="Tor Network" width="960" height="480" /></p>
+<p style="text-align: left;"><img class="aligncenter wp-image-464 size-large" src="/assets/images/nov5torflow.png" alt="Tor Network" width="960" height="480" /></p>
 <p style="text-align: left;"><strong><span style="color: #ff6600;">Tor Messenger</span> / </strong>After you get mesmerized by this <strong><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=97a50662d7&amp;e=54eee66d31" target="_blank">Tor Network visualization</a></strong>, take a look at the new, beta version of <a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=8e724d694c&amp;e=54eee66d31" target="_blank"><strong>Tor Messenger</strong></a> based on Instabird, an instant messaging client developed in the Mozilla community.</p>
 <p style="text-align: left;"><strong><span style="color: #ff6600;"><a style="color: #ff6600;" href="https://www.kimonolabs.com/" target="_blank">Kimono</a></span> / </strong>Turn websites into structured APIs from your browser in seconds. Use the API output in JSON or as CSV files that you can easily paste into a spreadsheet.</p>
 <p style="text-align: left;"><span style="color: #ff6600;"><a style="color: #ff6600;" href="http://enigma.io/publicdata/" target="_blank">Enigma</a></span><strong> / </strong>Enigma centralizes and connects 5.000 local, state, federal and international public databases. From Government spending, to asset ownership.</p>
@@ -67,7 +67,7 @@ On this infographic, we summarize some of the most relevant<strong> user needs a
 <hr />
 <p style="text-align: left;"><strong><span style="color: #008080;">#MAP</span></strong></p>
 
-<div><img class="aligncenter wp-image-465 size-full" src="assets/images/nov6map.jpg" alt="The Energy Network - Politico+" width="714" height="534" /></div>
+<div><img class="aligncenter wp-image-465 size-full" src="/assets/images/nov6map.jpg" alt="The Energy Network - Politico+" width="714" height="534" /></div>
 <div style="text-align: center;"><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=9304a353c1&amp;e=54eee66d31" target="_blank"><strong>The new EU power source: Energy-efficient lobbying (Politico)</strong></a></div>
 <p dir="ltr" style="text-align: center;">With a few days from the Climate Change Summit in Paris, Laurens Cerulus and James Panichi visualize the lobby-related meetings that have taken place between lobby organizations and cabinet members and directors.</p>
 
@@ -91,4 +91,4 @@ On this infographic, we summarize some of the most relevant<strong> user needs a
 <strong>Nov. 30:</strong> <a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=76334ba093&amp;e=54eee66d31" target="_blank">Call for speakers OpenVisConf</a>, open to anyone with a story about the practice of data visualization: industry and academia, technologists and artists, students and teachers.
 <strong>Jan. 13:</strong> <a href="http://influencemapping.us11.list-manage1.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=429b005f6b&amp;e=54eee66d31" target="_blank">Responsible Data Forum: Visualization</a>, with focus on risks and mitigations in using data visualization for analysis and advocacy.
 <strong>Jan. 15: </strong><a href="http://influencemapping.us11.list-manage.com/track/click?u=b7879e46ae6d48556b2b87fc2&amp;id=cd7298ca2a&amp;e=54eee66d31" target="_blank">Data Governance and Data Quality Conference (DGIQ2016)</a></p>
-<p style="text-align: left;"><img class="aligncenter wp-image-468 size-full" src="assets/images/nov7twitter.jpg" alt="Follow us on Twitter" width="600" height="200" /></p>
+<p style="text-align: left;"><img class="aligncenter wp-image-468 size-full" src="/assets/images/nov7twitter.jpg" alt="Follow us on Twitter" width="600" height="200" /></p>

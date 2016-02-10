@@ -2,7 +2,7 @@
 title: Third Science Fair: Latin American mapping projects lead the fair
 ---
 
-<img class="alignnone wp-image-318 size-large" src="assets/images/cargografias.png" alt="Cargografias" width="960" height="521" />
+<img class="alignnone wp-image-318 size-large" src="/assets/images/cargografias.png" alt="Cargografias" width="960" height="521" />
 
 <em>Science Fair</em> aims to share projects, ideas and prototypes in which the Influence Mapping community is working. It addresses the challenges they are facing in their development and also in reaching their users. Our last session focused on two Latin American mapping projects: <strong>Nodemapper and Cargografías</strong>.
 
@@ -23,7 +23,7 @@ See:
 <strong>Cargografías</strong>
 <a href="http://www.cargografias.org/" target="_blank">Cargografías</a> is a visualization tool that allows users to visualize in a timeline the careers of politicians over time. The tool was developed by <strong>Andrés Snitcofsky</strong> (<a href="https://twitter.com/rusosnith" target="_blank">@rusosnith</a>) for journalists who need to add visualization to their writings, investigators getting clues out of tons of data and civic society and NGOs trying to uncover lost trails. Nowadays, Cargografías has teamed up with <a href="http://chequeado.com/" target="_blank">Chequeado</a>, another Argentine project, and has worked with <a href="http://www.animalpolitico.com/" target="_blank">Animal Político</a> (Mexico), to check data and publish timelines.
 
-<img class="alignnone wp-image-320 size-large" src="assets/images/cargografias1.png" alt="Cargografias Chequeado" width="960" height="147" />
+<img class="alignnone wp-image-320 size-large" src="/assets/images/cargografias1.png" alt="Cargografias Chequeado" width="960" height="147" />
 
 Last May, Cargografías was awarded with a $10,000 grant in the recent <a href="http://hackslabs.org/" target="_blank">HacksLabs Challenge 2015</a>, the first data journalism accelerator fund for Latin America. Because of the grant, Cargografías was able to launch its 5.0 version. This version, according to Snitcofsky, has a lot of improvements, mostly focused on sharing the timeline, embedding in another websites and finally, better usability.
 

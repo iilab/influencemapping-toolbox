@@ -2,7 +2,7 @@
 title: Help us develop the Influence Mapping Toolbox
 ---
 
-<img class="alignnone wp-image-333 size-large" src="assets/images/iilab.png" alt="iilab" width="960" height="450" />
+<img class="alignnone wp-image-333 size-large" src="/assets/images/iilab.png" alt="iilab" width="960" height="450" />
 
 We're very excited to announce that the <a href="https://iilab.org/" target="_blank">iilab team</a> will be working with the Influence Mapping community. They will be developing the <strong>“Influence Mapping Toolbox”</strong>, a resource which will help both newcomers and experienced mappers get started, learn and achieve their influence mapping goals.
 

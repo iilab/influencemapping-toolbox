@@ -3,7 +3,7 @@ title: Influence Mapping December Roundup
 ---
 
 <h4 class="null"><span style="color: #008080;"><strong>#STORIES AND INSIGHTS</strong></span></h4>
-<img class="aligncenter wp-image-526 size-full" src="assets/images/dec1clinton.png" alt="News1" width="1266" height="690" />
+<img class="aligncenter wp-image-526 size-full" src="/assets/images/dec1clinton.png" alt="News1" width="1266" height="690" />
 
 <strong><a href="https://www.washingtonpost.com/graphics/politics/clinton-money/" target="_blank">41 years. $3 billion. Inside the Clinton donor network (Washington Post)</a></strong>
 
@@ -21,7 +21,7 @@ Nearly 75 million people in Sub-Saharan Africa are estimated to have paid a brib
 
 Want to learn how to break into the computerized heart of a medical device or an electronic voting machine? Maybe a smartphone or even a car? Thanks to the legacy of military rule and a culture of breaking rules of all sorts, Argentina has become one of the best places on earth to find people who could show you how.
 
-<img class="size-full wp-image-527 aligncenter" src="assets/images/dec2roundup.png" alt="News2" width="600" height="200" />
+<img class="size-full wp-image-527 aligncenter" src="/assets/images/dec2roundup.png" alt="News2" width="600" height="200" />
 
 <a href="http://www.niemanlab.org/2015/12/numbers-numbers-everywhere/" target="_blank">Investigating the network: The top 10 articles from the year in digital news and social media research (NiemanLab)</a>
 
@@ -38,7 +38,7 @@ Want to learn how to break into the computerized heart of a medical device or an
 
 <span style="color: #008080;"><strong>#RESOURCES</strong></span>
 
-<img class="aligncenter wp-image-528 size-full" src="assets/images/dec3issues.png" alt="News 3" width="457" height="419" />
+<img class="aligncenter wp-image-528 size-full" src="/assets/images/dec3issues.png" alt="News 3" width="457" height="419" />
 
 <strong><a href="https://github.com/Quartz/bad-data-guide" target="_blank">The Quartz guide to bad data</a>: </strong>An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them. This guide presents thorough descriptions and possible solutions to many of the kinds of problems that you will encounter when working with data.
 
@@ -64,7 +64,7 @@ JavaScript toolkit for performing data analysis and creating visualizations. It 
 
 <span style="color: #008080;"><strong>#MAP</strong></span>
 
-<img class="aligncenter wp-image-529 size-full" src="assets/images/dec4map.png" alt="News4" width="1920" height="979" />
+<img class="aligncenter wp-image-529 size-full" src="/assets/images/dec4map.png" alt="News4" width="1920" height="979" />
 <p style="text-align: center;"><strong><a href="https://linkurio.us/exploring-the-vw-scandal-with-graph-analysis/" target="_blank">Exploring the VW scandal with graph analysis (Data to Value + Linkurious)</a></strong></p>
 
 
