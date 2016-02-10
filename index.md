@@ -20,6 +20,6 @@ Not sure where to start?
  * Read about the [state of the art in influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf))
  * Take a tour of the [tools available](tools.html)
  * Find out who’s doing work like yours in [projects](projects.html)
- * Read through our influence mapping [case studies](case_studies.html).
+ * Read through our influence mapping [case studies](/case_studies/).
  * Learn about our influence mapping essential [practices](practices.html)
 <br>
