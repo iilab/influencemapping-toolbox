@@ -9,6 +9,7 @@
       "projects": "data/projects.csv",
       "tools": "data/tools.csv"
     },
+    "metalsmith-debug": true,
     "metalsmith-sass": {
     },
     "metalsmith-ignore": [
@@ -57,8 +58,9 @@
         "src": "practices",
         "contents": "layouts/subpractice.md",
         "name": "name",
+        "parent": "practice",
         "ext": ".md",
-        "path": "practices/subpractices/",
+        "path": "practices/",
         "slugify": true,
         "metadata": { 
           "lunr": true,
@@ -99,7 +101,6 @@
         "template": "layouts/projects_tag.md"
       }
     },
-    "metalsmith-debug": true,
     "metalsmith-lunr": {
       "fields": {
         "name": 10,
