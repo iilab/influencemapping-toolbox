@@ -27,19 +27,56 @@ Plan,Planning,,Planning,Devise a way to achieve your goals,,"### Budgeting
 ### Analyse your projects' risks
 
 ### Sustainability: Build your project to last"
-Collect,Get Started,There's a lot of data out there asking the right questions and knowing when you need to organise your own data collection takes experience.,Collecting Data,Asking the right questions to get the right data,,
-Collect,Find Data Sources,,Collecting Data,Find good data sources,,Who's got dirt
-Collect,Collect Data,,Collecting Data,Organise the collection of data,,"### Sometimes its best to start collecting data right away. How to do this in a way that means that the data can be reused later?
+Collect,Get Started,There's a lot of data out there asking the right questions and knowing when you need to organise your own data collection takes experience.,Collecting Data,Asking the right questions to get the right data,One of the first things to address around data collection is what your question is or what is the story you're trying to tell. This will determine which data you need. Data collection could have an impact beyond the objectives of your story and it's always important to consider the ethical aspect of your data collection before you start (refer to the [Plan > Ethics section](../plan/ethics.html)). ,"### Where does your data come from?
 
-### Crowdsourcing data collection
+How you collect your data will depend on whether you source primary data: data you will collect yourself, secondary data: which you're collecting from external sources, or both.
 
-### Training data collectors
+One of the key questions when sourcing data externally, is how to [discover the right data](find-data-sources.html) sources and check if they are right for you.
 
-### Informed consent, deanonymisation and secure source communication"
-Collect,Clean Data,,Collecting Data,How to clean up your data?,,"### WRANGLE IMPORTANT!!!!
+If you're going to collect data yourself, you'll need to think about:
+How will you [collect data](collect-data.html)? Through interviews, surveys, using online tools…
 
-Refine"
-Collect,Verify Data,,Collecting Data,How to check your data quality?,,
+Whether you collect your own data or get it from an external source, you'll need to think about:
+ - How will you [clean up the data](clean-data.html) into a format that's usable for your purpose?
+ - How will you [verify and control the quality of the data](verify-data.html)?"
+Collect,Find Data Sources,,Collecting Data,Find good data sources,,"Web search engines are a natural first go to point in order to identify data sets, or leads that will point to data sources that might not be published.
+
+There are specialised data catalogue engines that might list data sources relevant to a particular industry or sector (such as the [Data Catalogs](datacatalogs.org) site) to specific countries or cities (such as the UK or US national open data portals) or sources tailored to specific professionals (Investigative Dashboard for investigative journalists, or Academic Journals for researchers). 
+
+Also some influence mapping projects in this toolbox have data available for export. These might be good sources for your work.
+
+[include projects with export feature]
+
+You can also learn more about finding data for your project in this guides and resources:
+ - [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/getting_data.html) : Has tips on advanced web searches, data sites and services.
+ - [Responsible Data Handbook](https://responsibledata.io/wp-content/uploads/2014/10/responsible-development-data-book.pdf) : Has advice on how to evaluate external data source and be aware of biases and gaps."
+Collect,Collect Data,,Collecting Data,Organise the collection of data,,"One-off data collection projects are very different from longer term, ongoing data collection strategies. If your project is a one-off, it might be sufficient to organise a single collection effort, if not, then it's important to consider the frequency of your collection effort, its cost and the practicalities of the collection workflow.
+
+Different methods work best in different contexts and for different questions. In addition, different methods have different costs and maintenance considerations. Pick your collection methods carefully (interviews, surveys, using online tools…) depending on which are most appropriate for your project. 
+
+Sometimes it is best to start collecting data right away, so that you can get an idea of what the real data looks like. This can inform your data collection strategy as you progress with your project. 
+
+Here are some resources that can help you select your collection approach: 
+ - [Responsible Data Handbook](https://responsibledata.io/wp-content/uploads/2014/10/responsible-development-data-book.pdf) : Has advice on how to think about and design a responsible data collection process.
+ - Open crowdsourced data (https://opensource.com/business/15/2/open-crowdsourced-data): Provides some interesting reading on crowdsourcing data responsibly"
+Collect,Clean Data,,Collecting Data,How to clean up your data?,,"Whether it's from an external source or your own collection effort, raw data is generally messy. There might empty records, duplication, unidentifiable inputs, and other anomalies that make it hard to understand what the data can tell you.
+
+There are a number of tools that can help to give you perspectives on your data set that make it easier to spot problems.
+
+[insert tools in ""refine"" category]
+
+You can also learn more about techniques and tips regarding data cleaning:
+- The [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/understanding_data_2.html) has a section on cleaning messy data.
+- The [Online Journalism Blog](http://onlinejournalismblog.com/tag/cleaning-data/) also has blog posts on various aspects of data cleaning. "
+Collect,Verify Data,,Collecting Data,Chinking your data quality,,"Verification can happen at various levels and is an iterative process. Authority and reputation of sources can play a part, but it's important to decide whether your data needs corroboration or triangulation (which is where you verify data by comparing three separate sources). 
+
+If your data sources are themselves compiled and processed from different sources, provenance and traceability become an issue. Verification of external sources will make your workflow heavier and increase costs but may be necessary to maintain good data quality.
+
+Here are some resources that can help you:
+ - The Investigating with Databases chapter of the [Verification Handbook for Investigative Journalism](http://verificationhandbook.com/book2/chapter5.php) gives advice on verfying data sets before and after analysis.
+
+
+"
 Organise,Get Started,"Investigating, analysing and finding more about your problem goes hand in hand with how you organise and structure your data. It determines how your project is experienced by your audience but it will also have a lot of impact on the type of technology you'll need.",Organising Data,Getting to know your data. Are the answers to your questions or the links you want to put in the spotlight in your data?,,"### Working with data in spreadsheets
 ### Working with data in databases
 ### Working with linked open data
@@ -63,7 +100,7 @@ Refine
 
 Multidimensional scaling for the analysis of the data.  ??? Scale
 Diversity / Heterogeneity"
-Organise,Host & Secure Data,,Organising Data,Where is your data going to be stored and who will be able to access it,,
+Organise,Store Data,,Organising Data,Where is your data going to be stored and who will be able to access it,,
 Publish,Get Started,"Putting your story out there is when it can be able to create impact. But with data stories, allowing others to build on your result can be the difference between satisfying accolades by your peers and actual real world impact.",Publishing Data,What are the ways in which your result and your data can have the impact you want?,,### Privacy / Data Protection Law... Compliance
 Publish,Present Data,,Publishing Data,Make your data tell its story and engage your audience,,"### Data Visualisations
 
