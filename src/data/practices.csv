@@ -58,7 +58,7 @@ Sometimes it is best to start collecting data right away, so that you can get an
 
 Here are some resources that can help you select your collection approach: 
  - [Responsible Data Handbook](https://responsibledata.io/wp-content/uploads/2014/10/responsible-development-data-book.pdf) : Has advice on how to think about and design a responsible data collection process.
- - Open crowdsourced data (https://opensource.com/business/15/2/open-crowdsourced-data): Provides some interesting reading on crowdsourcing data responsibly"
+ - [Open crowdsourced data](https://opensource.com/business/15/2/open-crowdsourced-data): Provides some interesting reading on crowdsourcing data responsibly"
 Collect,Clean Data,,Collecting Data,How to clean up your data?,,"Whether it's from an external source or your own collection effort, raw data is generally messy. There might empty records, duplication, unidentifiable inputs, and other anomalies that make it hard to understand what the data can tell you.
 
 There are a number of tools that can help to give you perspectives on your data set that make it easier to spot problems.
@@ -68,7 +68,7 @@ There are a number of tools that can help to give you perspectives on your data 
 You can also learn more about techniques and tips regarding data cleaning:
 - The [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/understanding_data_2.html) has a section on cleaning messy data.
 - The [Online Journalism Blog](http://onlinejournalismblog.com/tag/cleaning-data/) also has blog posts on various aspects of data cleaning. "
-Collect,Verify Data,,Collecting Data,Chinking your data quality,,"Verification can happen at various levels and is an iterative process. Authority and reputation of sources can play a part, but it's important to decide whether your data needs corroboration or triangulation (which is where you verify data by comparing three separate sources). 
+Collect,Verify Data,,Collecting Data,Checking your data quality,,"Verification can happen at various levels and is an iterative process. Authority and reputation of sources can play a part, but it's important to decide whether your data needs corroboration or triangulation (which is where you verify data by comparing three separate sources). 
 
 If your data sources are themselves compiled and processed from different sources, provenance and traceability become an issue. Verification of external sources will make your workflow heavier and increase costs but may be necessary to maintain good data quality.
 
