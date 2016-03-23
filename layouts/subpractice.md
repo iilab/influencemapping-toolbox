@@ -1,6 +1,4 @@
-## {{ practice }} {% if alias %}({{ alias }}){% endif %}
-
-# {{ name }} 
+### [Practices](../../practices.html) > [{% if alias %}{{ alias }}{% else %}{{ practice }}{% endif %}](../../practices.html#{{ practice | lower }}) > {{ name }} 
 
 _{{ description }}_
 
