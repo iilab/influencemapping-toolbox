@@ -20,7 +20,7 @@ We've organised these practices in a way that allow you to find more by looking 
 {% for grouper, list in practices | groupby('practice') %}
 ## {{ grouper }}
 _{{ list[0].practiceintro }}_
-{% for subpractice in list %}  * [{{ subpractice.name }}](practices/subpractices/{{ subpractice.id }}.html): _{{ subpractice.description }}_ 
+{% for subpractice in list %}  * [{{ subpractice.name }}](practices/{{ grouper|lower}}/{{ subpractice.id }}.html): _{{ subpractice.description }}_ 
 {% endfor %}
 <br>
 <h3>Relevant projects <small>Consult project documentation about {{ list[0].alias }}</small></h3>
