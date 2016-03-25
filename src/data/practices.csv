@@ -81,25 +81,23 @@ Organise,Get Started,"Investigating, analysing and finding more about your probl
 ### Working with data in databases
 ### Working with linked open data
 "
-Organise,Model Data,,Organising Data,How to choose a model to organise your data,,"### Your project from the Data angle
+Organise,Model Data,,Organising Data,How to choose a model to organise your data,,"Data modelling is about the way you structure your database, so that you can sort your data in a way that makes it possible to uncover trends, anomalies and connections. Database structures can vary in complexity, but it’s key to think about how you’ll be using the data to answer your questions when you’re deciding on their structure. 
 
-### Table / Relational  / Graph 
+The properties and values that you have to work with will have already been determined by your [data collection](../practices.html#collect) strategy. Your data model is the frame through which you can ask what relations there are between different aspects of the data. It requires choice over how you categorise the data - into what buckets you decide to put data with certain characteristics, and how you allow those categories to relate to each other. What you can find out about your data set depends on how you group together certain elements of the data, which properties you keep as constant, which as variables. Making the right choice at the beginning will save you a lot of work in the long run.
 
-### Unique IDs
+You can find information about data modelling practices here:
+- [Exposing the Invisible Decoding Data Guide has a great chapter on structuring data](https://exposingtheinvisible.org/guides/decoding-data/#structuringdata)  
+- The [Global Investigative Journalism Network](http://gijn.org/resources/investigative-journalism-manuals/#dataj) has a good list of data journalism guides 
+- Agile Data’s Data Modeling 101 http://www.agiledata.org/essays/dataModeling101.html This rather technical guide is focussed specifically on data modeling in an agile methodology for app development, but provides a good run-down of data modeling intricacies"
+Organise,Integrate Data,,Organising Data,Transforming and joining data from different sources,,"You may want to create a new dataset using data from multiple sources. This can throw up some issues, as the sources may have different nomenclature for variables, or even different database structures. "
+Organise,Analyse Data,,Organising Data,How to analyse your data?,,"Manipulating your data is a great way to try to extract their secrets. Sorting by different data objects, looking for patterns, can help you to see what different factors affect a point of interest, or help you to trace connections. 
 
-### Managing Dates
-"
-Organise,Integrate Data,,Organising Data,Transforming and joining data from different sources,,
-Organise,Analyse Data,,Organising Data,How to analyse your data?,,"### Knowing your data!!!!
+It can also be very useful to visualise your data during your analysis. This can help you to see patterns in a way that staring at a spreadsheet or sorting columns in a database might miss. 
 
-Refine
-
-### Correlations
-
-### Cluster Analysis
-
-Multidimensional scaling for the analysis of the data.  ??? Scale
-Diversity / Heterogeneity"
+You can learn more about analysing data using these resources:
+ - [This chapter from the Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/understanding_data_4.html)  gives an example of approaching a dataset with specific queries to generate a story
+ - This section on [Telling Stories with Data from Exploring the Invisible Decoding Data Guide](https://exposingtheinvisible.org/guides/decoding-data/#tellingstories) discusses how to search within data to generate stories with integrity
+ - This [article by Moushan Zer-Aviv in Exploring the Invisible Decoding Data Guide](https://exposingtheinvisible.org/guides/decoding-data/#networks) is an excellent critical look at using network visualisation to understand what is happening in a dataset "
 Organise,Store Data,,Organising Data,Where is your data going to be stored and who will be able to access it,,
 Publish,Get Started,"Putting your story out there is when it can be able to create impact. But with data stories, allowing others to build on your result can be the difference between satisfying accolades by your peers and actual real world impact.",Publishing Data,What are the ways in which your result and your data can have the impact you want?,,### Privacy / Data Protection Law... Compliance
 Publish,Present Data,,Publishing Data,Make your data tell its story and engage your audience,,"### Data Visualisations
