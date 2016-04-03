@@ -1,5 +1,5 @@
 ---
-title: Third Science Fair: Latin American mapping projects lead the fair
+title: "Third Science Fair: Latin American mapping projects lead the fair"
 ---
 
 <img class="alignnone wp-image-318 size-large" src="/assets/images/cargografias.png" alt="Cargografias" width="960" height="521" />

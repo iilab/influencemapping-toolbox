@@ -1,5 +1,5 @@
 ---
-title: Map of Media and Media Ownership: Who is who in the media industry in Chile and Colombia
+title: "Map of Media and Media Ownership: Who is who in the media industry in Chile and Colombia"
 ---
 
 <iframe class="giphy-embed" src="//giphy.com/embed/3o85xL2bPORnLj0wAU" width="480" height="236" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

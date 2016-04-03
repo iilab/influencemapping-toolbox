@@ -1,5 +1,5 @@
 ---
-title: December Science Fair: Meet the Narcodata Influence Mappers + PEP's Database Prototype
+title: "December Science Fair: Meet the Narcodata Influence Mappers + PEP's Database Prototype"
 ---
 
 <img class="aligncenter wp-image-476" src="/assets/images/sfdeceng.png" alt="Science Fair Narcodata Edition" width="642" height="642" />
