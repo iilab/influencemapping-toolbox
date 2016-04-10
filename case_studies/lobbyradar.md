@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: casestudy
 title: Lobbyradar
 project_name: lobby-radar
 criteria:
@@ -14,10 +14,6 @@ criteria:
     Type of output: >
         A visualization and a plugin which shows the different ties between lobbyists and politicians in Germany.
 ---
-
-# Lobbyradar
-
-{% include case_sheet.html %}
 
 Lobbyradar uncovers the lobbying groups and private interests in German politics, by enabling users to explore network visualisations that show links between institutions and people of influence within the german political sphere. There is also a browser plugin, which, once installed, supplies information about politicians and lobbyists via a tooltip when their name appears on a website.
 

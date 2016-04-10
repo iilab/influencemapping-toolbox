@@ -1,6 +1,6 @@
 ---
-layout: default
 title: About the Influence Mapping Toolbox
+layout: content
 ---
 
 # About the Influence Mapping Toolbox

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: casestudy
 title: Influence Map
 project_name: influencemap
 criteria:
@@ -15,10 +15,6 @@ criteria:
     Type of output: >
         A scoring system ranks and categorises corporations according to how they influence climate policy.
 ---
-
-# Influence Map
-
-{% include case_sheet.html %}
 
 Influence Map measures and lists corporate influence on climate policy worldwide. The project was created to provide a ranking system that is, in their own words, “as objective as possible”, as a tool to address gap in how corporations influence climate legislation.
 

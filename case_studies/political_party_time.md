@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: casestudy
 title: Political Party Time
 project_name: political-party-time
 criteria:
@@ -15,10 +15,6 @@ criteria:
     Type of output: >
         A tracking system to shed light on cocktail parties and informal meetings organized to raise money for political campaigns or influence candidates through lobbying
 ---
-
-# Political Party Time
-
-{% include case_sheet.html %}
 
 Political Party Time helps to track political fundraising events and the movement of political actors from event invitations. This information can be used to map the relationships between candidates and private interests from different sides. Launched in 2007 by the Sunlight Foundation, the project is still maintained by the organisation but no longer funded.
 

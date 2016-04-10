@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: casestudy
 title: Open Duka
 project_name: openduka
 criteria:
@@ -15,10 +15,6 @@ criteria:
         A free database about Kenyan entities to browse between networks of relationships linking people, organisations, tenders, contracts, cases and land parcels together.
 
 ---
-
-# Open Duka
-
-{% include case_sheet.html %}
 
 Open Duka was started to gather information in one repository to create a searchable database of institutions and actors in power and commerce in Kenya, in order to foster more accountability and to facilitate oversight by citizens, journalists and civic activists. 
 

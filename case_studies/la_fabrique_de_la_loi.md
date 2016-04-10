@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: casestudy
 title: La Fabrique de la Loi
 project_name: la-fabrique-de-la-loi
 criteria:
@@ -16,10 +16,6 @@ criteria:
     Type of output: >
         290 law texts analysed and visualized (from proposal bill to its published version) showing how parliamentary process in France works.
 ---
-
-# La Fabrique de la Loi
-
-{% include case_sheet.html %}
 
 La Fabrique de la Loi publishes and tracks the evolution of bills through French Parliament from their inception to the final publication, showing through visualizations the chronological changes to the text and the related debates history between the different MPs. Aside from the web interface, the data is also made accessible through an API. 
 

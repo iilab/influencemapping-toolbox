@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: casestudy
 title: Parltrack
 project_name: parltrack
 criteria:
@@ -14,10 +14,6 @@ criteria:
     Output: >
         A database to track dossiers, representatives, vote results and committees agendas in the European Parliament.
 ---
-
-# Parltrack
-
-{% include case_sheet.html %}
 
 Parltrack is a free database of European Union dossiers, committee meetings and the people who contributed to them. The project started in 2011, during the campaign against ACTA (the Anti-Counterfeiting Trade Agreement). 
 
