@@ -21,7 +21,7 @@ criteria:
 
 Lobbyradar uncovers the lobbying groups and private interests in German politics, by enabling users to explore network visualisations that show links between institutions and people of influence within the german political sphere. There is also a browser plugin, which, once installed, supplies information about politicians and lobbyists via a tooltip when their name appears on a website.
 
-![](lobbyradar.png)
+![](images/lobbyradar.png)
 
 The project started as a cooperation between ZDF (Zweites Deutsches Fernsehen) and the Medieninnovationszentrum Babelsberg (MIZ) with the aim to tackle lobbying and its intersection within the political sphere in Germany. The project took shape during a scholarship of the three journalists Michael Hartlep, Dominik Wurnig and Jan Schneider at MIZ and included a series of brainstorming workshops organized between journalists, coders and designers. 
  

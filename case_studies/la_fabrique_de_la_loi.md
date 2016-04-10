@@ -23,7 +23,7 @@ criteria:
 
 La Fabrique de la Loi publishes and tracks the evolution of bills through French Parliament from their inception to the final publication, showing through visualizations the chronological changes to the text and the related debates history between the different MPs. Aside from the web interface, the data is also made accessible through an API. 
 
-![](la_fabrique_de_la_loi.png)
+![](images/la_fabrique_de_la_loi.png)
 
 The goal of La Fabrique de la Loi is “to easily understand and visualize the French parliamentary process”. The site and API are the products of a three year long research project between two research labs from Sciences Po in Paris: The [médialab](http://www.medialab.sciences-po.fr/) and the [Center for European Studies (CEE)](http://www.cee.sciences-po.fr/) and [Regards Citoyens](https://www.regardscitoyens.org/), an NGO urging for transparency in the public sphere. 
 

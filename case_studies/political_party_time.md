@@ -22,7 +22,7 @@ criteria:
 
 Political Party Time helps to track political fundraising events and the movement of political actors from event invitations. This information can be used to map the relationships between candidates and private interests from different sides. Launched in 2007 by the Sunlight Foundation, the project is still maintained by the organisation but no longer funded.
 
-![](political_party_time.png)
+![](images/political_party_time.png)
 
 Invitations to fundraising events are contributed by users who can submit an invitation by emailing or by sending it anonymously through the website interface. A small reporting team actively contributes to Political Party Time by tracking these invitations. As Topper and Stewart put it, Political Party Time aims for “content generation”. Its objective is to lead storytelling based on the fundraising event information collated on the website.
  

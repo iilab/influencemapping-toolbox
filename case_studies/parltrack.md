@@ -21,7 +21,7 @@ criteria:
 
 Parltrack is a free database of European Union dossiers, committee meetings and the people who contributed to them. The project started in 2011, during the campaign against ACTA (the Anti-Counterfeiting Trade Agreement). 
 
-![](parltrack.png)
+![](images/parltrack.png)
 
 Since its launch, Parltrack has been lead by one person, who maintains the project and manages the website. Parltrack is built using open source tools: Python for the scrapers and Mongo DB for the data management. The project has benefitted from open source development through coding contributions from the wider community. Parltrack also benefitted from crowdsourcing campaigns and donations, the most recent reached €11,000 to pay the maintenance of the website.
  

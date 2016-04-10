@@ -22,7 +22,7 @@ criteria:
 
 Influence Map measures and lists corporate influence on climate policy worldwide. The project was created to provide a ranking system that is, in their own words, “as objective as possible”, as a tool to address gap in how corporations influence climate legislation.
 
-![](influence_map.png)
+![](images/influence_map.png)
 
 The project outputs to date have been a list of rankings of corporations released in 2015. This report created a good deal of traction in the media, with almost 30 citations of the report in the press. The project also reports engagement from stakeholders such as investor groups and policymakers:
 
