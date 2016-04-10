@@ -1,5 +1,5 @@
 ---
-title: March Science Fair: El Universal Data projects & Live feedback on dataviz by Gregor Aisch
+title: "March Science Fair: El Universal Data projects & Live feedback on dataviz by Gregor Aisch"
 ---
 
 <img class="size-full wp-image-630 aligncenter" src="/assets/images/sfmarcheng.jpg" alt="Science Fair Marzo - ENG 2" width="540" height="591" />

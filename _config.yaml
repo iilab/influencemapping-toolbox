@@ -3,6 +3,9 @@ highlighter: pygments
 
 paginate: 7
 
+gems: 
+  - jekyll-paginate
+
 sass:
   style: compressed
 
