@@ -1,5 +1,6 @@
 ---
 title: "Science Fair de Diciembre: Hangout con los Narcodata Influence Mappers + Dataset de Personas de Interés"
+layout: blogpost
 ---
 
 <img class="aligncenter wp-image-493 size-full" src="/assets/images/sfdecspa.png" alt="Science Fair-6" width="530" height="530" />

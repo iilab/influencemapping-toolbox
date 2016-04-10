@@ -1,5 +1,6 @@
 ---
 title: Help us develop the Influence Mapping Toolbox
+layout: blogpost
 ---
 
 <img class="alignnone wp-image-333 size-large" src="/assets/images/iilab.png" alt="iilab" width="960" height="450" />

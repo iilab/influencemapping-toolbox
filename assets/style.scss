@@ -6,6 +6,7 @@ $bg-gray-medium: #e0e0e0;
 $bg-gray-dark: #ccc;
 $fg-gray-dark: #333;
 
+$img-red: #f26c51;
 $img-color-light: #92dadd;
 $img-color: #2aa3b2;
 $img-color-shaded: #23838f;
@@ -17,28 +18,59 @@ $serif-font: 'Domine', Georgia, serif;
 
 @mixin serif-text-area {
     font-family: $serif-font;
-    font-size: $base-font-size * 1.6;
+    font-size: $base-font-size * 1.4;
     line-height: 1.6em;
+}
+
+@mixin display-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin signficant {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+@mixin flex-item($args) {
+    -ms-flex: $args;
+    -webkit-flex: $args;
+    flex: $args;
 }
 
 @mixin headers {
     h1, h2, h3, h4, h5 {
         font-family: $sans-serif-font;
         line-height: 1.6em;
-        text-transform: uppercase;
-        font-weight: bolder;   
+        @include signficant;
+
+        &.separator {
+            text-align: center;
+            color: $bg-gray-dark;
+        }
     }
 
     h1 {
-        font-size: $base-font-size * 3;
+        font-size: $base-font-size * 2.6;
     }
 
     h2 {
-        font-size: $base-font-size * 2.5;
+        font-size: $base-font-size * 2.3;
     }
 
     h3 {
         font-size: $base-font-size * 2;
+    }
+
+    h4 {
+        font-size: $base-font-size * 1.7;
+    }
+
+    h5 {
+        font-size: $base-font-size * 1.4;
     }
 }
 
@@ -63,31 +95,29 @@ a {
 .navbar.navbar-default {
     background-color: white;
     min-height: $base-font-size * 4;
-    border-top: 3px solid $img-color-light;
+    border-top: 3px solid $img-red;
 
     .navbar-brand {
         img.logo {
             max-width: $base-font-size * 3;
             max-height: $base-font-size * 3;
+            margin-top: $base-font-size * -0.5;
             padding-right: $base-font-size;
             display: inline-block;
         }
 
         color: $fg-gray-dark;
-        font-weight: bolder;
         font-size: $base-font-size * 1.2;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+        @include signficant;
     }
 
     #mainmenu {
         li {                
             a {
                 color: $fg-gray-dark;
-                font-weight: bolder;
                 font-size: $base-font-size * 1.2;
-                text-transform: uppercase;
-                letter-spacing: 1px;
+                @include signficant;
+                
             }
         }
     }
@@ -103,6 +133,19 @@ footer {
         color: $fg-gray-dark;
         text-decoration: underline;
     }
+}
+
+.intro-header {
+    min-height: $base-font-size * 35;
+    padding-top: $base-font-size * 16;
+    color: white;
+    background-image: url('/assets/images/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    // offset the #page padding
+    margin-bottom: -50px;
 }
 
 #page {
@@ -151,5 +194,47 @@ footer {
     background-color: $bg-gray-light;
     td {
         padding-left: 2em;
+    }
+}
+
+
+/// BLOG LISTINGS
+
+.blog-post-index {
+    @include display-flex;
+    flex-flow: row wrap;
+    // align-items: flex-end;
+    // justify-content: space-between;
+
+    .blog-box {
+        @include flex-item(1 0 30%);
+        background-color: white;
+        padding: $base-font-size * 2;
+        padding-top: $base-font-size;
+        margin-right: $base-font-size * 2;
+        margin-top: $base-font-size * 2;
+
+        @media (max-width: 40em) {
+          width: 100%;
+        }
+
+        h3 {
+            a { 
+                color: #333;
+
+                &:hover {
+                    color: $img-color-shaded;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        p {
+            @include serif-text-area;
+        }
+
+        .read-more {
+            @include signficant;
+        }
     }
 }

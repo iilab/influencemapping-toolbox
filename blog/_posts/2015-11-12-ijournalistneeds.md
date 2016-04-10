@@ -1,5 +1,6 @@
 ---
 title: What tech do investigative journalists and researchers need?
+layout: blogpost
 ---
 
 Last September a group of researchers and investigative journalists and technologists working on tools to support them gathered to talk about how to better address their challenges. On this infographics we summarize some of the most relevant user needs around <strong>entities</strong>: <strong>finding data, discovering relationships between entities and easily analyzing them, and automate monitoring process. </strong>

@@ -1,5 +1,6 @@
 ---
-title: Linkurious, a web-based graph data visualization tool for investigative journalism
+title: "Linkurious, a web-based graph data visualization tool for investigative journalism"
+layout: blogpost
 ---
 
 [caption id="attachment_361" align="aligncenter" width="638"]<img class="wp-image-361" src="/assets/images/linkurious1.png" alt="Transparency Report Network: The Wikimedia Foundation and the lobbies specialized in the information society." width="638" height="368" /> Transparency Report Network: The Wikimedia Foundation and the lobbies specialized in the information society.[/caption]

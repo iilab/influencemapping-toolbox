@@ -1,5 +1,6 @@
 ---
 title: "Science Fair: Civio presenta su nuevo proyecto de mapeo de influencias"
+layout: blogpost
 ---
 
 <img class="size-full wp-image-533 aligncenter" src="/assets/images/sfjspa.png" alt="Onodo Espanol" width="478" height="478" />

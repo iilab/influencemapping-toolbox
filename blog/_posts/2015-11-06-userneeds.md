@@ -1,5 +1,6 @@
 ---
 title: User needs on influence mapping around Latin America
+layout: blogpost
 ---
 
 [caption id="attachment_435" align="aligncenter" width="960"]<img class="wp-image-435 size-large" src="/assets/images/userneeds.jpg" alt="Foto Articulo Andres - Nov.15 Ed" width="960" height="636" /> via <a href="http://2015.abrelatam.org/" target="_blank">Abre Latam</a>[/caption]

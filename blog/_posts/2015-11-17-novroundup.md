@@ -1,5 +1,6 @@
 ---
 title: Influence Mapping November Roundup
+layout: blogpost
 ---
 
 <span style="color: #008080;"><strong>#STORIES AND THOUGHTS</strong></span>

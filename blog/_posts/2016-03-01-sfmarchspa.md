@@ -1,5 +1,6 @@
 ---
 title: "Science Fair / Marzo: Proyectos de El Universal Data & Feedback de dataviz por Gregor Aisch"
+layout: blogpost
 ---
 
 <img class="size-full wp-image-622 aligncenter" src="/assets/images/sfmarchspa.jpg" alt="Science Fair - Marzo SPA - 2" width="540" height="608" />

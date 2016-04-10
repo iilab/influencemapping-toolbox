@@ -1,5 +1,6 @@
 ---
 title: Influence Mapping December Roundup
+layout: blogpost
 ---
 
 <h4 class="null"><span style="color: #008080;"><strong>#STORIES AND INSIGHTS</strong></span></h4>

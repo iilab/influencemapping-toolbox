@@ -1,5 +1,6 @@
 ---
 title: "Science Fair: Public spending in EU and Who is Who in Mexican Power"
+layout: blogpost
 ---
 
 [caption id="attachment_486" align="aligncenter" width="1090"]<img class="wp-image-486" src="/assets/images/whoiswho.png" alt="quienesquienpoder_oct2015" width="1090" height="561" /> "<a href="http://ojo-publico.com/102/negocios-en-el-Caribe-las-%20offshore-de-los-grupos-de-poder-del-Peru" target="_blank">Negocios en el Caribe: las ‘offshore’ de los grupos de poder del Perú"</a> (Ojo Publico, Who is Who Wiki Collaboration)[/caption]

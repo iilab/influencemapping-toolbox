@@ -1,5 +1,6 @@
 ---
 title: Welcome to our first roundup!
+layout: blogpost
 ---
 
 We will be sharing some interesting stories around transparency, privacy, power mapping, investigative journalism and useful resources for influence mapping projects and transparency-mapping practitioners.

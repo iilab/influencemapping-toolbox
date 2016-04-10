@@ -1,5 +1,6 @@
 ---
 title: NarcoData's team on the design process for exposing organized crime
+layout: blogpost
 ---
 
 <strong>In the last Science Fair, we were joined by NarcoData’s Yosune Chamizo and Miguel Paz. Chamizo led the design process of the nine data visualization projects that were born from the collaboration between the Mexican Media Animal Político and the Chilean Influence Mapping Media, <a href="http://poderopedia.org" target="_blank">Poderopedia</a>.</strong>

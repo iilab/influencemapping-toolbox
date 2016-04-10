@@ -1,5 +1,6 @@
 ---
 title: Create stories out of your network visualizations with the new Oligrapher
+layout: blogpost
 ---
 
 <strong>The LittleSis team is currently working on a new version of its visual maps tool, Oligrapher. In collaboration with groups from the Influence Mapping network, this new version will be much more easily deployable by other projects and will facilitate storytelling through story maps.</strong>

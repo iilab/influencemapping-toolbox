@@ -1,5 +1,6 @@
 ---
 title: Influence Mapping February Roundup
+layout: blogpost
 ---
 
 <h1>Influence Mapping February Roundup</h1>

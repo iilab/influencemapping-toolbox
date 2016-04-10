@@ -1,5 +1,6 @@
 ---
 title: Meet Onodo, the new influence mapping project from Civio
+layout: blogpost
 ---
 
 <img class="size-full wp-image-532 aligncenter" src="/assets/images/sfjeng.png" alt="Onodo ENG" width="484" height="483" />
