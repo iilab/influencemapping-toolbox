@@ -22,11 +22,3 @@ Not sure where to start?
  * Find out who’s doing work like yours in [projects](projects.html)
  * Read through our influence mapping [case studies](/case_studies/).
  * Learn about our influence mapping essential [practices](practices.html)
-
-<h4 class="separator">Latest blog posts</h4>
-
-<div class="blog-post-index">
-    {% for post in site.posts | limit:6 %}
-        {% include blog_box.html post=post %}
-    {% endfor %}
-</div>

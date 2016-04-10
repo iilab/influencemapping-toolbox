@@ -135,19 +135,6 @@ footer {
     }
 }
 
-.intro-header {
-    min-height: $base-font-size * 35;
-    padding-top: $base-font-size * 16;
-    color: white;
-    background-image: url('/assets/images/logo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-
-    // offset the #page padding
-    margin-bottom: -50px;
-}
-
 #page {
     padding-top: 70px;
     background-color: $bg-gray-light;
@@ -163,6 +150,33 @@ footer {
         margin-top: $base-font-size;
         margin-bottom: $base-font-size;
     }
+}
+
+
+/// HOME PAGE
+
+.intro-header {
+    min-height: $base-font-size * 25;
+    padding-top: $base-font-size * 8;
+    color: white;
+    text-align: center;
+    @include serif-text-area;
+    
+    h1 {
+        @include serif-text-area;    
+        font-size: 2.7em;
+    }
+
+    /*
+    background-image: url('/assets/images/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    */
+    background-color: $img-red;
+
+    // offset the #page padding
+    margin-bottom: -50px;
 }
 
 
@@ -206,13 +220,19 @@ footer {
     // align-items: flex-end;
     // justify-content: space-between;
 
+    &.wide {
+        .blog-box {
+            min-width: 80%;
+        }
+    }
+
     .blog-box {
-        @include flex-item(1 0 30%);
+        @include flex-item(1 0 45%);
         background-color: white;
         padding: $base-font-size * 2;
         padding-top: $base-font-size;
         margin-right: $base-font-size * 2;
-        margin-top: $base-font-size * 2;
+        margin-bottom: $base-font-size * 2;
 
         @media (max-width: 40em) {
           width: 100%;

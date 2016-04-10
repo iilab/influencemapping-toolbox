@@ -7,8 +7,8 @@ layout: base
     <div class="row">
       <div class="col-lg-12 col-md-12">
         <div class="site-heading">
-          <h1>Influence Mapping Toolbox</h1>
-          <span class="subheading">Helping you explore the influence of personal ties, economic interests and other relationships on politics and society</span>
+          <h1>Influence Mapping Group</h1>
+          <p class="subheading">Helping you explore the influence of personal ties, economic interests and other relationships on politics and society</p>
         </div>
       </div>
     </div>
@@ -18,5 +18,17 @@ layout: base
 <div id="page">
   <div class="container-fluid" id="main">
     {{content}}
+
+    <div class="row">
+      <div class="col-md-8">        
+        <h4 class="separator">Latest blog posts</h4>
+        <div class="blog-post-index">
+          {% for post in site.posts | limit:6 %}
+              {% include blog_box.html post=post %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-4">
+      </div>
   </div>
 </div>

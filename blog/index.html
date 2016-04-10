@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Latest news from the community"
+---
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h1 class="separator">The Influence Mapper Blog</h1>
+
+    <div class="blog-post-index wide">
+      {% for post in site.posts %}
+          {% include blog_box.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
