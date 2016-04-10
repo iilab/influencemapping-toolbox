@@ -10,7 +10,5 @@ sass:
   style: compressed
 
 exclude:
-    - practices.md
-    - projects.md
-    - tools.md
-    - COLORS.md
+  - old
+  - README.md
