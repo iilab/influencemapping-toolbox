@@ -1,0 +1,26 @@
+---
+---
+
+$gray-light: #f4f4f4;
+$gray-medium: #e0e0e0;
+$gray-dark: #ddd;
+
+$img-color: #2aa3b2;
+$img-color-shaded: #23838f;
+
+$base-font-size: 12px;
+
+$sans-serif-font: Lato, 'Helvetica Neue', Arial, sans-serif;
+$serif-font: 'Domine', Georgia, serif;
+
+@mixin serif-text-area {
+    font-family: $serif-font;
+    font-size: $base-font-size * 1.6;
+    line-height: 1.6em;
+}
+
+body {
+    // background-color: $img-color;
+    font-family: $sans-serif-font;
+    font-size: $base-font-size * 1.4;
+}
