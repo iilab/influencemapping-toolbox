@@ -1,10 +1,12 @@
 ---
 ---
 
-$gray-light: #f4f4f4;
-$gray-medium: #e0e0e0;
-$gray-dark: #ddd;
+$bg-gray-light: #f4f4f4;
+$bg-gray-medium: #e0e0e0;
+$bg-gray-dark: #ddd;
+$fg-gray-dark: #333;
 
+$img-color-light: #92dadd;
 $img-color: #2aa3b2;
 $img-color-shaded: #23838f;
 
@@ -20,7 +22,47 @@ $serif-font: 'Domine', Georgia, serif;
 }
 
 body {
-    // background-color: $img-color;
+    background-color: $img-color-light;
     font-family: $sans-serif-font;
     font-size: $base-font-size * 1.4;
+}
+
+a {
+    color: $img-color;
+
+    &:hover {
+        color: $img-color-shaded;
+    }
+}
+
+#page {
+    background-color: $bg-gray-light;
+    padding-bottom: $base-font-size * 2;
+}
+
+.navbar.navbar-default {
+    background-color: white;
+
+    #mainmenu {
+        li {                
+            a {
+                color: $fg-gray-dark;
+                font-weight: bolder;
+                font-size: $base-font-size * 1.2;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+footer {
+    padding-top: $base-font-size * 2;
+    padding-bottom: $base-font-size * 2;
+
+    color: $fg-gray-dark;
+
+    a {
+        color: $fg-gray-dark;
+        text-decoration: underline;
+    }
 }
