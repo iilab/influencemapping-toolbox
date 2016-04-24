@@ -1,19 +1,19 @@
 ---
-title: "Demos: Solutions for Document Management - Investigative Dashboard"
+title: "Investigative Dashboard"
 layout: london
 ---
 
 _Part of "Demos: Solutions for Document Management" (10 minute presentations of existing document platforms). Presented by Smari McCarthy._
 
---
+About to be launched.
 
-*About to be launched.
 * 2.300 registered users, +-100 active 
 * 550k docs, 2.5k research tickets (20M entities)
 * Python, Django; Postgres, ElasticSearch; Angular, JQuery
 * Some modules already released under AGPL, more modules will be released in coming months
 
 ### Challenges
+
 * Sitting on multiple terabytes of data. Need to process, index, understand
 * Structured and unstructured data
 * Work with 17 different languages with 4 different writing systems. Our journalists in the field are trying to get their work done and we develop whatever is needed, rather than doing this single purpose tool, we are trying to work in a more general, broad, adaptable for other needs tool that can be used also for editing.
@@ -21,6 +21,7 @@ _Part of "Demos: Solutions for Document Management" (10 minute presentations of 
 * Work environment
 
 ### Tool features
+
 * Business Registries (Database of databases): Good starting point for investigations
 * Request information 
 * Storing of files (kind of Dropbox), with public in the network or private options
@@ -28,6 +29,7 @@ _Part of "Demos: Solutions for Document Management" (10 minute presentations of 
 * Media search: Location, dates, keywords
 
 ### Roadmap
+
 * All in heavy development
 * Currently supports research tickets, file management, database lookup, meta search
 Entity database. F. ex: Being able to do pattern search is rather important, patterns of corporate structures that are key indications of wrong doing, can bring up interesting investigations.

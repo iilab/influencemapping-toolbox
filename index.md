@@ -25,9 +25,9 @@ layout: index
     <div class="teaser-box">
       <i class="fa fa-big fa-users" aria-hidden="true"></i>
       <p>
-        <strong>We bring together</strong> activists, journalists, technologists, political
-        scientists and others who are interested in data-driven methods for the study of
-        political and economic influence.
+        <strong>We bring together</strong> activists, journalists, coders, political
+        scientists and others interested in data-driven methods analysing political
+        and economic power.
       </p>
       <div class="action">
         <a href="/community/">

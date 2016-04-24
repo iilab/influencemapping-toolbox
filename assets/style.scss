@@ -433,3 +433,30 @@ footer {
         color: #333;
     }
 }
+
+/// SIDE BAR NAV
+
+#main .side-nav {
+    h1, h2, h3, h4 {
+        margin-top: 0;
+    }
+
+    ul {
+        padding: 0;
+        padding-left: 1.2em;
+        margin: 0;
+        list-style-type: square;
+
+        li {
+            font-family: $sans-serif-font;
+        }
+    }
+
+    strong {
+        font-family: $sans-serif-font;
+        display: block;
+        margin-top: $base-font-size * 1;
+        margin-bottom: $base-font-size * 1;
+    }
+
+}

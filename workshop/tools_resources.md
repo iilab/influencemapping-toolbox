@@ -4,7 +4,9 @@ layout: london
 ---
 
 **Document Management & Repository**
+
 * [Investigative Dashboard](https://investigativedashboard.org/)
+* [Aleph](https://github.com/pudo/aleph)
 * [Nuix](http://www.nuix.com/)
 * [DocumentCloud](https://www.documentcloud.org/home)
 * [Blacklight](http://projectblacklight.org/)
@@ -12,9 +14,9 @@ layout: london
 * [I2](http://www-03.ibm.com/software/products/es/ibase) 
 * [Overview](https://www.overviewdocs.com/)
 * [DEVONthink](http://www.devontechnologies.com/products/devonthink/overview.html)
-* Aleph
 
 **Analysis + Visualization**
+
 * [DocumentCloud](https://www.documentcloud.org/home)
 * [Overview](https://www.overviewdocs.com/)
 * [Linkurious](http://linkurio.us/)
@@ -26,12 +28,14 @@ layout: london
 * [Tableau](http://www.tableau.com/)
 
 **Languages**
+
 * Tika
 * Tesseract
 * Istambul
 * Unicode Encoding Selection
 
 **Publication**
+
 * [DocumentCloud](https://www.documentcloud.org/home)
 * Vis
 * [Oligrapher](http://blog.littlesis.org/2014/07/22/introducing-oligrapher-power-mapping-on-littlesis/)
@@ -39,13 +43,16 @@ layout: london
 * [Nodemapper](https://github.com/poderomedia/nodemapper)
 
 **Public Data**
+
 * [OpenCorporates](https://opencorporates.com/)
 * [Poplus](http://poplus.org/es/)
 
 **Verificaction**
+
 * PGP
 
 **T in ETL (Transform)**
+
 * [Tabula](http://tabula.technology/)
 * [Talend](https://www.talend.com/)
 * Tika
@@ -54,6 +61,7 @@ layout: london
 * [Overview](https://www.overviewdocs.com/)
 
 **Entities**
+
 * [Open Calais (DocumentCloud)](http://new.opencalais.com/)
 * [DB Pedia Spotlight](http://dbpedia-spotlight.github.io/demo/)
 * [Stanford NER](http://nlp.stanford.edu/ner/)
@@ -61,12 +69,14 @@ layout: london
 * Frelino (?)
 
 **Federated search**
+
 * [Investigative Dashboard Search](https://investigativedashboard.org/)
 * Scrappers from multiple sources
 * [Who’s got dirt](https://github.com/influencemapping/whos_got_dirt-demo)
 * [Enigma.io](http://enigma.io/)
 
 **Monitoring and alerts**
+
 * [Google Alerts](https://www.google.cl/alerts)
 * [TheyWorkForYou](http://www.theyworkforyou.com/)
 * [Slack bots (IRC)](https://api.slack.com/bot-users)

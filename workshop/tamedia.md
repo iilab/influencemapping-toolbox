@@ -1,5 +1,5 @@
 ---
-title: "Demos: Solutions for Document Management - Tamedia"
+title: "Tamedia"
 layout: london
 ---
 

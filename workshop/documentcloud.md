@@ -1,5 +1,5 @@
 ---
-title: "Demos: Solutions for Document Management - DocumentCloud"
+title: "DocumentCloud"
 layout: london
 ---
 

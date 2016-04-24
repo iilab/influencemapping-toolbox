@@ -1,8 +1,13 @@
+---
+title: "Oligrapher"
+layout: london
+---
+
 _Part of "Demos: Solutions for Entity Mapping". Presented by Kevin Connor, LittleSis._
 
-_For the video presentation: https://www.youtube.com/watch?v=ojTSUiF8muE&feature=youtu.be_
+_For the [video presentation](https://www.youtube.com/watch?v=ojTSUiF8muE&feature=youtu.be)_
 
-_See Oligrapher at: http://littlesis.org/oligrapher_
+_See Oligrapher at: [http://littlesis.org/oligrapher](http://littlesis.org/oligrapher)_
 
 ***
 
@@ -46,6 +51,7 @@ About questions:
 **New map page**: http://littlesis.org/maps/new 
 
 ### **User maps**
+
 [Andrew Cuomo's Buffalo Billion - Preet Probes Deeper](http://littlesis.org/maps/985-andrew-cuomo-s-buffalo-billion-preet-probes-deeper) 
 
 [Widespread Fracking in the Name of North American Energy Security: See the Marfa Lights](http://littlesis.org/maps/922-widespread-fracking-in-the-name-of-north-american-energy-security-see-the-marfa-lights)
@@ -55,6 +61,7 @@ About questions:
 [Who is behind the Rams stadium deal? (original)](http://littlesis.org/maps/898-who-is-behind-the-rams-stadium-deal-original)
 
 ### **Story maps**
+
 [Rubio's ties to private prisons](http://littlesis.org/story_maps/873-rubio-s-ties-to-private-prisons) 
 
 [Chip Groat annotated](http://littlesis.org/story_maps/790-chip-groat-annotated)

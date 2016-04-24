@@ -1,7 +1,7 @@
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
-paginate: 7
+# paginate: 7
 
 gems: 
   - jekyll-paginate

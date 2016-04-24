@@ -1,9 +1,10 @@
 ---
-title: "Workshop: Personas / User needs in Investigative Journalism (Miguel Paz) "
+title: "Personas / User needs in Investigative Journalism"
 layout: london
 ---
 
 _Let's give names to our use cases, as a way to be able to refer to them more targetedly in future conversations._
+
 
 **Find people data**
 

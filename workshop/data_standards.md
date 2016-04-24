@@ -1,5 +1,5 @@
 ---
-title: "Session: 'Data Standards + Who's Got Dirt? API' (James McKinney)"
+title: "Data Standards + Who's Got Dirt? API"
 layout: london
 ---
 

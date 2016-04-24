@@ -1,13 +1,11 @@
 ---
-title: Colaboration and Business Models
+title: Collaboration and Business Models
 layout: london
 ---
 
 _Presented by Jonathan Stray, Overview._
 
-_See full presentation: https://youtu.be/UwCggnStdEQ_
-
-***
+_See [full presentation](https://youtu.be/UwCggnStdEQ)._
 
 ## Collaboration possibilities
 
@@ -33,8 +31,6 @@ We do need an integrated system.
 * Whos got dirt: Federated search
 * OpenCorporates: Global company identifiers
 
-***
-
 ## Business Models: How do we fund any of these?
 
 * **Grants forever**: Not a sustainable plan. It has a lot of throwbacks.
@@ -42,9 +38,8 @@ We do need an integrated system.
 * **Commercial SAAS for Legal / Business**: You don’t get journalists to pay. The technologies that we are building would be useful for other markets, such as the legal market. Most of the tools that journalists use were not made for journalists. More possibilities to get capital funding. 
 * **Private access**: Sell content, not software. Media to pay for access to information they need for their stories (ICIJ).
 
-***
-
 **Suggestions for interoperability**
+
 * Support local installs of ID, DocumentCloud
 * Implement the APIs that we are already talking about (Who’s got dirt in ID, DocumentCloud, Overview
 

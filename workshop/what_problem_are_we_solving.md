@@ -1,13 +1,11 @@
 ---
-title: "Session: 'What problems are we trying to solve' (Jonathan Stray)"
+title: "What problems are we trying to solve?"
 layout: london
 ---
 
 _What problems are we trying to solve? Why are there so many failed tools and so much overlap? The Who's Got Dirt model. Presented by Jonathan Stray, Overview._
 
-_See full presentation: https://youtu.be/UwCggnStdEQ_
-
-***
+_See [full presentation](https://youtu.be/UwCggnStdEQ)._
 
 We’ve all been around too much by this sort of naive story that technology is going to change journalism. Specially for big collaborative work, which is our main focus this weekend; just managing who knows what, where is the data and who has it is a huge part of the battle. It’s kind of an unsexy problem, but it’s kind of the real problem.
 

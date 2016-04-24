@@ -1,5 +1,5 @@
 ---
-title: "Demos: Solutions for Entity Management - Future Crime"
+title: "Future Crime"
 layout: london
 ---
 

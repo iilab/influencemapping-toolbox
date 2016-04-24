@@ -36,7 +36,8 @@ studies:
   </div>
   <div class="col-md-6">
     <!-- img src="../assets/images/team.png" -->
-    <p>The Toolbox was developed by <a href="https://iilab.org">iilab - information innovation lab</a>.</p>
+    <p>The Toolbox was developed by <a href="https://iilab.org">iilab - information innovation lab</a>.
+    Further resources <a href="resources.html">are listed here.</a></p>
     <p class="get-the-report">
         <strong>
             <a href="influencemapping_soa_dec15_web.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
