@@ -215,7 +215,7 @@ footer {
     margin-top: $base-font-size * 1;
     text-align: center;
 
-    h3 {
+    h3, h4, h5 {
         margin-top: $base-font-size * -2;
         margin-left: $base-font-size * -1;
         margin-right: $base-font-size * -1;
@@ -229,6 +229,23 @@ footer {
             padding-bottom: 0.1em;
             color: $bg-gray-medium;
         }
+
+        a {
+            color: #333;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    h5 {
+        text-align: left;
+    }
+
+    img {
+        max-width: 100%;
+        height: 12em;
+        border: 2px solid $bg-gray-dark;
     }
 
     i.fa-big {
@@ -376,3 +393,15 @@ footer {
     }
 }
 
+/// TOOLBOX
+
+.get-the-report {
+    font-family: $sans-serif-font !important;
+    background-color: $img-color-light;
+    color: #333;
+    padding: $base-font-size * 1;
+
+    a {
+        color: #333;
+    }
+}
