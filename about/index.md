@@ -4,7 +4,7 @@ layout: default
 section: about
 ---
 
-<h1 class="centered">About the Influence Mapping Group</h1>
+<h1 class="page-heading">About the Influence Mapping Group</h1>
 
 <div class="row">
   <div class="col-md-8">

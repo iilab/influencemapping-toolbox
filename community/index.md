@@ -4,25 +4,27 @@ layout: default
 section: community
 ---
 
-<h1 class="centered">Welcome to the conversation</h1>
+<h1 class="page-heading">Welcome to the conversation</h1>
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-12">
     <p>
-      <strong>Before anything else, the Influence Mappers is an open community.</strong>
+      <strong>Before anything else, the Influence Mappers is an open community where peers meet peers.</strong>
     </p>
+  </div>
+  <div class="col-md-6">
     <p>
       We bring together activists, journalists, technologists, political
       scientists and others who are interested in how data-driven methods to
-      explore political and economic influence.
+      explore political and economic influence. In the group, we're sharing
+      great examples of influence mapping from around the world; 
     </p>
     
   </div>
   <div class="col-md-6">
     <!-- img src="../assets/images/team.png" -->
     <p>
-      In the group, we're sharing great examples of influence mapping from
-      around the world; new techniques and technology that can support those
+      new techniques and technology that can support those
       who want to start new projects - whether data collection, data
       visualisation or investigative approaches.
     </p>

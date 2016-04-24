@@ -3,7 +3,7 @@ title: Who's Got Dirt API
 layout: default
 ---
 
-<h1 class="centered">Who's Got Dirt API</h1>
+<h1 class="page-heading">Who's Got Dirt API</h1>
 
 <div class="row">
   <div class="col-md-8">

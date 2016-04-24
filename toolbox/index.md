@@ -25,7 +25,7 @@ studies:
       path: political_party_time.html
 ---
 
-<h1 class="centered">About the toolbox</h1>
+<h1 class="page-heading">The tools of the trade</h1>
 
 <div class="row">
   <div class="col-md-6">
@@ -72,7 +72,7 @@ studies:
         </h3>
         <p>
             Check out what tools are available to clean, store and visualize
-            influence mapping data.
+            data.
         </p>
         <div class="action">
             <a href="/tools/">
