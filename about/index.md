@@ -34,6 +34,8 @@ layout: default
 
     <h3>Who are we?</h3>
 
+    <p>We're an open community for those interested in influence mapping - anyone is invited to <a href="/community/">participate and contribute</a>. The initiative was founded and is facilitated by the following core group:</p>
+
     <div class="group-founder">
       <img src="/assets/images/paola.jpg">
       <h4>PAOLA MOSSO &#8211; COMMUNITY COORDINATOR</h4>

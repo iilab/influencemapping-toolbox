@@ -13,7 +13,8 @@
     <meta name="description" content="{{page.description}}" />
     <meta name="keywords" content="influence mapping" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Domine%3A400%2C700%7CLato%3A400%2C900&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
 
     <!-- link href='/assets/css/slick.css' rel='stylesheet' type='text/css' -->
@@ -34,32 +35,7 @@
     <div id="airlock">
       {{ content }}
     </div>
-    <footer class="hidden-print">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <h4>Participate in the group</h4>
-
-          </div>
-          <div class="col-md-4">
-            <h4>Partners and supporters</h4>
-            <p>
-              InfluenceMapping is made possible by the generous support of the <a href="Influencemapping%20is made possible by the generous support of the Open Society Foundation, and is a partnership between The American Assembly at Columbia University, Open Corporates, OpenNorth, LittleSis and Poderopedia." target="_blank">Open Society Foundation</a>, and is a partnership between <a href="http://americanassembly.org/" target="_blank">The American Assembly</a>, <a href="http://littlesis.org/" target="_blank">LittleSis</a>, <a href="https://opencorporates.com/" target="_blank">OpenCorporates</a>, <a href="http://www.opennorth.ca/" target="_blank">OpenNorth</a>,  and <a href="http://www.poderopedia.org/" target="_blank">Poderopedia</a>.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h4>Copyright and feedback</h4>
-            <p>
-              This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-            </p>
-            <p class="copyright">
-              Notice any omissions or problems in the content? Let us know at info@influencemapping.org
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
+    {% include footer.html %}
     {% include piwik.html %}
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

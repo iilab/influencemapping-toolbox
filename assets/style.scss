@@ -140,6 +140,13 @@ footer {
         color: $fg-gray-dark;
         text-decoration: underline;
     }
+
+    .socialmedia {
+        a {
+            text-decoration: none;
+            font-weight: bolder;
+        }
+    }
 }
 
 #page {
