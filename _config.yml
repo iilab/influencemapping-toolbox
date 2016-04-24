@@ -12,3 +12,30 @@ sass:
 exclude:
   - old
   - README.md
+
+
+defaults:
+  - scope:
+      path: "blog"
+    values:
+      section: "blog"
+  - scope:
+      path: "toolbox"
+    values:
+      section: "toolbox"
+  - scope:
+      path: "work"
+    values:
+      section: "work"
+  - scope:
+      path: "workshop"
+    values:
+      section: "work"
+  - scope:
+      path: "projects"
+    values:
+      section: "toolbox"
+  - scope:
+      path: "tools"
+    values:
+      section: "toolbox"

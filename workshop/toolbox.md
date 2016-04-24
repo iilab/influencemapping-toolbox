@@ -1,3 +1,8 @@
+---
+title: "Influence Mapping Toolbox"
+layout: london
+---
+
 _Jun will presented iilab's work on an Influence Mapping toolbox / set of best practices for newcomers._
 
 _Presented by Jun Matsushita._

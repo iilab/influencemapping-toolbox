@@ -1,3 +1,8 @@
+---
+title: "Session: 'Data Standards + Who's Got Dirt? API' (James McKinney)"
+layout: london
+---
+
 _Looking at the possibilities for standard to increase data interoperability between our datasets and tools, including the idea of a common API for investigative entity mapping tools: "Who's Got Dirt?" API. Presented by James McKinney._
 
 ***

@@ -1,3 +1,8 @@
+---
+title: "Session: 'What problems are we trying to solve' (Jonathan Stray)"
+layout: london
+---
+
 _What problems are we trying to solve? Why are there so many failed tools and so much overlap? The Who's Got Dirt model. Presented by Jonathan Stray, Overview._
 
 _See full presentation: https://youtu.be/UwCggnStdEQ_
@@ -7,6 +12,7 @@ _See full presentation: https://youtu.be/UwCggnStdEQ_
 We’ve all been around too much by this sort of naive story that technology is going to change journalism. Specially for big collaborative work, which is our main focus this weekend; just managing who knows what, where is the data and who has it is a huge part of the battle. It’s kind of an unsexy problem, but it’s kind of the real problem.
 
 **Where we are now / Current problems:**
+
 * **Multiple ongoing platforms projects**
 * **Nothing interoperates** (Ej: OC <-> Investigative Dashboard), we don’t have the protocols or even the concepts that would allow these tools to work together. 
 A lot of the tools available have not sustainability model, don’t interoperate and have not produced the kinds of platforms that we hoped for. This is a problem in many issues, one of these is that these platforms are shockingly expensive to do. 
@@ -23,7 +29,7 @@ Stuff you can only learn from intensive user testing.
 
 * Collaboration models - how (to get) people work (ing) together
 * Interoperability APIs and formats - how the software works together
-		*Requires API’s + standardization
+  * Requires API’s + standardization
 * Workflow definitions: what should the software do?
 	
 **Sustainability**
@@ -37,6 +43,7 @@ There is a model that puts bread in technologists and journalists mouths forever
 ***
 
 **Thoughts**
+
 * Drew Sullivan: Technology is going to drive the form of journalism in the future, we have to talk with journalists, work together.
 * Miguel Paz: Turn this issue into a real thing.
 * Drew: Semi structured interview. User research, spend a lot of time in usability testing. It has to be a long term commitment.
@@ -58,9 +65,9 @@ The business model I guess is to get something that’s done and getting it work
 
 ***
 
-Drew: How many Investigative journalists are out there? 2.000? (Some people agree) 
+* Drew: How many Investigative journalists are out there? 2.000? (Some people agree) 
 * Eva Constantaras: I think we have to be careful not to be developing for some niche investigative journalism. There are a lot of people working in investigative journalism, maybe not full time, but they are doing efforts. 
-A lot of what you are doing is great, but it’s too much for investigative journalists. I’ve trained hundreds, and they can break Google Spreadsheet.
+* A lot of what you are doing is great, but it’s too much for investigative journalists. I’ve trained hundreds, and they can break Google Spreadsheet.
 * Drew: I think there are 2000 IJ that could use a tool. 100 dollars a month, if we get them all, it’s sustainable. These are not good numbers, maybe we should approach not full time IJ, but other communities, activists.
 * Adam: Also, if you get all 2.000 with one tool, what tool would that be.
 * Notes: Think about how startups work around Sales teams.

@@ -1,3 +1,8 @@
+---
+title: "Scale, Modeling, Contributions: Lessons from OpenCorporates"
+layout: london
+---
+
 _[OpenCorporates](https://opencorporates.com/) has grown to include 90mio companies, some collected via the Turbot crowd-sourcing mechanism. Chris will share some lessons. Presented by Chris Taggart._
 
 _**API**: http://api.opencorporates.com/_

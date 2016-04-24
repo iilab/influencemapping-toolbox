@@ -1,3 +1,8 @@
+---
+title: "Demos: Solutions for Document Management - DocumentCloud"
+layout: london
+---
+
 _Part of "Demos: Solutions for Document Management" (10 minute presentations of existing document platforms). DocumentCloud was represented in this session by Jonathan Stray._
 
 ***

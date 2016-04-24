@@ -1,3 +1,8 @@
+---
+title: "Demos: Solutions for Entity Management - Future Crime"
+layout: london
+---
+
 _Part of "Demos: Solutions for Entity Mapping". Presented by Paul Radu, OCCRP._
 
 ***

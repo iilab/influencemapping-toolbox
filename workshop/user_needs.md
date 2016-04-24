@@ -1,8 +1,12 @@
+---
+title: "Workshop: Personas / User needs in Investigative Journalism (Miguel Paz) "
+layout: london
+---
+
 _Let's give names to our use cases, as a way to be able to refer to them more targetedly in future conversations._
 
-***
-
 **Find people data**
+
 * Discover relationships between people
 * Be able to identify people quickly, with less hours of Googling
 * Find out what a person owns (regardless of country)
@@ -16,6 +20,7 @@ _Let's give names to our use cases, as a way to be able to refer to them more ta
 * Worldwide patters in legislative voting? Do women vote differently from men on social policy? Is there a correlation between legislators age & support for same-sex marriage? etc.
 
 **Find story ideas**
+
 * Figure out the most important facts in a set of documents quickly
 * Be able to find stories I did not know I had
 * Given some data, find the important facts - the stories
@@ -23,6 +28,7 @@ _Let's give names to our use cases, as a way to be able to refer to them more ta
 * Getting to know if anything inside news anywhere is connected to my data
 
 **Track changes**
+
 * How do we keep track of changing data (monthly or yearly, etc.)
 * Update an old story with fresh data… for free
 * Get notified each time some new info about a person becomes available
@@ -32,6 +38,7 @@ _Let's give names to our use cases, as a way to be able to refer to them more ta
 * I want automatic passive discovery of entities across different document stores
 
 **Data verification**
+
 * Can any document confirm some rumor I heard elsewhere?
 * Is there a newer/older/different version of this document?
 * Trust that a document is not a forgery
@@ -39,6 +46,7 @@ _Let's give names to our use cases, as a way to be able to refer to them more ta
 * See articles that have already been written about a document
 
 **Workflow**
+
 * Toolkit to pilot a structured journalism activity w/in a media house
 * Keep track of my research
 * Make corrections and annotations on documents
@@ -46,9 +54,11 @@ _Let's give names to our use cases, as a way to be able to refer to them more ta
 * I want a free open-source Nuix-like front end
 
 **Languages**
+
 Tabula in other alphabets!
 
 **Follow the money**
+
 * Visualize the amount of money flowing through a production & supply chain, including investment and trading
 * Find suspicious corporate structures by pattern
 * Who is paying for something (building, company, event, etc.)
@@ -58,11 +68,13 @@ Tabula in other alphabets!
 * Discover & tabulate financial relationships between entities of interest
 
 **Anomalies**
+
 * See the extreme records in a dataset (biggest, smallest)
 * Is there anything unusual about this document
 * Find anomalies in financial data
 
 **Data processing**
+
 * Wipe metadata from a document 
 * Integrate & automate entity searches w/in media houses CMS
 * A way to ID dirty document files + group for cleaning
@@ -79,16 +91,19 @@ Tabula in other alphabets!
 * Correlate data between different types of media.
 
 **Spreadsheets**
+
 * Better applications where spreadsheet is the interface (i.e. more featureful spreadsheets for enrichment, reconciliation, etc.
 * Have template spreadsheets for different story models
 * Database look-up from Google Spreadsheets.
 
 **Provenance / Sources**
+
 * Source data linking
 * Structuring ad hoc data as a part of the journalism process
 * Machine readable provenance for news stories
 
 **Entity, Identification, Matching**
+
 * Match similar entity, allow manual match
 * Automated data cleaning tracker - always know the source of your data.
 * Entity reconciliation API (for deduplication) (i.e. I have entities, I want to match them up, against other’s people’s entities. I want to be able to match up each database’s entities).
@@ -97,10 +112,12 @@ Tabula in other alphabets!
 * Learn easy ways to reconcile and match data, names, ID’s
 
 **Identify relationships**
+
 * Identifying people and linking people from different areas
 * Understand nature of the relationship (opposition v/s alliance)
 
 **Workflow**
+
 * Process very quickly: Time matters!
 * Be secure
 * Spend less time reviewing data quality
@@ -110,6 +127,7 @@ Tabula in other alphabets!
 * Manage different type of access sights (public, private, share)
 
 **Monitoring alerts - Fetch patterns**
+
 * Have an AI that feeds journalists with alerts of organised crime and corruption
 * Hit lists search / alerts
 * Alert me when a partner adds a document for someone I am interested in
@@ -121,11 +139,13 @@ Tabula in other alphabets!
 * Look for patters in data using machine learning
 
 **Document display**
+
 * Very efficient viewer with search highlights
 * Display original document
 * Highlights
 
 **Import data docs**
+
 * Microwork platform for uploading hand written data
 * Import docs when I don’t know the languages in them
 * Import any doc in any format
@@ -135,10 +155,12 @@ Tabula in other alphabets!
 * Read disclosure documents and make a spreadsheet of major board decisions. 
 
 **Skunkworks**
+
 * Open Source transliteration that works
 * Global address parsing.
 
 **Federated search data docs cross queries**
+
 * Figure out who has documents I need to see
 * A service to find who may have data matching a query, i.e. “yes-no” response with information on how to contact that source.
 * Search the database of other partners (API)
@@ -150,6 +172,7 @@ Tabula in other alphabets!
 * Be able to mine all social networks at once
 
 **Visualization / geocoding**
+
 * Understanding domain specifics hierarchy
 * On entry into database -all geographic things are converted to latitude or longitude (geocode) 
 * Export from database directly to visualization tool, map or timeline
@@ -158,9 +181,11 @@ Tabula in other alphabets!
 * Visualize networks, maps, occurrence 
 
 **Editorial**
+
 * Explaining complex relationships to readers
 
 **Entity and facet extraction**
+
 * Entity extraction in any language
 * Define new facets, depending on the dataset
 * Knowing what to look for in a pile of documents
@@ -168,6 +193,7 @@ Tabula in other alphabets!
 * Pull names quickly off of a webpage 
 
 **Misc**
+
 * I’d like a tool that would measure the cost of corruption in terms of impact (environ’ / pockets / social).
 * Global Address Parsing.
 * Conflict of interest lead finder

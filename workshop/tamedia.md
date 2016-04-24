@@ -1,3 +1,8 @@
+---
+title: "Demos: Solutions for Document Management - Tamedia"
+layout: london
+---
+
 _Part of "Demos: Solutions for Document Management" (10 minute presentations of existing document platforms). Presented by Titus Platner and Didier Orel._
 
 ***

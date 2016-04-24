@@ -1,3 +1,8 @@
+---
+title: "Demos: Solutions for Document Management - DocumentCloud"
+layout: london
+---
+
 _Part of "Demos: Solutions for Document Management" (10 minute presentations of existing document platforms). Presented by Mar Cabra and Matthew Cuarua._
 
 --

@@ -1,3 +1,8 @@
+---
+title: Colaboration and Business Models
+layout: london
+---
+
 _Presented by Jonathan Stray, Overview._
 
 _See full presentation: https://youtu.be/UwCggnStdEQ_
@@ -16,12 +21,14 @@ We do need an integrated system.
 ### More specific:
 
 **Modules (Build)**
+
 * Workspaces: Integrated UI that is seamless and usable
 * File repository: store, manage, version millions of documents/databases
 * Importers: Extract, scraper, OCR, process attachments, lots of formats
 * Visualizations: specialized analysis tools
 
 **Existing API’s and formats**
+
 * Overview plugin API: Rapid visulization / custom workflow  development
 * Whos got dirt: Federated search
 * OpenCorporates: Global company identifiers

@@ -1,3 +1,8 @@
+---
+title: "Tools & Resources"
+layout: london
+---
+
 **Document Management & Repository**
 * [Investigative Dashboard](https://investigativedashboard.org/)
 * [Nuix](http://www.nuix.com/)

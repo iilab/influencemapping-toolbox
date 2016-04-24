@@ -1,6 +1,7 @@
 ---
 title: About the Influence Mapping Group
 layout: default
+section: about
 ---
 
 <h1 class="centered">About the Influence Mapping Group</h1>

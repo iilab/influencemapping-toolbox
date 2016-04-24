@@ -1,6 +1,7 @@
 ---
 title: Influence Mapping Community
 layout: default
+section: community
 ---
 
 <h1 class="centered">Welcome to the conversation</h1>

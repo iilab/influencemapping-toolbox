@@ -1,3 +1,8 @@
+---
+title: "Demos: Solutions for Document Management - Investigative Dashboard"
+layout: london
+---
+
 _Part of "Demos: Solutions for Document Management" (10 minute presentations of existing document platforms). Presented by Smari McCarthy._
 
 --

@@ -25,8 +25,8 @@ layout: index
     <div class="teaser-box">
       <p>
         <strong>We bring together</strong> activists, journalists, technologists, political
-        scientists and others who are interested in how data-driven methods to
-        explore political and economic influence.
+        scientists and others who are interested in data-driven methods for the study of
+        political and economic influence.
       </p>
       <div class="action">
         <a href="/community/">
