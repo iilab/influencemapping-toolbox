@@ -12,19 +12,19 @@ section: about
       <strong>Helping researchers, journalists, and activists map the role of personal ties and economic interests in politics.</strong>
     </p>
     <p>
-        The influence mappers community brings together power cartographers from across the world to…
+      The influence mappers community brings together power cartographers from across the world to…
     </p>
     <ul>
-        <li>find out what works and what doesn’t in data-driven social network analysis projects,</li>
-        <li>develop standards that can be used to share data across projects, and</li>
-        <li>share technologies that help structure, visualize and analyze influence networks.</li>
+      <li>find out what works and what doesn’t in data-driven social network analysis projects,</li>
+      <li>develop standards that can be used to share data across projects, and</li>
+      <li>share technologies that help structure, visualize and analyze influence networks.</li>
     </ul>
     <p>
-        Influence mapping — the documenting of relationships between people, organizations, and political processes — has roots in sociological, anthropological, and journalistic methods going back a century. The ability to deploy mapping tools in public, on a large scale, and at relatively low cost, however, is new and only now approaching critical mass in early adopter communities — principally among data journalists and civil society groups.
+      Influence mapping — the documenting of relationships between people, organizations, and political processes — has roots in sociological, anthropological, and journalistic methods going back a century. The ability to deploy mapping tools in public, on a large scale, and at relatively low cost, however, is new and only now approaching critical mass in early adopter communities — principally among data journalists and civil society groups.
     </p>
     <h3>Why have the Influence Mapping Group?</h3>
     <p>
-        As with most young technologies, the early days of influence mapping have seen a great deal of parallel innovation. Most projects have followed idiosyncratic paths, drawing on diverse technologies and arriving at as many answers to basic questions about data structure, trust, and analytical methods.  As the number of projects has grown, this fragmentation — in our view — has begun to limit the effectiveness of influence mapping efforts in general. 
+      As with most young technologies, the early days of influence mapping have seen a great deal of parallel innovation. Most projects have followed idiosyncratic paths, drawing on diverse technologies and arriving at as many answers to basic questions about data structure, trust, and analytical methods.  As the number of projects has grown, this fragmentation — in our view — has begun to limit the effectiveness of influence mapping efforts in general. 
     </p>
     <p>
         With a few exceptions, projects don’t connect.  There are no metadata or API standards for network mapping efforts, no sharing of visualization or analytical tools, and little coordination around the aggregation of data or sharing of development costs.  There is, in short, a great deal of unrealized potential.

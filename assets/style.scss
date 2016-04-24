@@ -222,6 +222,13 @@ footer {
         margin-bottom: $base-font-size * 1;
         padding: $base-font-size;
         background-color: $bg-gray-dark;
+
+        i {
+            display: block;
+            font-size: 4em;
+            padding-bottom: 0.2em;
+            color: $bg-gray-medium;
+        }
     }
 
     .action {

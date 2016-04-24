@@ -34,8 +34,8 @@ section: community
     <div class="teaser-box">
         <h3>Join our mailing list</h3>
         <p>
-          This is an open space where everyone is encouraged to post interesting
-          related tidbits, or start a debate to get some feedback from peers.
+          This is an open space where everyone is encouraged to post 
+          relavant links, or start a debate to get some feedback from peers.
         </p>
         <div class="action">
             <a href="https://groups.google.com/forum/#!forum/influencemapping" target="_new">
