@@ -75,7 +75,7 @@ studies:
             influence mapping data.
         </p>
         <div class="action">
-            <a href="/projects/">
+            <a href="/tools/">
                 See the list
             </a>
         </div>
@@ -92,7 +92,7 @@ studies:
           mapping projects.
         </p>
         <div class="action">
-            <a href="/projects/">
+            <a href="/practices/">
                 Read more
             </a>
         </div>
