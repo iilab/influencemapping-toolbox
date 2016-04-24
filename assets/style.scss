@@ -226,9 +226,16 @@ footer {
         i {
             display: block;
             font-size: 4em;
-            padding-bottom: 0.2em;
+            padding-bottom: 0.1em;
             color: $bg-gray-medium;
         }
+    }
+
+    i.fa-big {
+        display: block;
+        font-size: 6em;
+        padding-bottom: 0.1em;
+        color: $bg-gray-light;
     }
 
     .action {
