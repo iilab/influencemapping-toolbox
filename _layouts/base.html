@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>{{ page.title }} - Influence Mapping Group</title>
-    <meta name="author" content="Jun Matsushita" />
     <meta name="description" content="{{page.description}}" />
     <meta name="keywords" content="influence mapping" />
 
@@ -34,6 +33,7 @@
     {% include nav.html %}
     <div id="airlock">
       {{ content }}
+      {% include edit_bar.html %}
     </div>
     {% include footer.html %}
     {% include piwik.html %}

@@ -150,9 +150,13 @@ footer {
     }
 }
 
-#page {
+#airlock {
     background-color: $bg-gray-light;
     padding-bottom: $base-font-size * 2;
+   
+}
+
+#page {
     padding-top: 70px;
     
     &.no-nav {
@@ -174,6 +178,32 @@ footer {
 #main {
     p, li {
         @include serif-text-area;
+    }
+}
+
+/// EDIT BAR
+
+.edit-bar {
+    margin-top: $base-font-size;
+    text-align: left;
+    background-color: $img-red;
+    color: white;
+
+    a {
+        display: inline-block;
+        background-color: darken($img-red, 10%);
+        color: white;
+        padding: $base-font-size;
+
+        &:hover {
+            background-color: $img-color-light;
+            color: #333;
+            text-decoration: none;
+        }
+    }
+
+    span {
+        padding-left: 2em;
     }
 }
 
@@ -201,8 +231,6 @@ footer {
     */
     background-color: $img-red;
 
-    // offset the #page padding
-    margin-bottom: -50px;
 }
 
 /// TEASER BOXES
