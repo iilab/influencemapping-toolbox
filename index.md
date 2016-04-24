@@ -5,20 +5,61 @@ home: true
 layout: index
 ---
 
-Influence mapping is an emerging, diverse field. Situated somewhere between data journalism, network visualisation, political science and activism, influence mapping is still building an identity as a practice in its own right. You could be an influence mapper and not even know it yet.
+<div class="row">
+  <div class="col-md-6">
+    <p>
+      The influence mappers community brings together power cartographers from across the world to 
+      find out what works and what doesn’t in data-driven social network analysis projects,
+    </p>
+  </div>
+  <div class="col-md-6">
+    <p>
+      develop standards that can be used to share data across projects, and
+      share technologies that help structure, visualize and analyze influence networks.
+    </p>
+  </div>
+</div>
 
-The influence mapping toolbox guides you to
-
-<nav><ul class="pager">
-<li>[Find data you need](practices.html#collect)</li>
-<li>[Make sense of your data](practices.html#organise)</li>
-<li>[Share data and findings](practices.html#publish)</li>
-</ul></nav>
-
-Not sure where to start?
-
- * Read about the [state of the art in influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf))
- * Take a tour of the [tools available](tools.html)
- * Find out who’s doing work like yours in [projects](projects.html)
- * Read through our influence mapping [case studies](/case_studies/).
- * Learn about our influence mapping essential [practices](practices.html)
+<div class="row">
+  <div class="col-md-4">
+    <div class="teaser-box">
+      <p>
+        <strong>We bring together</strong> activists, journalists, technologists, political
+        scientists and others who are interested in how data-driven methods to
+        explore political and economic influence.
+      </p>
+      <div class="action">
+        <a href="/community/">
+          Join the community
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="teaser-box">
+      <p>
+        The <strong>influence mapping toolbox</strong> brings together resources to help you
+        find out how to approach, design and implement a data-driven influence mapping 
+        project.
+      </p>
+      <div class="action">
+        <a href="/toolbox/">
+          Explore the toolbox
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="teaser-box">
+      <p>
+        We're working on re-usable tools, including <strong>Who's Got Dirt?</strong>, a data
+        standard for cross-platform queries, and <strong>Oligrapher 2</strong>, a network narrative tool.
+      </p>
+      <div class="action">
+        <a href="/work/">
+          Use our tools
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
