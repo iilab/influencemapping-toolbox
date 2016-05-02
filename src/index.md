@@ -35,5 +35,5 @@ Use the links below to start exploring influence mapping practices, or take a lo
  * Find out who’s doing work like yours in [projects](projects.html)
  * Read through our influence mapping [case studies](case_studies.html).
  * Learn about our influence mapping essential [practices](practices.html)
- * Find out more with our [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf))
+ * Find out more with our [state of the art report on influence mapping](assets/InfluenceMappingStateoftheArt_v0.2.pdf)
 <br>
