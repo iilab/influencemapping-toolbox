@@ -20,7 +20,7 @@ We delineate influence mapping as
 
 We’ve used this loose definition to guide the design of the influence mapping toolbox. This toolbox aims to help people learn about existing influence mapping projects, and to share learning about common practices, tools and project experiences, so that influence mapping as a practice can grow and have even more impact.
 
-Find out more about this work in our [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf)).
+Find out more about this work in our [state of the art report on influence mapping](assets/InfluenceMappingStateoftheArt_v0.2.pdf).
 
 ## Why we made the toolbox
 
