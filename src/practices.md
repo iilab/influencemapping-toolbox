@@ -14,6 +14,13 @@ There are a number of essential practices which most influence mapping project a
 </ul></nav>
 We've organised these practices in a way that allow you to find more by looking at existing project documentation and relevant tools that can be used in the context of this practice.
 
+In this section we explore practices of influence mapping. You can also explore other sections of the toolbox:
+
+ - Take a tour of [the tools available](/tools.html)
+ - Find out who’s doing work like yours in [projects](/projects.html)
+ - Read through our influence mapping [case studies](/case_studies.html).
+ - Find out more with our [state of the art report on influence mapping](/assets/InfluenceMappingStateoftheArt_v0.2.pdf)
+
 </div></div><!-- dirty trick. close parent container and row--> 
 <div class="container" id="main">
 <div class="row">

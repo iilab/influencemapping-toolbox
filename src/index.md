@@ -11,7 +11,7 @@ Influence mapping is about making impact. It can be about finding things out - r
 
 Influence mapping projects aim to hold those in power accountable for their decisions. It is a process that allows citizens to have oversight on governments, organisations and corporations. While influence mappers use varied methods and create tools to help find evidence, stories and make visualisations, they share motivations and practices. 
 
-Find out more by reading this [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf).
+Find out more by reading this [state of the art report on influence mapping](assets/InfluenceMappingStateoftheArt_v0.2.pdf).
 
 Between data journalism, network visualisation, political science and activism, influence mapping is still building an identity as a practice in its own right. Influence mapping is emerging and the community is growing. 
 
@@ -35,5 +35,5 @@ Use the links below to start exploring influence mapping practices, or take a lo
  * Find out who’s doing work like yours in [projects](projects.html)
  * Read through our influence mapping [case studies](case_studies.html).
  * Learn about our influence mapping essential [practices](practices.html)
- * Find out more with our [state of the art report on influence mapping](assets/influencemapping_soa_dec15_web.pdf) ([print version](assets/influencemapping_soa_dec15.pdf))
+ * Find out more with our [state of the art report on influence mapping](assets/InfluenceMappingStateoftheArt_v0.2.pdf)
 <br>
