@@ -1,0 +1,105 @@
+{
+  "source": "src",
+  "destination": "build",
+  "clean": false,
+  "plugins": {
+    "metalsmith-env": {},
+    "metalsmith-metadata": {
+      "practices": "data/practices.csv",
+      "projects": "data/projects.csv",
+      "tools": "data/tools.csv"
+    },
+    "metalsmith-debug": true,
+    "metalsmith-sass": {
+    },
+    "metalsmith-ignore": [
+      ".git/**",
+      ".gitignore",
+      ".travis.yml",
+      "_config.yml",
+      "INTENTIONS.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "data/*"
+    ],
+    "metalsmith-paths": {
+      "property": "paths"
+    },
+    "metalsmith-generate": [
+      {
+        "type": "metadata",
+        "src": "tools",
+        "contents": "layouts/tool.md",
+        "name": "name",
+        "ext": ".md",
+        "path": "tools/",
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "tool" 
+        }
+      },
+      {
+        "type": "metadata",
+        "src": "practices",
+        "contents": "layouts/practice.md",
+        "name": "practice",
+        "ext": ".md",
+        "path": "practices/",
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "practice" 
+        }
+      },
+      {
+        "type": "metadata",
+        "src": "practices",
+        "contents": "layouts/subpractice.md",
+        "name": "name",
+        "parent": "practice",
+        "ext": ".md",
+        "path": "practices/",
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "practice" 
+        }
+      },
+      {
+        "type": "metadata",
+        "src": "projects",
+        "contents": "layouts/project.md",
+        "name": "name",
+        "ext": ".md",
+        "path": "projects/",
+        "slugify": true,
+        "metadata": { 
+          "lunr": true,
+          "content_type": "project" 
+        }
+      }
+    ],
+    "metalsmith-in-place": {
+      "engine": "nunjucks"
+    },
+    "metalsmith-collections": {
+      "projects": "projects/*.md",
+      "practices": "practices/*.md",
+      "tools": "tools/*.md"
+    },
+    "metalsmith-collection-tags": {
+      "projects": {
+        "handle": "phase",
+        "path": "projects/phase/:tag.html",
+        "template": "layouts/projects_tag.md"
+      },
+      "projects": {
+        "handle": "regularly_updated",
+        "path": "projects/regularly_updated/:tag.html",
+        "template": "layouts/projects_tag.md"
+      }
+    }
+  }
+}
