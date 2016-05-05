@@ -1,17 +1,61 @@
 Practice,Name,PracticeIntro,Alias,Description,Intro,Body
-Plan,Get Started,"When you get started on a project it's usually an intuition or a question that guides you, but to achieve your goals, a little bit of planning goes a long way.",Planning,Get started on an influence mapping project,You've found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess ,"### The Toolbox Projects
+Plan,Get Started,"When you get started on a project it's usually an intuition or a question that guides you, but to achieve your goals, a little bit of planning goes a long way.",Planning,Get started on an influence mapping project,You've found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess ,"You've found a good place to start! The influence mapping toolbox aims to help people learn about existing influence mapping projects, and to share learning about common practices, tools and project experiences, so that influence mapping as a practice can grow and have even more impact.
 
-### Read Case Studies
+Influence mapping is at a stage now where there are many people doing similar work but, because the community is still fragmented, learning is not being shared as effectively or as widely as it could be. 
 
-### Field Survey"
-Plan,Project Design,,Planning,Define your problem and structure your project,,"### Methodology
-Iterative!
-### User centric methodologies
+We have created a resource where the varied expertise and in-depth knowledge of influence mappers can be shared and built upon: a toolbox that will help newcomers and experts to map influence and make the most of their work. 
+
+There are a number of aspects you need to think about before you start your project. But planning is often a continuous and iterative process so we recommend to come back to this section and the questions within it regularly as you progress.
+
+In this section we'll be looking at project design, important ethical considerations, the different skillsets you might need and strategy."
+Plan,Project Design,,Planning,Define your problem and structure your project,,"Influence mapping projects use varied methodologies or create tools that help to find evidence, stories and visualisations that aim to hold those in power accountable for their decisions.
+
+> Stop! This toolbox defines influence mapping projects broadly and some of its lessons should be applicable to a range of situations, but nonetheless check if you're in the right place.
+
+### Why and What? Vision and Goals
+
+It's important to express what your current goals are for the project. This might change over the course of the project, and might evolve from being very ambitiously framed (""save the world"") to much more tightly defined. Here are a few more examples of well defined project aims:
+ - [OpenCorporates](http://opencorporates.com) exists to make information about companies and the corporate world more accessible, more discoverable, and more usable, and thus give citizens, community groups, journalists, other companies, and society as a whole the ability to understand, monitor and regulate them.
+ - [Lobbyradar](case_studies/lobbyradar.html) uncovers the lobbying groups and private interests in German politics.
+ -[Cargografias](case_studies/cargografias.html) fosters transparency in Argentinian politics, helps citizens to get a full picture of the political history of the presidential candidates and members of the government in Argentina, and thus make decisions based on these facts.
+
+Formulating your goals and vision helps you communicate your project to others, helps you develop links across communities and also helps you and your team keep your focus. This content can also be useful for fundraising, partnership building, communication on your website or social media as well as recruitment. It's particularly important to be clear on your aims versus how you want to achieve them if you are applying for funding for your project or writing a business plan. The next section explore how you might go about achieving your aims.
+
+> Stop! If you haven't written down what you're trying to achieve with your project, it's time to take the time to formulate your aims and ""put them on paper"".
+
+### How? Approach and Methodology
+
+Now that you have clearly expressed your goal, you also need to express how you're going to get there. Different sectors will call this differently, for instance theory of change, approach, methodology or business plan. 
+
+It's useful to first formulate a top level description of how you will achieve your project's aims. Try to keep it to one sentence:
+ - [OpenCorporates](http://opencorporates.com) aims to do a straightforward (though big) thing: have a URL for every company in the world. 
+ - [Lobbyradar](case_studies/lobbyradar.html) enables users to explore network visualisations that show links between institutions and people of influence within the german political sphere.
+ - [Cargografias](case_studies/cargografias.html) allows you to explore the timelines of the electoral mandates of the Argentinian representatives.
+
+Bear in mind that this probably will change over time. While you explore a particular approach, you might discover or stumble upon another more impactful or more achievable way to attain your goals.
+
+In this section we will be discussing methods and approaches you can use to implement your influence mapping project. If you will build software you might use agile or waterfall methodologies. When considering design and user experience you might choose participatory or top-down approaches. If there's a research aspect to your project, you might be adopting action research or comparative research. In other sections we address specific methodologies for collecting, organising and publishing your data. 
+
+The methodologies that we discuss here cut across data collection, organisation and publishing. Important methodological areas for influence mapping include methodologies that impact on the usability of data - your design methodologies, those that impact how you'll build software...
+
+#### Design Methodologies
+
+User centric methodologies
+
+#### Technology
+
+Agile methodologies
+
+#### Research Methodologies
 
 Finding a link, confirming a hypothesis, exploring, revealing, using
 
-### Agile methodologies
-"
+#### Investigation Methodologies
+
+journalism
+
+### Resources
+ - Responsible data hanbook : Project Design design section."
 Plan,Ethics,,Planning,Do the right thing,,"### How to collect data ethically
 
 "

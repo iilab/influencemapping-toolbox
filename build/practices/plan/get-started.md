@@ -4,11 +4,15 @@ _Get started on an influence mapping project_
 
 __You&#39;ve found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess __
 
-### The Toolbox Projects
+You&#39;ve found a good place to start! The influence mapping toolbox aims to help people learn about existing influence mapping projects, and to share learning about common practices, tools and project experiences, so that influence mapping as a practice can grow and have even more impact.
 
-### Read Case Studies
+Influence mapping is at a stage now where there are many people doing similar work but, because the community is still fragmented, learning is not being shared as effectively or as widely as it could be. 
 
-### Field Survey
+We have created a resource where the varied expertise and in-depth knowledge of influence mappers can be shared and built upon: a toolbox that will help newcomers and experts to map influence and make the most of their work. 
+
+There are a number of aspects you need to think about before you start your project. But planning is often a continuous and iterative process so we recommend to come back to this section and the questions within it regularly as you progress.
+
+In this section we&#39;ll be looking at project design, important ethical considerations, the different skillsets you might need and strategy.
 
 </div></div><!-- dirty trick. close parent container and row--> 
 
