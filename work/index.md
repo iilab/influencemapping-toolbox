@@ -56,8 +56,8 @@ layout: default
         <div class="teaser-box">
           <h3>Influence Mapping Toolbox</h3>
           <p>
-            Our feed features the latest tipps, projects and news from the world
-            of influence mapping.
+             The toolbox is a resource where the varied expertise and in-depth knowledge
+             of influence mappers can be shared and built upon.
           </p>
           <div class="action">
             <a href="/toolbox/">
