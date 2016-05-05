@@ -2,9 +2,7 @@
 
 _Define your problem and structure your project_
 
-____
-
-Influence mapping projects use varied methodologies or create tools that help to find evidence, stories and visualisations that aim to hold those in power accountable for their decisions.
+__Influence mapping projects use varied methodologies or create tools that help to find evidence, stories and visualisations that aim to hold those in power accountable for their decisions.__
 
 &gt; Stop! This toolbox defines influence mapping projects broadly and some of its lessons should be applicable to a range of situations, but nonetheless check if you&#39;re in the right place.
 
@@ -13,7 +11,7 @@ Influence mapping projects use varied methodologies or create tools that help to
 It&#39;s important to express what your current goals are for the project. This might change over the course of the project, and might evolve from being very ambitiously framed (&quot;save the world&quot;) to much more tightly defined. Here are a few more examples of well defined project aims:
  - [OpenCorporates](http://opencorporates.com) exists to make information about companies and the corporate world more accessible, more discoverable, and more usable, and thus give citizens, community groups, journalists, other companies, and society as a whole the ability to understand, monitor and regulate them.
  - [Lobbyradar](case_studies/lobbyradar.html) uncovers the lobbying groups and private interests in German politics.
- -[Cargografias](case_studies/cargografias.html) fosters transparency in Argentinian politics, helps citizens to get a full picture of the political history of the presidential candidates and members of the government in Argentina, and thus make decisions based on these facts.
+ - [Cargografias](case_studies/cargografias.html) fosters transparency in Argentinian politics, helps citizens to get a full picture of the political history of the presidential candidates and members of the government in Argentina, and thus make decisions based on these facts.
 
 Formulating your goals and vision helps you communicate your project to others, helps you develop links across communities and also helps you and your team keep your focus. This content can also be useful for fundraising, partnership building, communication on your website or social media as well as recruitment. It&#39;s particularly important to be clear on your aims versus how you want to achieve them if you are applying for funding for your project or writing a business plan. The next section explore how you might go about achieving your aims.
 

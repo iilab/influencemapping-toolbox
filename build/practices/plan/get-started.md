@@ -2,9 +2,7 @@
 
 _Get started on an influence mapping project_
 
-__You&#39;ve found a good place to start! The influence mapping toolbox project list should help you find about existing projects in your field or outside your field that can help you assess __
-
-You&#39;ve found a good place to start! The influence mapping toolbox aims to help people learn about existing influence mapping projects, and to share learning about common practices, tools and project experiences, so that influence mapping as a practice can grow and have even more impact.
+__You&#39;ve found a good place to start! The influence mapping toolbox aims to help people learn about existing influence mapping projects, and to share learning about common practices, tools and project experiences, so that influence mapping as a practice can grow and have even more impact.__
 
 Influence mapping is at a stage now where there are many people doing similar work but, because the community is still fragmented, learning is not being shared as effectively or as widely as it could be. 
 
