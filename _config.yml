@@ -13,6 +13,13 @@ exclude:
   - old
   - README.md
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+  tools:
+    output: true
+    permalink: /tools/:slug/
 
 defaults:
   - scope:
@@ -39,3 +46,16 @@ defaults:
       path: "tools"
     values:
       section: "toolbox"
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: tool
+      section: "toolbox"
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      section: "toolbox"
+  
