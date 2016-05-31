@@ -18,7 +18,8 @@ _Looking at the possibilities for standard to increase data interoperability bet
 * There are a lot of different databases out there and the usual way to know if there’s data matching your query is finally made by e-mail
 
 API’s
-* First we work with what we have:LittleSis, OpenCorporates, OpenOil, Poderopedia, Quién Manda, Open Duka, CrocTail, Grano, etc.
+
+* First we work with what we have: LittleSis, OpenCorporates, OpenOil, Poderopedia, Quién Manda, Open Duka, CrocTail, Grano, etc.
 * The first problem around this is that you have to work around distributed queries
 * End up looking at databases that might help
 * So you have a big issue around discoverability: finding the information you _need_ 
