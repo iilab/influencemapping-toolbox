@@ -4,10 +4,114 @@ layout: default
 
 <h1 class="page-heading">{{page.title}}</h1>
 
-<div class="row">
-  <div class="col-md-8">
-    <div id="content">
-      {{page.description}}
-    </div>
-  </div>
-</div>
+<!--
+Logo
+:   <img src="{{ page.image }}">
+-->
+
+<table class="table">
+  {% if page.description %}
+    <tr>
+      <th width="33%"></th>
+      <td colspan="2">
+        <em>{{page.description}}</em>
+      </td>
+    </tr>
+  {% endif %}
+  {% if page.home_url %}
+    <tr>
+      <th>Home page</th>
+      <td colspan="2">
+        <a href="{{ page.home_url }}">{{ page.home_url }}</a>
+      </td>
+    </tr>
+  {% endif %}
+  {% if page.source_url %}
+    <tr>
+      <th>Source Code URL</th>
+      <td colspan="2">
+        <a href="{{ page.source_url }}">{{ page.source_url }}</a>
+      </td>
+    </tr>
+  {% endif %}
+  {% if page.type %}
+    <tr>
+      <th>Type</th>
+      <td colspan="2">{{ page.type }}</td>
+    </tr>
+  {% endif %}
+  {% if page.tags %}
+    <tr>
+      <th>Tags</th>
+      <td colspan="2">{{ page.tags | array_to_sentence_string }}</td>
+    </tr>
+  {% endif %}
+  {% if page.practice %}
+    <tr>
+      <th rowspan="3">Practices</th>
+      <td>{{ page.practice }}</td>
+      <td>{{ page.sub_practice }}</td>
+    </tr>
+    <tr>
+      <td>{{ page.practice_2 }}</td>
+      <td>{{ page.sub_practice_2 }}</td>
+    </tr>
+    <tr>
+      <td>{{ page.practice_3 }}</td>
+      <td>{{ page.sub_practice_3 }}</td>
+    </tr>
+  {% endif %}
+  {% if page.programming_language %}
+    <tr>
+      <th>Programming Language</th>
+      <td colspan="2">{{ page.programming_language }}</td>
+    </tr>
+  {% endif %}
+  <tr>
+    <th>Has schema</th>
+    <td colspan="2">
+      {% include flag.html flag=page.has_schema %}   
+    </td>
+  </tr>
+  <tr>
+    <th>Network Visualisation</th>
+    <td colspan="2">
+      {% include flag.html flag=page.network_viz %}   
+    </td>
+  </tr>
+  
+</table>
+
+<!--
+
+:   {{ page.technology }}
+:   {{ page.language }}
+:   {{ page.document_viz }}
+:   {{ page.dependency_2 }}
+:   {{ page.dependency_3 }}
+:   {{ page.documentation }}
+:   {{ page.unexplainable_dread }}
+:   {{ page.dependency_1 }}
+:   {{ page.network_analysis }}
+:   {{ page.subtype }}
+:   {{ page.open_content }}
+:   {{ page.custom_themes }}
+:   {{ page.target_audience }}
+:   {{ page.team }}
+:   {{ page.maps }}
+:   {{ page.network_editing }}
+:   {{ page.timelines }}
+:   {{ page.data_discovery_searching }}
+:   {{ page.project_specific }}
+:   {{ page.status }}
+:   {{ page.displays_lists }}
+:   {{ page.cost }}
+:   {{ page.embeddable }}
+:   {{ page.allows_bulk_upload }}
+:   {{ page.data_import }}
+:   {{ page.schema_url }}
+:   {{ page.data_export }}
+:   {{ page.open_source }}
+:   {{ page.number_of_users }}
+
+-->
