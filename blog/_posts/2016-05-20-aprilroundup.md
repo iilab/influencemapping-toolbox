@@ -6,7 +6,7 @@ layout: blogpost
 <h4 class="null"><span style="color: #33cccc;"><strong>Stories and thoughts</strong></span></h4>
 <span style="color: #008080;"><strong>Explore Panama Papers and its data model</strong></span>
 
-<a href="https://offshoreleaks.icij.org/"><img class="size-full wp-image-716 aligncenter" src="/assets/images/aprroundup1.png" alt="aprnews1" width="940" height="327" /></a>
+<a href="https://offshoreleaks.icij.org/"><img class="size-full wp-image-716 aligncenter" src="/assets/images/aprroundup1.png" alt="aprnews1"/></a>
 <p class="p1">As you may know, you can now <a href="https://offshoreleaks.icij.org/">explore and find out</a> who is behind almost 320,000 offshore companies and trusts from the Panama Papers investigation. The team also suggests <a href="https://offshoreleaks.icij.org/pages/howtouse?utm_content=buffer33b79&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">how to use</a> the database.</p>
 Check out <a href="http://neo4j.com/blog/analyzing-panama-papers-neo4j/">the graph data model used by the ICIJ</a> and explore how they constructed it using Cypher in Neo4j and watch Mar Cabra -lead editor of the #PanamaPapers investigation- in the last <a href="http://graphconnect.com/">GraphConnect Europe conference in London</a> explaining “how they use tech to tell great stories”.
 
@@ -31,41 +31,42 @@ Check out <a href="http://neo4j.com/blog/analyzing-panama-papers-neo4j/">the gra
 &nbsp;
 
 <span style="color: #008080;"><strong>Learning from Lombardi</strong></span>
-<p dir="ltr"><img class="size-full wp-image-717 aligncenter" src="/assets/images/aprroundup2.jpeg" alt="aprnews2" width="2000" height="815" /></p>
+<p dir="ltr"><img class="size-full wp-image-717 aligncenter" src="/assets/images/aprroundup2.jpeg" alt="aprnews2" /></p>
 <p dir="ltr">“In Lombardi’s case, even his early scribbles on a project are more informative, because they show a fundamentally human thought process, of trying to draw the story out of the mass of data he had collected. This is the opposite of many computational approaches that begin with a mass of data, followed by an often failed attempt to simplify it”.</p>
 <p dir="ltr"><a href="https://medium.com/@ben_fry/learning-from-lombardi-a28032a7eb5#.czo4x5pbd">This article</a> was originally prepared in 2009 by Ben Fry, founder <a href="http://twitter.com/FathomInfo">@FathomInfo</a>, and it goes through his experience getting to know Lombardi’s creative process.</p>
 
 
 <hr />
 <p dir="ltr"><strong>Thoughts on</strong><strong> <span style="color: #008080;">open data</span></strong></p>
-<p class="p1"><img class="size-full wp-image-718 aligncenter"  src="/assets/images/aprroundup3.png" alt="aprnews3" width="632" height="125" /></p>
-<p class="p1" style="text-align: center;"><a href="http://blogs.scientificamerican.com/guest-blog/what-s-wrong-with-open-data-sites-and-how-we-can-fix-them/">What's wrong with open-data sites, and how we can fix them</a>
+<p class="p1"><img class="size-full wp-image-718 aligncenter"  src="/assets/images/aprroundup3.png" alt="aprnews3" /></p>
+<p class="p1" style="text-align: center;">
+<strong><a href="http://blogs.scientificamerican.com/guest-blog/what-s-wrong-with-open-data-sites-and-how-we-can-fix-them/">What's wrong with open-data sites, and how we can fix them</a></strong>
 By Cesar Hidalgo, MIT Associate Professor whose team recently created <a href="http://www.datausa.io/">Data USA</a></p>
 <strong><a href="http://blog.nkb.fr/data-free">‘Free your data’ is over. Now, we need data to be free</a>: </strong>Co-founder of Journalism++, <a href="http://www.nkb.fr/">Nicolas Kayser-Bril</a> on why it’s important for data journalists to be more careful with government data and should collect more data independently.
-<p class="p1"><a href="http://civichall.org/civicist/over-politeness-is-the-fatal-flaw-in-the-open-data-movement/#.VymTmWMaOHE.twitter">Over-politeness is the fatal flaw in the open data movement</a>: According to Tom Steinberg, “overly-friendly collaboration between governments and transparency advocates sucks the oxygen out of the room”. Check out also John Wonderlich (Sunlight Foundation) <a href="http://sunlightfoundation.com/team/jwonderlich/">response</a> to the article.</p>
+<p class="p1"><strong><a href="http://civichall.org/civicist/over-politeness-is-the-fatal-flaw-in-the-open-data-movement/#.VymTmWMaOHE.twitter">Over-politeness is the fatal flaw in the open data movement</a></strong>: According to Tom Steinberg, “overly-friendly collaboration between governments and transparency advocates sucks the oxygen out of the room”. Check out also John Wonderlich (Sunlight Foundation) <a href="http://sunlightfoundation.com/team/jwonderlich/">response</a> to the article.</p>
 
 
 <hr />
 <p dir="ltr"><span style="color: #33cccc;"><strong>Tools</strong></span></p>
-<p dir="ltr"><img class=" wp-image-725 aligncenter"  src="/assets/images/aprroundup4.png" alt="aprnewstools" width="638" height="312" /></p>
+<p dir="ltr"><img class=" wp-image-725 aligncenter"  src="/assets/images/aprroundup4.png" alt="aprnewstools" width="638" height="312"/></p>
 <p dir="ltr" style="text-align: center;"><a href="http://influencemapping.org/onodo-an-open-source-network-analysis-tool-for-non-tech-users/" target="_blank">Onodo, an open source network analysis tool for non-tech users (</a><a href="http://influencemapping.org/onodo-an-open-source-network-analysis-tool-for-non-tech-users/">Influence Mapping</a><a href="http://influencemapping.org/onodo-an-open-source-network-analysis-tool-for-non-tech-users/">)</a></p>
 <p dir="ltr" style="text-align: center;">The tool will feature a replicable and collaborative platform which will facilitate integration with other tools and will allow to import and integrate bulk data from multiple sources. The beta version will be launched <strong>by the end of May</strong> and presented at Democracy Lab.</p>
 <p dir="ltr"><span style="color: #ff6600;"><strong>April's Toolkit</strong></span></p>
 <p dir="ltr"><strong><a href="http://polyglot.readthedocs.io/en/latest/index.html">Polyglot</a></strong> // A natural language pipeline that supports massive multilingual applications for language analysis.</p>
 <a href="http://enigma.io/parsekit/">ParseKit</a> // Enigma’s new infrastructure for building and managing data pipelines
 
-<a href="http://dataproofer.org/">Dataproofer</a> // This tool is built to automate the process of checking a dataset for errors or potential mistakes.
+<strong><a href="http://dataproofer.org/">Dataproofer</a></strong> // This tool is built to automate the process of checking a dataset for errors or potential mistakes.
 
-<a href="https://data.municipalmoney.org.za/#intro">Municipal Money API</a> // It publishes the financial information of South African municipalities in a machine-friendly format.
+<strong><a href="https://data.municipalmoney.org.za/#intro">Municipal Money API</a></strong> // It publishes the financial information of South African municipalities in a machine-friendly format.
 
-<a href="https://projects.propublica.org/represent/">Represent</a> // Browse the latest votes and bills, see how often lawmakers vote against their parties and compare voting records (API <a href="https://propublica.github.io/congress-api-docs/">here</a>)
+<strong><a href="https://projects.propublica.org/represent/">Represent</a></strong> // Browse the latest votes and bills, see how often lawmakers vote against their parties and compare voting records (API <a href="https://propublica.github.io/congress-api-docs/">here</a>)
 
-<a href="https://github.com/pudo/aleph">Aleph</a> // Tool for indexing large amounts of both unstructured (PDF, Word, HTML) and structured (CSV, XLS, SQL) data for easy browsing and search. It is built with investigative reporting as a primary use case. aleph allows cross-referencing mentions of well-known entities.
+<strong><a href="https://github.com/pudo/aleph">Aleph</a></strong> // Tool for indexing large amounts of both unstructured (PDF, Word, HTML) and structured (CSV, XLS, SQL) data for easy browsing and search. It is built with investigative reporting as a primary use case. aleph allows cross-referencing mentions of well-known entities.
 <p dir="ltr"><strong>See also:</strong></p>
 
 <ul>
  	<li dir="ltr">
-<p dir="ltr"><a href="https://data.occrp.org/">Investigative Dashboard Search</a>: Lets you search across 2.4 million data and documents from previous investigations, official sources, and scraped databases (OCCRP)</p>
+<p dir="ltr"><strong><a href="https://data.occrp.org/">Investigative Dashboard Search</a></strong>: Lets you search across 2.4 million data and documents from previous investigations, official sources, and scraped databases (OCCRP)</p>
 </li>
  	<li dir="ltr">
 <p dir="ltr">Kumu just <a href="http://docs.kumu.io/guides/controls.html">released the beta version of custom controls</a> to customize the interface with a timeline for seeing how a network changes over time, dropdowns to filter by fields, and more.</p>
@@ -77,7 +78,7 @@ By Cesar Hidalgo, MIT Associate Professor whose team recently created <a href="h
 <p dir="ltr"><a href="http://code4sa.org/2016/04/13/taxclock-budget-tools.html">Lessons learned</a> from building  <a href="http://www.timeslive.co.za/local/2016/03/02/Calculate-how-you-pay-tax-while-you-work">Tax Clock</a> and <a href="http://vote4thebudget.org/">Vote for the Budget</a> (Code for South Africa)</p>
 </li>
 </ul>
-<img class="size-full wp-image-720 aligncenter" src="/assets/images/aprroundup5.jpg" alt="aprnews5" width="1024" height="424" />
+<img class="size-full wp-image-720 aligncenter" src="/assets/images/aprroundup5.jpg" alt="aprnews5"/>
 
 <hr />
 
@@ -105,7 +106,7 @@ By Cesar Hidalgo, MIT Associate Professor whose team recently created <a href="h
 
 <span style="color: #33cccc;"><strong>Map</strong></span>
 
-<a href="https://emanuelfeld.github.io/blog/2016/04/27/government-github-ecosystem.html"><img class="size-full wp-image-722 aligncenter"  src="/assets/images/aprroundup7.png" alt="aprnews7" width="734" height="416" /></a>
+<a href="https://emanuelfeld.github.io/blog/2016/04/27/government-github-ecosystem.html"><img class="size-full wp-image-722 aligncenter"  src="/assets/images/aprroundup7.png" alt="aprnews7"/></a>
 <p style="text-align: center;"><strong>The government GitHub ecosystem: </strong>Using GitHub’s API, Emmanuel Feld compiled a <a href="https://github.com/emanuelfeld/government-github/blob/master/github.db">database</a> of government GitHub organizations, their repositories, members, and contributors and dove in.</p>
 
 
