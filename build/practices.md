@@ -24,6 +24,7 @@ We've organised these practices in a way that allow you to find more by looking 
 _When you get started on a project it&#39;s usually an intuition or a question that guides you, but to achieve your goals, a little bit of planning goes a long way._
   * [Get Started](practices/plan/get-started.html): _Get started on an influence mapping project_ 
   * [Project Design](practices/plan/project-design.html): _Define your problem and structure your project_ 
+  * [Methodologies](practices/plan/methodologies.html): _Choosing the right approach for your project_ 
   * [Ethics](practices/plan/ethics.html): _Do the right thing_ 
   * [Collaboration](practices/plan/collaboration.html): _Get the right skillset in your team_ 
   * [Planning](practices/plan/planning.html): _Devise a way to achieve your goals_ 

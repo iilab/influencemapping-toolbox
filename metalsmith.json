@@ -10,8 +10,6 @@
       "tools": "data/tools.csv"
     },
     "metalsmith-debug": true,
-    "metalsmith-sass": {
-    },
     "metalsmith-ignore": [
       ".git/**",
       ".gitignore",
@@ -35,9 +33,9 @@
         "ext": ".md",
         "path": "tools/",
         "slugify": true,
-        "metadata": { 
+        "metadata": {
           "lunr": true,
-          "content_type": "tool" 
+          "content_type": "tool"
         }
       },
       {
@@ -48,9 +46,9 @@
         "ext": ".md",
         "path": "practices/",
         "slugify": true,
-        "metadata": { 
+        "metadata": {
           "lunr": true,
-          "content_type": "practice" 
+          "content_type": "practice"
         }
       },
       {
@@ -62,9 +60,9 @@
         "ext": ".md",
         "path": "practices/",
         "slugify": true,
-        "metadata": { 
+        "metadata": {
           "lunr": true,
-          "content_type": "practice" 
+          "content_type": "practice"
         }
       },
       {
@@ -75,9 +73,9 @@
         "ext": ".md",
         "path": "projects/",
         "slugify": true,
-        "metadata": { 
+        "metadata": {
           "lunr": true,
-          "content_type": "project" 
+          "content_type": "project"
         }
       }
     ],
@@ -104,7 +102,7 @@
     "metalsmith-lunr": {
       "fields": {
         "name": 10,
-        "content_type": 10, 
+        "content_type": 10,
         "practice": 10,
         "tags": 10,
         "phase": 10,
@@ -119,9 +117,9 @@
         "path": "searchMeta.json",
         "pad": true,
         "properties": [
-          "name", 
-          "tags", 
-          "content_type", 
+          "name",
+          "tags",
+          "content_type",
           "keywords",
           "project_audience",
           "usage_audience",
@@ -146,7 +144,7 @@
     },
     "metalsmith-layouts": {
       "engine": "nunjucks",
-      "directory": "layouts", 
+      "directory": "layouts",
       "default": "default.html",
       "pattern": "**/*.html"
     },

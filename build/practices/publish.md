@@ -13,6 +13,10 @@ layout: none
     <p>  Define your problem and structure your project </p>
     <p> Define your problem and structure your project </p>
 
+  * [Methodologies](methodologies.html)
+    <p>  Choosing the right approach for your project </p>
+    <p> Choosing the right approach for your project </p>
+
   * [Ethics](ethics.html)
     <p>  Do the right thing </p>
     <p> Do the right thing </p>
