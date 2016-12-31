@@ -7,7 +7,7 @@ layout: blogpost
 
 <strong>Tools & Projects</strong>
 
-<a href="https://africaoffshoregame.icij.org/"><img class="size-full wp-image-716 aligncenter" src="/assets/images/imnews-sept1.png" alt="IM Roundup A-S1"/></a>
+<a href="https://source.opennews.org/en-US/articles/how-and-why-propublica-got-elections-game/"><img class="size-full wp-image-716 aligncenter" src="/assets/images/imnews-sept1.png" alt="IM Roundup A-S1"/></a>
 
 <span style="color: #008080;"><strong>How and why ProPublica got into the (US) elections game </strong></span>
 
@@ -80,7 +80,7 @@ The Atlantic calls this moment <a href="http://www.theatlantic.com/technology/ar
 
 <h4 class="null"><span style="color: #33cccc;"><strong>Month's toolkit</strong></span></h4>
 
-<a href="https://africaoffshoregame.icij.org/"><img class="size-full wp-image-716 aligncenter" src="/assets/images/imnews-sept2.png" alt="IM Roundup A-S2"/></a>
+<a href="https://riccardoscalco.github.io/textures/"><img class="size-full wp-image-716 aligncenter" src="/assets/images/imnews-sept2.png" alt="IM Roundup A-S2"/></a>
 
 <ul>
  	<li><a href="http://csvlint.io/">CSV Lint</a> // Validate your data by checking that its CSV file is readable.</li>
@@ -141,7 +141,7 @@ The Atlantic calls this moment <a href="http://www.theatlantic.com/technology/ar
 
 <h4 class="null"><span style="color: #33cccc;"><strong>Dataviz</strong></span></h4>
 
-<a href="https://africaoffshoregame.icij.org/"><img class="size-full wp-image-716 aligncenter" src="/assets/images/imnews-sept3.png" alt="IM Roundup A-S3"/></a>
+<a href="http://www.nytimes.com/interactive/2015/05/17/us/elections/2016-presidential-campaigns-staff-connections-clinton-bush-cruz-paul-rubio-walker.html"><img class="size-full wp-image-716 aligncenter" src="/assets/images/imnews-sept3.png" alt="IM Roundup A-S3"/></a>
 
 Gregor Aisch and Karen Yourish visualized on 2015 how the teams behind the announced candidates are connected to previous campaigns, administrations and organizations close to the possible nominees.
 
