@@ -40,7 +40,7 @@ studies:
     Further resources <a href="resources.html">are listed here.</a></p>
     <p class="get-the-report">
         <strong>
-            <a href="InfluenceMappingStateoftheArt_v0.2.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+            <a href="InfluenceMappingStateoftheArt_v0.3_December2016.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
  Download the Report</a>
         </strong>
     </p>
