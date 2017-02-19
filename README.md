@@ -59,7 +59,7 @@ Features
  - Generation of the website using the [Metalsmith](http://www.metalsmith.io/) static website generator.
  - Data managed in [google spreadsheet](https://docs.google.com/spreadsheets/d/1j2hl7TlGGoKmO5EVkibU1LASk9p1ncmimI7-26JFX1g/edit?pref=2&pli=1#gid=1087369693) for [tools](https://docs.google.com/spreadsheets/d/1j2hl7TlGGoKmO5EVkibU1LASk9p1ncmimI7-26JFX1g/edit?pref=2&pli=1#gid=1475648190), [projects](https://docs.google.com/spreadsheets/d/1j2hl7TlGGoKmO5EVkibU1LASk9p1ncmimI7-26JFX1g/edit?pref=2&pli=1#gid=0) and [practices](https://docs.google.com/spreadsheets/d/1j2hl7TlGGoKmO5EVkibU1LASk9p1ncmimI7-26JFX1g/edit?pref=2&pli=1#gid=581909931) and exported [as csv files](https://github.com/iilab/influencemapping-toolbox/tree/master/src/data) used for the generation of static pages.
  - Basic project, tool and practice page formatting using [nunjucks formatting in markdown](https://github.com/iilab/influencemapping-toolbox/blob/master/layouts/project.md) and [pandoc markdown conversion](https://github.com/iilab/metalsmith-pandoc) to html with [GFM definition_lists and markdown_in_html_blocks](https://github.com/iilab/influencemapping-toolbox/blob/master/metalsmith.json#L132).
- - Filtered [slick](kenwheeler.github.io/slick/) carousel to display relevant Projects and Tools on Practice and Sub-Practice pages.
+ - Filtered [slick](https://kenwheeler.github.io/slick/) carousel to display relevant Projects and Tools on Practice and Sub-Practice pages.
  - [Static client side indexing with Lunr](https://github.com/iilab/influencemapping-toolbox/blob/master/metalsmith.json#L103-L130)
  - [VisualSearch.js](http://documentcloud.github.io/visualsearch/) for search.
  - [Filter.js](https://github.com/jiren/filter.js) for faceted browsing.
