@@ -1,13 +1,13 @@
 ---
-title: Collect: Clean Data  
+title: Collect: Cleaning Data  
 layout: default
 ---
 
 <h1>How to clean up your data?</h1>
 
-Whether it&#39;s from an external source or your own collection effort, raw data is generally messy. There might empty records, duplication, unidentifiable inputs, and other anomalies that make it hard to understand what the data can tell you.
+Raw data is generally messy. Most projects require a substantial investment in 'cleaning' empty records, duplicates, unidentifiable inputs, and other anomalies that make it harder to discern patterns in the data.
 
-There are a number of tools that can help to give you perspectives on your data set that make it easier to spot problems.
+There are a number of resources that can help you understand this process and make it easier to spot problems.
 
 [insert tools in &quot;refine&quot; category]
 
