@@ -9,7 +9,7 @@ Most influence mapping projects start with a common set of questions and challen
 
 Projects usually start with an intuition or question that the project leaders think that network data can support. At this stage, a little bit of planning goes a long way.
 
-In this section we look at:_
+In this section we look at:
   * <a href="http://influencemapping.org/practices/project-design" target="_blank">Project Design</a>: _Define your problem and structure your project_ 
   * <a href="http://influencemapping.org/practices/methodologies" target="_blank">Methodologies</a>: _Choosing the right approach for your project_ 
   * <a href="http://influencemapping.org/practices/ethics" target="_blank">Ethics</a>: _Do the right thing_ 
@@ -20,11 +20,7 @@ In this section we look at:_
 ## Collect
 Questions to think about before you build and organize your dataset.
 
-<strong>Where does your data come from?</strong>
-
 How to [find the right data](find-data-sources.html) sources and determine if they are right for you.
-
-If you're going to collect data yourself, you'll need to think about:
 How to [collect data](collect-data.html)?
 How to [clean the data](clean-data.html) and put in a format that's usable for your purpose?
 How to [verify and control the quality of the data](verify-data.html)?
@@ -44,7 +40,7 @@ Investigating and analysing your topic is inseparable from how you organise and 
 
 
 ## Publish
-_Telling an effective story is important.  So is allowing others to build on your results._
+Telling an effective story is important.  So is allowing others to build on your results.
   * <a href="http://influencemapping.org/practices/present-data" target="_blank">Present Data</a>: _Make your data tell its story and engage your audience_ 
   * <a href="http://influencemapping.org/practices/describe-data" target="_blank">Describe Data</a>: _Explain where your data is coming from and how its structure_ 
   * <a href="http://influencemapping.org/practices/facilitate-data-reuse" target="_blank">Facilitate Data</a>: _Make it easier for others to reuse and build on your data_ 
