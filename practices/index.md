@@ -6,11 +6,10 @@ layout: default
 Most influence mapping projects start with a common set of questions and challenges.  This toolbox helps project leaders navigate them.
 
 ## Plan
-_When
 
-_Projects usually start with an intuition or question that the project leaders think that network data can support. At this stage, a little bit of planning goes a long way.
+Projects usually start with an intuition or question that the project leaders think that network data can support. At this stage, a little bit of planning goes a long way.
 
-In this section we'll be looking at:_
+In this section we look at:_
   * <a href="http://influencemapping.org/practices/project-design" target="_blank">Project Design</a>: _Define your problem and structure your project_ 
   * <a href="http://influencemapping.org/practices/methodologies" target="_blank">Methodologies</a>: _Choosing the right approach for your project_ 
   * <a href="http://influencemapping.org/practices/ethics" target="_blank">Ethics</a>: _Do the right thing_ 
@@ -19,20 +18,17 @@ In this section we'll be looking at:_
 
 
 ## Collect
-_Some question to think about before you build and organize your dataset.
+Questions to think about before you build and organize your dataset.
 
 <strong>Where does your data come from?</strong>
 
-One key questions when sourcing data externally is how to [find the right data](find-data-sources.html) sources and determine if they are right for you.
+How to [find the right data](find-data-sources.html) sources and determine if they are right for you.
 
 If you're going to collect data yourself, you'll need to think about:
-How will you [collect data](collect-data.html)? Through interviews, surveys, using online tools…
+How to [collect data](collect-data.html)?
+How to [clean the data](clean-data.html) and put in a format that's usable for your purpose?
+How to [verify and control the quality of the data](verify-data.html)?
 
-Whether you collect your own data or get it from an external source, you'll need to think about:
-How will you [clean up the data](clean-data.html) into a format that's usable for your purpose?
-How will you [verify and control the quality of the data](verify-data.html)?
-
-_
   * <a href="http://influencemapping.org/practices/find-data-sources" target="_blank">Find Data Sources</a>: _Find good data sources_ 
   * <a href="http://influencemapping.org/practices/collect-data" target="_blank">Collect Data</a>: _Organise the collection of data_ 
   * <a href="http://influencemapping.org/practices/clean-data" target="_blank">Clean Data</a>: _How to clean up your data?_ 
@@ -40,7 +36,7 @@ _
 
 
 ## Organise
-_Investigating and analysing your topic goes hand in hand with how you organise and structure your data._
+Investigating and analysing your topic is inseparable from how you organise and structure your data.
   * <a href="http://influencemapping.org/practices/model-data" target="_blank">Model Data</a>: _How to choose a model to organise your data_ 
   * <a href="http://influencemapping.org/practices/integrate-data" target="_blank">Integrate Data</a>: _Transforming and joining data from different sources_ 
   * <a href="http://influencemapping.org/practices/analyse-data" target="_blank">Analyse Data</a>: _How to analyse your data?_ 
