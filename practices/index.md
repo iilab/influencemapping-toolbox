@@ -7,7 +7,7 @@ Most influence mapping projects start with a common set of questions and challen
 
 ## Plan
 
-Projects usually start with an intuition or question that the project leaders think that network data can support. At this stage, a little bit of planning goes a long way.
+Projects usually start with an intuition or question that the project leaders think can be confirmed or answered through data analysis. At this stage, a little bit of planning goes a long way.
 
 In this section we look at:
   * <a href="http://influencemapping.org/practices/project-design" target="_blank">Project Design</a>
