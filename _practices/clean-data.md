@@ -9,8 +9,6 @@ Raw data is generally messy. Most projects require a substantial investment in '
 
 There are a number of resources that can help you understand this process and make it easier to spot problems.
 
-[insert tools in &quot;refine&quot; category]
-
 You can also learn more about techniques and tips regarding data cleaning:
 - The [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/understanding_data_2.html) has a section on cleaning messy data.
 - The [Online Journalism Blog](http://onlinejournalismblog.com/tag/cleaning-data/) also has blog posts on various aspects of data cleaning. 
