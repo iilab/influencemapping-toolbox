@@ -1,5 +1,5 @@
 ---
-title: Collect: Cleaning Data  
+title: "Collect: Cleaning Data"
 layout: default
 ---
 
@@ -11,6 +11,6 @@ There are a number of resources that can help you understand this process and ma
 
 You can also learn more about techniques and tips regarding data cleaning:
 - The [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/understanding_data_2.html) has a section on cleaning messy data.
-- The [Online Journalism Blog](http://onlinejournalismblog.com/tag/cleaning-data/) also has blog posts on various aspects of data cleaning. 
+- The [Online Journalism Blog](http://onlinejournalismblog.com/tag/cleaning-data/) also has blog posts on various aspects of data cleaning.
 
-<strong>Have you applied or developed a practice that you would like to share with the influence mapping community? Edit this post on Github!</strong> 
+<strong>Have you applied or developed a practice that you would like to share with the influence mapping community? Edit this post on Github!</strong>
