@@ -1,5 +1,5 @@
 ---
-title: Plan: Project design
+title: "Plan: Project design"
 layout: default
 ---
 
@@ -22,14 +22,13 @@ Formulating your goals and vision helps you communicate your project to others, 
 
 <strong>How? Approach and Methodology</strong>
 
-Now that you have clearly expressed your goal, you also need to express how you&#39;re going to get there. Different sectors will call this differently, for instance theory of change, approach, methodology or business plan. 
+Now that you have clearly expressed your goal, you also need to express how you&#39;re going to get there. Different sectors will call this differently, for instance theory of change, approach, methodology or business plan.
 
 It&#39;s useful to first formulate a top level description of how you will achieve your project&#39;s aims. Try to keep it to one sentence:
- - [OpenCorporates](http://opencorporates.com) aims to do a straightforward (though big) thing: have a URL for every company in the world. 
+ - [OpenCorporates](http://opencorporates.com) aims to do a straightforward (though big) thing: have a URL for every company in the world.
  - [Lobbyradar](case_studies/lobbyradar.html) enables users to explore network visualisations that show links between institutions and people of influence within the german political sphere.
  - [Cargografias](case_studies/cargografias.html) allows you to explore the timelines of the electoral mandates of the Argentinian representatives.
 
 Bear in mind that this probably will change over time. While you explore a particular approach, you might discover or stumble upon another more impactful or more achievable way to attain your goals.
 
-<strong>Have you applied or developed a practice that you would like to share with the influence mapping community? Edit this post on Github!</strong> 
-
+<strong>Have you applied or developed a practice that you would like to share with the influence mapping community? Edit this post on Github!</strong>
