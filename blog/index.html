@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Latest news from the community"
+section: blog
+---
+
+<h1 class="page-heading">The Influence Mapper Blog</h1>
+
+<div class="row">
+  <div class="blog-post-index">
+    {% for post in site.posts %}
+        {% include blog_box.html post=post %}
+    {% endfor %}
+  </div>
+</div>

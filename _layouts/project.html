@@ -1,0 +1,372 @@
+---
+layout: default
+---
+
+<h1 class="page-heading">{{page.title}}</h1>
+
+{% if page.notes %}
+  <div class="alert alert-success" role="alert">{{ page.notes }}</div>
+{% endif %}
+
+<table class="table">
+  {% if page.description %}
+    <tr>
+      <th width="33%"></th>
+      <td colspan="2">
+        <em>{{page.description}}</em>
+      </td>
+    </tr>
+  {% endif %}
+  {% if page.home_url %}
+    <tr>
+      <th>Home page</th>
+      <td colspan="2">
+        <a href="{{ page.home_url }}">{{ page.home_url }}</a>
+      </td>
+    </tr>
+  {% endif %}
+  {% if page.approach_how %}
+    <tr>
+      <th>Approach</th>
+      <td colspan="2">
+        {{ page.approach_how }}
+      </td>
+    </tr>
+  {% endif %}
+  {% if page.phase %}
+    <tr>
+      <th>Phase</th>
+      <td colspan="2">{{ page.phase }}</td>
+    </tr>
+  {% endif %}
+  {% if page.tags %}
+    <tr>
+      <th>Tags</th>
+      <td colspan="2">{{ page.tags | array_to_sentence_string }}</td>
+    </tr>
+  {% endif %}
+  {% if page.practice %}
+    <tr>
+      <th rowspan="3">Practices</th>
+      <td>{{ page.practice }}</td>
+      <td>{{ page.sub_practice }}</td>
+    </tr>
+    <tr>
+      <td>{{ page.practice_2 }}</td>
+      <td>{{ page.sub_practice_2 }}</td>
+    </tr>
+    <tr>
+      <td>{{ page.practice_3 }}</td>
+      <td>{{ page.sub_practice_3 }}</td>
+    </tr>
+  {% endif %}
+  {% if page.partners %}
+    <tr>
+      <th>Partners</th>
+      <td colspan="2">{{ page.partners | array_to_sentence_string }}</td>
+    </tr>
+  {% endif %}
+  
+</table>
+
+<table class="table">
+  {% include kv.html label="Project Start Date" value=page.project_start_date %}
+  {% include kv.html label="Launch Date" value=page.launch_date %}
+  {% include kv.html label="Most Recent Update" value=page.most_recent_update %}
+  {% include kv.html label="Update Frequency" value=page.regularly_updated %}
+  {% include kv.html label="Thematic Focus" value=page.thematic_focus %}
+  {% include kv.html label="Issue addressed" value=page.issue_addressed %}
+  {% include kv.html label="Geographic Focus" value=page.geographic_focus %}
+</table>
+
+<h4>Experience</h4>
+<p>How does a user interact with and navigate the project?</p>
+
+<table class="table">
+  {% include kv.html label="Narrative" value=page.narrative %}
+  {% include kv.html label="Query" value=page.query %}
+  {% include kv.html label="Geographic Map" value=page.geographic_map %}
+  {% include kv.html label="Timelines" value=page.timelines %}
+  {% include kv.html label="Lists" value=page.lists %}
+  {% include kv.html label="Network Visualisation" value=page.network_viz %}
+  {% include kv.html label="Other Visualisation" value=page.other_viz %}
+  {% include kv.html label="Raw Data" value=page.export %}
+</table>
+
+<h4>Description</h4>
+<p>Summary of the project and its approach</p>
+
+<table class="table">
+  {% include kv.html label=" " value=page.description2 %}
+  {% include kv.html label="Approach (How?)" value=page.approach_how %}
+  {% include kv.html label="Language" value=page.language %}
+  {% include kv.html label="Commissioner" value=page.commissioner %}
+  {% include kv.html label="Publisher" value=page.publisher %}
+</table>
+
+<h4>Impact</h4>
+<p>Indicators of reach and impact of the project.</p>
+
+
+Target Audience
+:   {{ page.target_audience }}
+
+
+
+Online Audience Reached
+:   {{ page.online_audience_reached }}
+
+
+
+Twitter
+:   {{ page.does_the_project_have_a_twitter_account }} ({{ page.twitter_followers }} followers)
+
+
+
+Publisher's Twitter Followers
+:   {{ page.publishers_twitter_followers_if_needed }}
+
+
+
+Online Rank
+:    Google:   {{ page.google_page_rank }}   Alexa:   {{ page.alexa_pange_rank }}  OSE Domain Authority Rank:   {{ page.ose_domain_authority_rank }} Marketing Grader Rank:   {{ page.marketing_grader_rank }} ({{ page.comments }})
+
+
+Online Rank (Publisher)
+:    Google:   {{ page.newspasperspublishers_page_rank_if_applicable }}  Alexa:   {{ page.newspapers__publishers_alexa_page_rank_if_applicable }}
+
+
+
+News Source
+:   {{ page.news_source }}
+
+
+
+Offline Audience Reached
+:   {{ page.offline_audience_reached }}
+
+
+
+Outcome
+:   {{ page.outcome }}
+
+
+
+Last updated
+:   {{ page.update_date }}
+
+
+Attempts against the project
+:   {{ page.attempts_against_the_project_ }}  / {{ page.attempts_against_the_project_2 }}
+
+
+<h4>Technology</h4>
+<p>What tools and code were used to create the project?</p>
+
+Tech Best Practices:
+:    {{ page.tech_best_practice_1 }}
+:    {{ page.tech_best_practice_2 }} 
+:    {{ page.tech_best_practice_3 }}
+
+Code Repository
+:    {{ page.code_url }}
+:    {{ page.code_url_2 }}
+
+Tool
+:   {{ page.tool }}
+:   {{ page.tool2 }}
+:   {{ page.tool3 }}
+:   {{ page.other_tools }}
+
+Database
+:   {{ page.db }}
+:   {{ page.other_db }}
+
+Frontend
+:   {{ page.frontend }}
+:   {{ page.frontend2 }}
+:   {{ page.frontend3 }}
+:   {{ page.frontend_language }}
+:   {{ page.frontend_language_2 }}
+
+Backend
+:   {{ page.backend }}
+:   {{ page.backend2 }}
+:   {{ page.backend3 }}
+:   {{ page.backend_language }}
+:   {{ page.backend_language_2 }}
+
+Data Format
+:   {{ page.data_format}}
+:   {{ page.data_format_2}}
+
+Data Standard
+:   {{ page.data_format}}
+
+Technical Documentation URL
+:   {{ page.technical_documentation_url }}
+:   {{ page.technical_documentation_url_2 }}
+
+Technical Architecture Documentation
+:   {{ page.technical_architecture_documentation}}
+
+Schema Documentation
+:   {{ page.schema_documentation}}
+
+Design Documentation
+:   {{ page.design_documentation}}
+
+API Documentation
+:   {{ page.api_documentation}}
+
+
+<h4>Data Sources</h4>
+
+Data Sources
+:   {{ page.data_source_1}}
+:   {{ page.data_source_2}}
+:   {{ page.data_source_3}}
+:   {{ page.data_source_4}}
+:   {{ page.data_source_5}}
+:   {{ page.data_source_6}}
+
+
+<h4>Team</h4>
+<p>Team size and expertise</p>
+
+Team Size
+:   {{ page.team_size }}
+
+
+
+Team Experience
+:    
+
+Research
+:   {{ page.research }} 
+
+Data Science
+:   {{ page.data_science }} 
+
+Engineering
+:    {{ page.engineering }}
+
+Design
+:   {{ page.design }}
+
+
+<h4>Project Methodology</h4>
+<p>What strategies were in place for managing the project?</p>
+
+Project Methodology
+:   {{ page.project_methodology }}
+
+
+
+Open Source
+:   {{ page.open_source }}
+
+
+
+Open Data
+:   {{ page.open_data }}
+
+
+
+Budget
+:   {{ page.budget }}
+
+
+Contracting
+:   {{ page.contracting }}
+
+
+
+Risk Planning
+:   {{ page.risk_planning }}
+
+
+
+Sustainability Planning
+:   {{ page.sustainability_planning }}
+
+
+<h4>Documented Practices</h4>
+<p>Documentation about project practices</p>
+
+{{ page.practice1 }} {% if subpractice1 %} / {{ page.subpractice1 }} {% endif %}
+{% if practice1url %} :   [{{practice1url}}]({{practice1url}}) {% endif %} 
+
+{{ page.practice2 }} {% if subpractice2 %} / {{ page.subpractice2 }} {% endif %}
+{% if practice2url %} :   [{{ page.practice2url }}]({{practice2url}}) {% endif %}
+
+{{ page.practice3 }} {% if subpractice3 %} / {{ page.subpractice3 }} {% endif %}
+{% if practice3url %} :   [{{ page.practice3url }}]({{practice3url}}) {% endif %}
+
+
+<h4>Practices</h4>
+<p>How projects handle different aspects of data management</p>
+
+
+Data Modeling
+:   {{ page.data_modeling }}
+
+
+
+Ethical Collection
+:   {{ page.ethical_collection }}
+
+
+
+Ethical Storage
+:   {{ page.ethical_storage }}
+
+
+
+Data Collection
+:   {{ page.data_collection }}
+
+
+
+Data Collection
+:   {{ page.data_collection2 }}
+
+
+
+Data Verification
+:   {{ page.data_verification }}
+
+
+
+Data Cleaning
+:   {{ page.data_cleaning }}
+
+
+
+Data Analysis
+:   {{ page.data_analysis }}
+
+
+
+Data Description
+:   {{ page.data_description }}
+
+
+
+Data Licensing
+:   {{ page.data_licencing }}
+
+
+
+Ethical Publishing
+:   {{ page.ethical_publishing }}
+
+
+
+Ethical Publishing
+:   {{ page.ethical_publishing2 }}
+
+
+
+Data Publishing Mode
+:   {{ page.data_publishing_mode }}

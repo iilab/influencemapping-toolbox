@@ -1,0 +1,61 @@
+markdown: kramdown
+highlighter: rouge
+
+# paginate: 7
+
+gems: 
+  - jekyll-paginate
+
+sass:
+  style: compressed
+
+exclude:
+  - old
+  - README.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+  tools:
+    output: true
+    permalink: /tools/:slug/
+
+defaults:
+  - scope:
+      path: "blog"
+    values:
+      section: "blog"
+  - scope:
+      path: "toolbox"
+    values:
+      section: "toolbox"
+  - scope:
+      path: "work"
+    values:
+      section: "work"
+  - scope:
+      path: "workshop"
+    values:
+      section: "work"
+  - scope:
+      path: "projects"
+    values:
+      section: "toolbox"
+  - scope:
+      path: "tools"
+    values:
+      section: "toolbox"
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: tool
+      section: "toolbox"
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      section: "toolbox"
+  

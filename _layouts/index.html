@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<header class="intro-header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="site-heading">
+          <h1>Influence Mapping Group</h1>
+          <p class="subheading">Explore the influence of personal ties, economic interests and other relationships on politics and society.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="page" class="no-nav">
+  <div class="container" id="main">
+    {{content}}
+
+    <div class="row">
+      <div class="col-md-12">        
+        <h3 class="separator">Latest blog posts</h4>
+        <div class="blog-post-index">
+          {% for post in site.posts | limit:6 %}
+              {% include blog_box.html post=post %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title }} - Influence Mapping Group</title>
+    <meta name="description" content="{{page.description}}" />
+    <meta name="keywords" content="influence mapping" />
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Domine%3A400%2C700%7CLato%3A400%2C900&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+
+    <link href="/assets/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/images/img_logo.png">
+  </head>
+  <body>
+    {% include nav.html %}
+    <div id="airlock">
+      {{ content }}
+      {% include edit_bar.html %}
+    </div>
+    {% include footer.html %}
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+      crossorigin="anonymous"></script>
+    <script src="/assets/js/filter.js"></script>
+  </body>
+</html>
